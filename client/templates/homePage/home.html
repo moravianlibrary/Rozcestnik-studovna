@@ -1,37 +1,41 @@
 <template name="home">
 
     <div class="row">
-        <div class="col-md-offset-1 col-md-2">
+        <div class="col-md-offset-1 col-md-2 col-xs-6 tile tile-big">
             <a href="{{pathFor 'o-digitalni-knihovne'}}">?</a>
-            <a href="{{pathFor 'digitalni-knihovna'}}">{{_ "home_dl"}}</a>
+            <img href="" class="tile-icon center-block"/>
+            <a class="tile-name center-block" href="{{pathFor 'digitalni-knihovna'}}">{{_ "home_dl"}}</a>
         </div>
-        <div class="col-md-2">
-            <a href="http://www.mzk.cz/">{{_ "home_web_mzk"}}</a>
+        <div class="col-md-2 col-xs-6 tile tile-big">
+            <img href="" class="tile-icon center-block"/>
+            <div class="tile-name">
+                <a href="http://www.mzk.cz/">{{_ "home_web_mzk"}}</a>
+            </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-6 tile tile-big">
             <a href="https://www.mzk.cz/katalogy-databaze/online-katalogy">{{_ "home_katalog"}}</a>
         </div>
-        <div class="col-md-offset-2 col-md-2">
+        <div class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big">
             <a href="{{pathFor 'napoveda'}}">{{_ "home_help"}}</a>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-2">
+        <div class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small">
             <a href="https://www.mzk.cz/katalogy-databaze/webarchiv">{{_ "home_webarchiv"}}</a>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-6 tile tile-small">
             <a href="https://www.mzk.cz/sluzby/akce">{{_ "home_akce_v_mzk"}}</a>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-6 tile tile-small">
             <a href="https://www.mzk.cz/katalogy-databaze/databaze">{{_ "home_elektronicke_zdroje"}}</a>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-2">
+        <div class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small">
             <a href="{{pathFor 'jak-tisknout'}}">?</a>
             <a href="">{{_ "home_jak_tisknout"}}</a>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-6 tile tile-small">
             <a href="http://www.staremapy.cz/">{{_ "home_stare_mapy"}}</a>
         </div>
     </div>
