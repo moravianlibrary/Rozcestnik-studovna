@@ -1,0 +1,10 @@
+<template name="pageTemplate">
+
+    {{> back}}
+
+    <div class="col-sm-7">
+        {{> yield 'pageContent'}}
+    </div>
+
+    {{> yield 'helpMenu'}}
+</template>
