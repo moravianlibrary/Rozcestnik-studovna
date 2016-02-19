@@ -1,10 +1,14 @@
 <template name="home">
 
     <div class="row">
-        <div class="col-md-offset-1 col-md-2 col-xs-6 tile tile-big">
-            <a href="{{pathFor 'o-digitalni-knihovne'}}">?</a>
-            <img href="" class="tile-icon center-block"/>
-            <a class="tile-name center-block" href="{{pathFor 'digitalni-knihovna'}}">{{_ "home_dl"}}</a>
+        <div class="col-md-offset-1 col-md-2 col-xs-6 wrapper-dl">
+            <div class="tile tile-big-hint">
+                <a href="{{pathFor 'o-digitalni-knihovne'}}">?</a>
+            </div>
+            <div class="tile tile-big tile-dl">
+                <img href="" class="tile-icon center-block"/>
+                <a class="tile-name center-block" href="{{pathFor 'digitalni-knihovna'}}">{{_ "home_dl"}}</a>
+            </div>
         </div>
         <div class="col-md-2 col-xs-6 tile tile-big">
             <img href="" class="tile-icon center-block"/>

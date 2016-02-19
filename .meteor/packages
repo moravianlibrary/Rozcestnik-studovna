@@ -21,6 +21,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 tap:i18n-ui
 tap:i18n
 iron:router
-twbs:bootstrap
 zimme:active-route
 less
+huttonr:bootstrap3
