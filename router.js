@@ -1,7 +1,7 @@
 var yieldAppTemplates =
 {
     nav: {to: 'nav'},
-    footer: {to: 'foooter'}
+    footer: {to: 'footer'}
 };
 
 var addYieldRegion = function () {

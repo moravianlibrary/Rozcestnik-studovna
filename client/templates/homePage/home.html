@@ -1,46 +1,61 @@
 <template name="home">
-
     <div class="row">
         <div class="col-md-offset-1 col-md-2 col-xs-6 wrapper-dl">
             <div class="tile tile-big-hint">
-                <a href="{{pathFor 'o-digitalni-knihovne'}}">?</a>
+                {{> helpCircle 'o-digitalni-knihovne'}}
             </div>
-            <div class="tile tile-big tile-dl">
-                <img href="" class="tile-icon center-block"/>
-                <a class="tile-name center-block" href="{{pathFor 'digitalni-knihovna'}}">{{_ "home_dl"}}</a>
-            </div>
+            <a class="tile tile-big tile-dl" href="{{pathFor 'digitalni-knihovna'}}">
+                <img src="images/katalog.png" class="tile-big-icon center-block"/>
+                {{_ "home_dl"}}
+            </a>
         </div>
-        <div class="col-md-2 col-xs-6 tile tile-big">
-            <img href="" class="tile-icon center-block"/>
-            <div class="tile-name">
-                <a href="http://www.mzk.cz/">{{_ "home_web_mzk"}}</a>
-            </div>
-        </div>
-        <div class="col-md-2 col-xs-6 tile tile-big">
-            <a href="https://www.mzk.cz/katalogy-databaze/online-katalogy">{{_ "home_katalog"}}</a>
-        </div>
-        <div class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big">
-            <a href="{{pathFor 'napoveda'}}">{{_ "home_help"}}</a>
-        </div>
+        <a class="col-md-2 col-xs-6 tile tile-big" href="http://www.mzk.cz/">
+            <img src="images/katalog.png" class="tile-big-icon center-block"/>
+            {{_ "home_web_mzk"}}
+        </a>
+        <a class="col-md-2 col-xs-6 tile tile-big" href="https://www.mzk.cz/katalogy-databaze/online-katalogy">
+            <img src="images/katalog.png" class="tile-big-icon center-block"/>
+            {{_ "home_katalog"}}
+        </a>
+        <a class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big"
+           href="{{pathFor 'napoveda'}}">
+            <img src="images/katalog.png" class="tile-big-icon center-block"/>
+            {{_ "home_help"}}
+        </a>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small">
-            <a href="https://www.mzk.cz/katalogy-databaze/webarchiv">{{_ "home_webarchiv"}}</a>
-        </div>
-        <div class="col-md-2 col-xs-6 tile tile-small">
-            <a href="https://www.mzk.cz/sluzby/akce">{{_ "home_akce_v_mzk"}}</a>
-        </div>
-        <div class="col-md-2 col-xs-6 tile tile-small">
-            <a href="https://www.mzk.cz/katalogy-databaze/databaze">{{_ "home_elektronicke_zdroje"}}</a>
-        </div>
+        <a class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
+           href="https://www.mzk.cz/katalogy-databaze/webarchiv">
+            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            {{_ "home_webarchiv"}}
+        </a>
+        <a class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/sluzby/akce">
+            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            {{_ "home_akce_v_mzk"}}
+        </a>
+        <a class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/katalogy-databaze/databaze">
+            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            {{_ "home_elektronicke_zdroje"}}
+        </a>
     </div>
     <div class="row">
-        <div class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small">
-            <a href="{{pathFor 'jak-tisknout'}}">?</a>
-            <a href="">{{_ "home_jak_tisknout"}}</a>
-        </div>
-        <div class="col-md-2 col-xs-6 tile tile-small">
-            <a href="http://www.staremapy.cz/">{{_ "home_stare_mapy"}}</a>
+        <a id="print-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
+           href="http://www.fit.vutbr.cz/~martinek/latex/duplex.html">
+            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            {{_ "home_jak_tisknout"}}
+        </a>
+        <a class="col-md-2 col-xs-6 tile tile-small" href="http://www.staremapy.cz/">
+            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            {{_ "home_stare_mapy"}}
+        </a>
+    </div>
+    <div class="row">
+        <div id="print-hint" class="col-md-offset-1 col-md-2 col-xs-6">
+            <svg class="print-hint-svg" height="145" viewBox="-10 -10 145 145">
+                <path transform="rotate(147 50 40)" width="145"
+                      d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64"></path>
+            </svg>
+            {{> helpCircle 'jak-tisknout'}}
         </div>
     </div>
 </template>
