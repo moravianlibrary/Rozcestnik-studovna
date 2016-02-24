@@ -24,3 +24,4 @@ iron:router
 zimme:active-route
 less
 huttonr:bootstrap3
+fortawesome:fontawesome

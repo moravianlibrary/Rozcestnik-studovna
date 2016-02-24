@@ -4,48 +4,48 @@
             <div class="tile tile-big-hint">
                 {{> helpCircle 'o-digitalni-knihovne'}}
             </div>
-            <a class="tile tile-big tile-dl" href="{{pathFor 'digitalni-knihovna'}}">
-                <img src="images/katalog.png" class="tile-big-icon center-block"/>
+            <a class="tile tile-big dl-tile" href="{{pathFor 'digitalni-knihovna'}}">
+                <div id="dl-image" class="tile-big-image center-block"></div>
                 {{_ "home_dl"}}
             </a>
         </div>
-        <a class="col-md-2 col-xs-6 tile tile-big" href="http://www.mzk.cz/">
-            <img src="images/katalog.png" class="tile-big-icon center-block"/>
+        <a id="mzk-tile" class="col-md-2 col-xs-6 tile tile-big" href="http://www.mzk.cz/">
+            <div id="mzk-image" class="tile-big-image center-block"></div>
             {{_ "home_web_mzk"}}
         </a>
-        <a class="col-md-2 col-xs-6 tile tile-big" href="https://www.mzk.cz/katalogy-databaze/online-katalogy">
-            <img src="images/katalog.png" class="tile-big-icon center-block"/>
+        <a id="katalog-tile" class="col-md-2 col-xs-6 tile tile-big" href="https://www.mzk.cz/katalogy-databaze/online-katalogy">
+            <div id="katalog-image" class="tile-big-image center-block"></div>
             {{_ "home_katalog"}}
         </a>
-        <a class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big"
+        <a id="napoveda-tile" class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big"
            href="{{pathFor 'napoveda'}}">
-            <img src="images/katalog.png" class="tile-big-icon center-block"/>
+            <div id="napoveda-image" class="tile-big-image center-block"></div>
             {{_ "home_help"}}
         </a>
     </div>
     <div class="row">
-        <a class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
+        <a id="web-archiv-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
            href="https://www.mzk.cz/katalogy-databaze/webarchiv">
-            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            <div id="web-archiv-image" class="tile-small-image center-block"></div>
             {{_ "home_webarchiv"}}
         </a>
-        <a class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/sluzby/akce">
-            <img src="images/akce.png" class="tile-small-icon center-block"/>
+        <a id="akce-tile" class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/sluzby/akce">
+            <div id="akce-image" class="tile-small-image center-block"></div>
             {{_ "home_akce_v_mzk"}}
         </a>
-        <a class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/katalogy-databaze/databaze">
-            <img src="images/akce.png" class="tile-small-icon center-block"/>
+        <a id="db-tile" class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/katalogy-databaze/databaze">
+            <div id="db-image" class="tile-small-image center-block"></div>
             {{_ "home_elektronicke_zdroje"}}
         </a>
     </div>
     <div class="row">
         <a id="print-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
            href="http://www.fit.vutbr.cz/~martinek/latex/duplex.html">
-            <img src="images/akce.png" class="tile-small-icon center-block"/>
+            <div id="print-image" class="tile-small-image center-block"></div>
             {{_ "home_jak_tisknout"}}
         </a>
-        <a class="col-md-2 col-xs-6 tile tile-small" href="http://www.staremapy.cz/">
-            <img src="images/akce.png" class="tile-small-icon center-block"/>
+        <a id="mapy-tile" class="col-md-2 col-xs-6 tile tile-small" href="http://www.staremapy.cz/">
+            <div id="mapy-image" class="tile-small-image center-block"></div>
             {{_ "home_stare_mapy"}}
         </a>
     </div>

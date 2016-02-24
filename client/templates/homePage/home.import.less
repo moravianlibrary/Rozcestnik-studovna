@@ -1,11 +1,18 @@
-@tile-border-radius: 12px;
-
 .navbar-default {
-  background-color: @nav-background;
+  background-color: @mzk-dark-gray;
 }
 
 html, body {
-  background-color: @body-color;
+  background-color: @mzk-body-gray;
+}
+
+a {
+  color: @mzk-text-gray;
+}
+
+a:hover, a:focus {
+  color: @mzk-text-active;
+  text-decoration: none;
 }
 
 .body-wrapper {
@@ -15,15 +22,15 @@ html, body {
 .tile-text {
   text-align: center;
   text-decoration: none;
-  color: @text-gray;
+  color: @mzk-text-gray;
   font-weight: bold;
 }
 
 .tile {
   .tile-text;
   display: block;
-  background-color: @body-color;
-  border: 2px solid @text-gray;
+  background-color: @mzk-body-gray;
+  border: 2px solid @mzk-text-gray;
   border-radius: @tile-border-radius;
   margin-bottom: 40px;
   margin-right: 20px;
@@ -31,8 +38,8 @@ html, body {
 }
 
 .tile:hover {
-  background-color: @nav-background;
-  color: @text-gray;
+  background-color: @mzk-dark-gray;
+  color: @mzk-green;
   text-decoration: none;
 }
 
@@ -44,19 +51,21 @@ html, body {
   height: 130px;
 }
 
-.tile-icon-mixin(@size; @margin) {
+.tile-image-mixin(@size; @margin) {
   width: @size;
   height: @size;
   margin-top: @margin;
   margin-bottom: @margin;
+  background-size: @size;
+  background-repeat: no-repeat;
 }
 
-.tile-big-icon {
-  .tile-icon-mixin(100px, 30px);
+.tile-big-image {
+  .tile-image-mixin(@tile-image-size, 30px);
 }
 
-.tile-small-icon {
-  .tile-icon-mixin(50px, 15px);
+.tile-small-image {
+  .tile-image-mixin(50px, 15px);
 }
 
 .tile-big-hint {
@@ -67,8 +76,8 @@ html, body {
   top: 17px;
 
   @rotation: -13deg;
-  -ms-transform: rotate(@rotation); /* IE 9 */
-  -webkit-transform: rotate(@rotation); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(@rotation);
+  -webkit-transform: rotate(@rotation);
   transform: rotate(@rotation);
 }
 
@@ -76,7 +85,7 @@ html, body {
   background-color: inherit;
 }
 
-.tile-dl {
+.dl-tile {
   position: relative;
   left: -15px;
   top: -209px;
@@ -100,25 +109,6 @@ html, body {
   }
 }
 
-#circle {
-  stroke-width: 2;
-  stroke: @text-gray;
-  fill: @body-color;
-}
-
-#circle-wrapper {
-  text-align: left;
-}
-
-#circle-text {
-  fill: @text-gray;
-  font-weight: bold;
-}
-
-#circle, #circle-text {
-  cursor: pointer;
-}
-
 #print-hint {
   position: relative;
   top: -98px;
@@ -129,16 +119,92 @@ html, body {
   top: 35px;
   left: 8px;
   fill: none;
-  stroke: @text-gray;
+  stroke: @mzk-text-gray;
   stroke-width: 2;
 }
 
-#print-hint #circle-wrapper {
+#print-hint .circle-wrapper {
   position: relative;
   top: -96px;
   left: 21px;
 }
 
-#print-tile {
+#print-tile, #mapy-tile {
   z-index: 1;
+}
+
+#dl-image {
+  background-image: url("images/digiMzk.png");
+}
+
+.dl-tile:hover #dl-image {
+  background-image: url("images/digiMzkHover.png");
+}
+
+#mzk-image {
+  background-image: url("images/mzkLogo.png");
+}
+
+#mzk-tile:hover #mzk-image {
+  background-image: url("images/mzkLogoHover.png");
+}
+
+#katalog-image {
+  background-image: url("images/katalog.png");
+}
+
+#katalog-tile:hover #katalog-image {
+  background-image: url("images/katalogHover.png");
+}
+
+#napoveda-tile {
+  background-color: @mzk-dark-gray;
+}
+
+#napoveda-image {
+  background-image: url("images/napoveda.png");
+}
+
+#napoveda-tile:hover #napoveda-image {
+  background-image: url("images/napovedaHover.png");
+}
+
+#web-archiv-image {
+  background-image: url("images/web-archiv.png");
+}
+
+#web-archiv-tile:hover #web-archiv-image {
+  background-image: url("images/web-archiv-hover.png");
+}
+
+#akce-image {
+  background-image: url("images/akce.png");
+}
+
+#akce-tile:hover #akce-image {
+  background-image: url("images/akceHover.png");
+}
+
+#db-image {
+  background-image: url("images/db.png");
+}
+
+#db-tile:hover #db-image {
+  background-image: url("images/dbHover.png");
+}
+
+#print-image {
+  background-image: url("images/print.png");
+}
+
+#print-tile:hover #print-image {
+  background-image: url("images/printHover.png");
+}
+
+#mapy-image {
+  background-image: url("images/mapy.png");
+}
+
+#mapy-tile:hover #mapy-image {
+  background-image: url("images/mapyHover.png");
 }
