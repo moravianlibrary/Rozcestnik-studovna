@@ -49,6 +49,8 @@ less@2.5.1
 livedata@1.0.15
 logging@1.0.8
 markdown@1.0.5
+martino:i18n-conf@0.3.4
+martino:iron-router-i18n@1.2.3
 meteor@1.1.10
 meteor-base@1.0.1
 minifiers@1.1.7

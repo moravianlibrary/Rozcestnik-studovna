@@ -45,9 +45,41 @@ Router.route('tisk', {
     yieldRegions: {tisk: {to: 'pageContent'}}
 });
 
+function getI18nTemplate(template) {
+    //console.log('jazyk ' + TAPi18n.getLanguage());
+    var i18nTemplate = template + '.' /*+ TAPi18n.getLanguage()*/;
+    return {
+        [i18nTemplate]: {to: 'pageContent'}
+    }
+}
+
+/*
+Router.route('o-digitalni-knihovne',
+    {
+        template: 'pageTemplate',
+        //yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}},
+        yieldRegions: getI18nTemplate('oDigitalniKnihovne')
+        //onBeforeAction: function() {
+        //    console.log('jazyk ' + TAPi18n.getLanguage());
+        //    var i18nTemplate = 'oDigitalniKnihovne.' + TAPi18n.getLanguage();
+        //    hovno = { [i18nTemplate]: {to: 'pageContent'} };
+        //    this.next();
+        //}
+    });
+*/
+
 Router.route('o-digitalni-knihovne', {
     template: 'pageTemplate',
-    yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}}
+    yieldRegions: {'oDigitalniKnihovne.en': {to: 'pageContent'}},
+
+    i18n: {
+        languages: {
+            cs: {
+                template: 'pageTemplate',
+                yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('jak-hledat', {
