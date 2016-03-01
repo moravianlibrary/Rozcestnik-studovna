@@ -1,24 +1,14 @@
-var yieldAppTemplates =
+var appTemplates =
 {
     nav: {to: 'nav'},
     footer: {to: 'footer'}
-};
-
-var addYieldRegion = function () {
-    var appTemplates = JSON.parse(JSON.stringify(yieldAppTemplates));
-
-    for (var i = 0; i < arguments.length; i++) {
-        var obj = arguments[i];
-        appTemplates[obj.template] = {to: obj.to}
-    }
-    return appTemplates;
 };
 
 Router.configure({
     layoutTemplate: 'appBody',
     loadingTemplate: 'appLoading',
     notFoundTemplate: 'appNotFound',
-    yieldTemplates: yieldAppTemplates
+    yieldTemplates: appTemplates
 });
 
 Router.route('home', {
@@ -27,55 +17,54 @@ Router.route('home', {
 
 Router.route('digitalni-knihovna', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'digitalniKnihovna', to: 'pageContent'})
+    yieldRegions: _.extend({digitalniKnihovna: {to: 'pageContent'}}, appTemplates)
 });
 
 
 /* NAPOVEDA */
-
 Router.route('napoveda', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'uvod', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({uvod: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('linux', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'linux', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({linux: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('aplikace', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'aplikace', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({aplikace: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('sluchatka', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'sluchatka', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({sluchatka: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('ukladani-dat', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'ukladaniDat', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({ukladaniDat: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('tisk', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'tisk', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({tisk: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('o-digitalni-knihovne', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'oDigitalniKnihovne', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({oDigitalniKnihovne: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('jak-hledat', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'jakHledat', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({jakHledat: {to: 'pageContent'}}, appTemplates)
 });
 
 Router.route('jak-tisknout', {
     template: 'pageTemplate',
-    yieldRegions: addYieldRegion({template: 'jakTisknout', to: 'pageContent'}, {template: 'helpMenu', to: 'helpMenu'})
+    yieldRegions: _.extend({jakTisknout: {to: 'pageContent'}}, appTemplates)
 });
 
 
