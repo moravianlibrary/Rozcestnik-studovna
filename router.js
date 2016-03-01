@@ -1,14 +1,7 @@
-var appTemplates =
-{
-    nav: {to: 'nav'},
-    footer: {to: 'footer'}
-};
-
 Router.configure({
     layoutTemplate: 'appBody',
     loadingTemplate: 'appLoading',
-    notFoundTemplate: 'appNotFound',
-    yieldTemplates: appTemplates
+    notFoundTemplate: 'appNotFound'
 });
 
 Router.route('home', {
@@ -17,55 +10,52 @@ Router.route('home', {
 
 Router.route('digitalni-knihovna', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({digitalniKnihovna: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {digitalniKnihovna: {to: 'pageContent'}}
 });
 
 
 /* NAPOVEDA */
 Router.route('napoveda', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({uvod: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {uvod: {to: 'pageContent'}}
 });
 
 Router.route('linux', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({linux: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {linux: {to: 'pageContent'}}
 });
 
 Router.route('aplikace', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({aplikace: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {aplikace: {to: 'pageContent'}}
 });
 
 Router.route('sluchatka', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({sluchatka: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {sluchatka: {to: 'pageContent'}}
 });
 
 Router.route('ukladani-dat', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({ukladaniDat: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {ukladaniDat: {to: 'pageContent'}}
 });
 
 Router.route('tisk', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({tisk: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {tisk: {to: 'pageContent'}}
 });
 
 Router.route('o-digitalni-knihovne', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({oDigitalniKnihovne: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}}
 });
 
 Router.route('jak-hledat', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({jakHledat: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {jakHledat: {to: 'pageContent'}}
 });
 
 Router.route('jak-tisknout', {
     template: 'pageTemplate',
-    yieldRegions: _.extend({jakTisknout: {to: 'pageContent'}}, appTemplates)
+    yieldRegions: {jakTisknout: {to: 'pageContent'}}
 });
-
-
-
