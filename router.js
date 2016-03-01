@@ -1,3 +1,14 @@
+TAPi18n._afterUILanguageChange = function() {
+    console.log("TAPi18n._afterUILanguageChange");
+    I18NConf.setLanguage(TAPi18n.getLanguage());
+};
+
+I18NConf.configure({
+    languages: ["cs", "en"],
+    defaultLanguage: 'cs',
+    autoConfLanguage: true
+});
+
 Router.configure({
     layoutTemplate: 'appBody',
     loadingTemplate: 'appLoading',
@@ -17,7 +28,14 @@ Router.route('digitalni-knihovna', {
 /* NAPOVEDA */
 Router.route('napoveda', {
     template: 'pageTemplate',
-    yieldRegions: {uvod: {to: 'pageContent'}}
+    yieldRegions: {'uvod.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'uvod.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('linux', {
@@ -45,38 +63,13 @@ Router.route('tisk', {
     yieldRegions: {tisk: {to: 'pageContent'}}
 });
 
-function getI18nTemplate(template) {
-    //console.log('jazyk ' + TAPi18n.getLanguage());
-    var i18nTemplate = template + '.' /*+ TAPi18n.getLanguage()*/;
-    return {
-        [i18nTemplate]: {to: 'pageContent'}
-    }
-}
-
-/*
-Router.route('o-digitalni-knihovne',
-    {
-        template: 'pageTemplate',
-        //yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}},
-        yieldRegions: getI18nTemplate('oDigitalniKnihovne')
-        //onBeforeAction: function() {
-        //    console.log('jazyk ' + TAPi18n.getLanguage());
-        //    var i18nTemplate = 'oDigitalniKnihovne.' + TAPi18n.getLanguage();
-        //    hovno = { [i18nTemplate]: {to: 'pageContent'} };
-        //    this.next();
-        //}
-    });
-*/
-
 Router.route('o-digitalni-knihovne', {
     template: 'pageTemplate',
-    yieldRegions: {'oDigitalniKnihovne.en': {to: 'pageContent'}},
-
+    yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
-            cs: {
-                template: 'pageTemplate',
-                yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}}
+            en: {
+                yieldRegions: {'oDigitalniKnihovne.en': {to: 'pageContent'}}
             }
         }
     }
