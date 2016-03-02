@@ -26,11 +26,6 @@
   position: relative;
   top: 10px;
   left: 15px;
-  /*
-  &:hover {
-    border-color: transparent @mzk-text-active transparent transparent;
-  }
-  */
 }
 
 .back-btn-text {
@@ -38,9 +33,10 @@
   position: relative;
   left: 35px;
   color: @mzk-text-gray;
-  /*
-  &:hover {
-    color: @mzk-text-active;
+}
+
+@media (max-width: @screen-lg-min) {
+  .back-btn-wrapper {
+    margin-bottom: 45px;
   }
-  */
 }
