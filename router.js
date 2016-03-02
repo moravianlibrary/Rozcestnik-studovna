@@ -40,22 +40,50 @@ Router.route('napoveda', {
 
 Router.route('linux', {
     template: 'pageTemplate',
-    yieldRegions: {linux: {to: 'pageContent'}}
+    yieldRegions: {'linux.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'linux.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('aplikace', {
     template: 'pageTemplate',
-    yieldRegions: {aplikace: {to: 'pageContent'}}
+    yieldRegions: {'aplikace.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'aplikace.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('sluchatka', {
     template: 'pageTemplate',
-    yieldRegions: {sluchatka: {to: 'pageContent'}}
+    yieldRegions: {'sluchatka.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'sluchatka.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('ukladani-dat', {
     template: 'pageTemplate',
-    yieldRegions: {ukladaniDat: {to: 'pageContent'}}
+    yieldRegions: {'ukladaniDat.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'ukladaniDat.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('tisk', {
@@ -77,10 +105,24 @@ Router.route('o-digitalni-knihovne', {
 
 Router.route('jak-hledat', {
     template: 'pageTemplate',
-    yieldRegions: {jakHledat: {to: 'pageContent'}}
+    yieldRegions: {'jakHledat.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'jakHledat.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('jak-tisknout', {
     template: 'pageTemplate',
-    yieldRegions: {jakTisknout: {to: 'pageContent'}}
+    yieldRegions: {'jakTisknout.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'jakTisknout.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
