@@ -1,1 +1,32 @@
-// todo
+.help-menu {
+  border-radius: 10px;
+  background-color: @mzk-dark-gray;
+  position: relative;
+  left: 20px;
+}
+
+.help-menu-text {
+  color: @mzk-body-gray;
+  background-color: @mzk-text-blue;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  .help-menu-text;
+  font-weight: bold;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  .help-menu-text;
+  text-decoration: none;
+}
+
+.help-menu > a > h3 {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.help-menu > a > h3:hover, .help-menu > a > h3:focus {
+  .help-menu-text;
+}

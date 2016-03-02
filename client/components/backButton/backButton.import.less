@@ -1,0 +1,46 @@
+.back-btn-wrapper {
+  @border: 2px solid;
+  display: block;
+  width: 134px;
+  height: 75px;
+  border: @border @mzk-text-gray;
+  border-radius: 8px;
+  position: relative;
+  left: -10px;
+  top: 25px;
+  &:hover {
+    border: @border @mzk-text-active;
+  };
+}
+
+.back-btn-triangle, .back-btn-text {
+  display: inline-block;
+}
+
+.back-btn-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 20px 25px 0;
+  border-color: transparent @mzk-text-gray transparent transparent;
+  position: relative;
+  top: 10px;
+  left: 15px;
+  /*
+  &:hover {
+    border-color: transparent @mzk-text-active transparent transparent;
+  }
+  */
+}
+
+.back-btn-text {
+  width: 10px;
+  position: relative;
+  left: 35px;
+  color: @mzk-text-gray;
+  /*
+  &:hover {
+    color: @mzk-text-active;
+  }
+  */
+}
