@@ -2,20 +2,23 @@
     <h1>{{_ "home_dl"}}</h1>
     <p>
         Digitální knihovna obsahuje monografie, periodika, rukopisy, zvukové nahrávky, mapy a staré tisky.
-        <a>Více o digitální knihovně</a>.
+        <a href="{{pathFor 'o-digitalni-knihovne'}}">Více o digitální knihovně</a>.
         <br>
         Digitální knihovna funguje v následujících režimech:
     </p>
+
+    <br><br>
+
     <div class="col-md-6">
         <h2>{{_ "dl_free_volumes"}}</h2>
-        <ul>
-            <li>
+        <ul class="dl-list">
+            <li class="no">
                 {{_ "dl_cannot_browse"}}
             </li>
-            <li>
+            <li class="yes">
                 {{_ "dl_can_print"}}
             </li>
-            <li>
+            <li class="yes">
                 {{_ "dl_can_download"}}
             </li>
         </ul>
@@ -23,18 +26,18 @@
     </div>
     <div class="col-md-6">
         <h2>{{_ "dl_all_volumes"}}</h2>
-        <ul>
-            <li>
+        <ul class="dl-list">
+            <li class="yes">
                 {{_ "dl_can_access"}}
             </li>
-            <li>
+            <li class="yes">
                 {{_ "dl_can_print"}}
             </li>
-            <li>
+            <li class="no">
                 {{_ "dl_cannot_download"}}
             </li>
         </ul>
         <button class="btn btn-default">{{_ "dl_button_enter"}}</button>
-        <p>{{_ "dl_open_browser"}}</p>
+        <p class="hint">{{_ "dl_open_browser"}}</p>
     </div>
 </template>
