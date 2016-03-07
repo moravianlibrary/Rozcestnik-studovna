@@ -20,7 +20,7 @@ Router.route('home', {
 });
 
 Router.route('digitalni-knihovna', {
-    template: 'pageTemplate',
+    template: 'menuPageTemplate',
     yieldRegions: {digitalniKnihovna: {to: 'pageContent'}}
 });
 
@@ -39,7 +39,7 @@ Router.route('napoveda', {
 });
 
 Router.route('linux', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'linux.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
@@ -51,7 +51,7 @@ Router.route('linux', {
 });
 
 Router.route('aplikace', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'aplikace.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
@@ -63,7 +63,7 @@ Router.route('aplikace', {
 });
 
 Router.route('sluchatka', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'sluchatka.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
@@ -75,7 +75,7 @@ Router.route('sluchatka', {
 });
 
 Router.route('ukladani-dat', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'ukladaniDat.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
@@ -87,12 +87,12 @@ Router.route('ukladani-dat', {
 });
 
 Router.route('tisk', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {tisk: {to: 'pageContent'}}
 });
 
 Router.route('o-digitalni-knihovne', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
@@ -104,7 +104,7 @@ Router.route('o-digitalni-knihovne', {
 });
 
 Router.route('jak-hledat', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'jakHledat.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
@@ -116,7 +116,7 @@ Router.route('jak-hledat', {
 });
 
 Router.route('jak-tisknout', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'jakTisknout.cs': {to: 'pageContent'}},
     i18n: {
         languages: {

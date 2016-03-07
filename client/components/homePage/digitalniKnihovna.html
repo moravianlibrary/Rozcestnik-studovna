@@ -1,4 +1,40 @@
 <template name="digitalniKnihovna">
     <h1>{{_ "home_dl"}}</h1>
-    <p>tohle je digitalni knihovna</p>
+    <p>
+        Digitální knihovna obsahuje monografie, periodika, rukopisy, zvukové nahrávky, mapy a staré tisky.
+        <a>Více o digitální knihovně</a>.
+        <br>
+        Digitální knihovna funguje v následujících režimech:
+    </p>
+    <div class="col-md-6">
+        <h2>{{_ "dl_free_volumes"}}</h2>
+        <ul>
+            <li>
+                {{_ "dl_cannot_browse"}}
+            </li>
+            <li>
+                {{_ "dl_can_print"}}
+            </li>
+            <li>
+                {{_ "dl_can_download"}}
+            </li>
+        </ul>
+        <button class="btn btn-default">{{_ "dl_button_enter"}}</button>
+    </div>
+    <div class="col-md-6">
+        <h2>{{_ "dl_all_volumes"}}</h2>
+        <ul>
+            <li>
+                {{_ "dl_can_access"}}
+            </li>
+            <li>
+                {{_ "dl_can_print"}}
+            </li>
+            <li>
+                {{_ "dl_cannot_download"}}
+            </li>
+        </ul>
+        <button class="btn btn-default">{{_ "dl_button_enter"}}</button>
+        <p>{{_ "dl_open_browser"}}</p>
+    </div>
 </template>
