@@ -27,7 +27,7 @@ Router.route('digitalni-knihovna', {
 
 /* NAPOVEDA */
 Router.route('napoveda', {
-    template: 'pageTemplate',
+    template: 'helpPageTemplate',
     yieldRegions: {'uvod.cs': {to: 'pageContent'}},
     i18n: {
         languages: {
