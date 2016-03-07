@@ -4,7 +4,7 @@
 
         <a href="{{pathFor 'napoveda'}}"><h3>{{_ "help_intro"}}</h3></a>
 
-        <a href=""><h3>{{_ "help_computers"}}</h3></a>
+        <a href="{{pathFor 'pocitace-v-mzk'}}"><h3>{{_ "help_computers"}}</h3></a>
         <ul class="nav nav-pills nav-stacked">
             <li class="{{isActiveRoute 'linux'}}">
                 <a href="{{pathFor 'linux'}}">{{_ "help_linux"}}</a>
@@ -19,12 +19,12 @@
                 <a href="{{pathFor 'ukladani-dat'}}">{{_ "help_saving_data"}}</a>
             </li>
             <li class="{{isActiveRoute 'tisk'}}">
-                <a href="{{pathFor 'jak-tisknout'}}">{{_ "help_print"}}</a>
+                <a href="{{pathFor 'tisk'}}">{{_ "help_print"}}</a>
             </li>
         </ul>
 
 
-        <a href=""><h3>{{_ "home_dl"}}</h3></a>
+        <a href="{{pathFor 'digitalni-knihovna-napoveda'}}"><h3>{{_ "home_dl"}}</h3></a>
         <ul class="nav nav-pills nav-stacked">
             <li class="{{isActiveRoute 'o-digitalni-knihovne'}}">
                 <a href="{{pathFor 'o-digitalni-knihovne'}}">{{_ "help_about_dl"}}</a>

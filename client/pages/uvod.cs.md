@@ -1,6 +1,6 @@
 {{#template name='uvod.cs'}}
-# Uvod
+# Nápověda - Úvod
 
-Tohle je uvod k napovede
+Nápověda - zde najdete, jak používat počítače na studovně ...
 
 {{/template}}

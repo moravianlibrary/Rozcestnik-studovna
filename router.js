@@ -38,6 +38,18 @@ Router.route('napoveda', {
     }
 });
 
+Router.route('pocitace-v-mzk', {
+    template: 'helpPageTemplate',
+    yieldRegions: {'pocitaceVMzk.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'pocitaceVMzk.en': {to: 'pageContent'}}
+            }
+        }
+    }
+});
+
 Router.route('linux', {
     template: 'helpPageTemplate',
     yieldRegions: {'linux.cs': {to: 'pageContent'}},
@@ -88,7 +100,26 @@ Router.route('ukladani-dat', {
 
 Router.route('tisk', {
     template: 'helpPageTemplate',
-    yieldRegions: {tisk: {to: 'pageContent'}}
+    yieldRegions: {'tisk.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'tisk.en': {to: 'pageContent'}}
+            }
+        }
+    }});
+
+
+Router.route('digitalni-knihovna-napoveda', {
+    template: 'helpPageTemplate',
+    yieldRegions: {'digitalniKnihovnaNapoveda.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'digitalniKnihovnaNapoveda.en': {to: 'pageContent'}}
+            }
+        }
+    }
 });
 
 Router.route('o-digitalni-knihovne', {
