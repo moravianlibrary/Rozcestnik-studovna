@@ -134,6 +134,18 @@ Router.route('o-digitalni-knihovne', {
     }
 });
 
+Router.route('registrace-a-oblibene', {
+    template: 'helpPageTemplate',
+    yieldRegions: {'registraceOblibene.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'registraceOblibene.en': {to: 'pageContent'}}
+            }
+        }
+    }
+});
+
 Router.route('jak-hledat', {
     template: 'helpPageTemplate',
     yieldRegions: {'jakHledat.cs': {to: 'pageContent'}},

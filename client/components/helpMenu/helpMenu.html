@@ -6,6 +6,9 @@
 
         <a href="{{pathFor 'pocitace-v-mzk'}}"><h3>{{_ "help_computers"}}</h3></a>
         <ul class="nav nav-pills nav-stacked">
+            <li class="{{isActiveRoute 'ukladani-dat'}}">
+                <a href="{{pathFor 'ukladani-dat'}}">{{_ "help_saving_data"}}</a>
+            </li>
             <li class="{{isActiveRoute 'linux'}}">
                 <a href="{{pathFor 'linux'}}">{{_ "help_linux"}}</a>
             </li>
@@ -15,19 +18,18 @@
             <li class="{{isActiveRoute 'sluchatka'}}">
                 <a href="{{pathFor 'sluchatka'}}">{{_ "help_headphones"}}</a>
             </li>
-            <li class="{{isActiveRoute 'ukladani-dat'}}">
-                <a href="{{pathFor 'ukladani-dat'}}">{{_ "help_saving_data"}}</a>
-            </li>
             <li class="{{isActiveRoute 'tisk'}}">
                 <a href="{{pathFor 'tisk'}}">{{_ "help_print"}}</a>
             </li>
         </ul>
 
-
         <a href="{{pathFor 'digitalni-knihovna-napoveda'}}"><h3>{{_ "home_dl"}}</h3></a>
         <ul class="nav nav-pills nav-stacked">
             <li class="{{isActiveRoute 'o-digitalni-knihovne'}}">
                 <a href="{{pathFor 'o-digitalni-knihovne'}}">{{_ "help_about_dl"}}</a>
+            </li>
+            <li class="{{isActiveRoute 'registrace-a-oblibene'}}">
+                <a href="{{pathFor 'registrace-a-oblibene'}}">{{_ "help_registration"}}</a>
             </li>
             <li class="{{isActiveRoute 'jak-hledat'}}">
                 <a href="{{pathFor 'jak-hledat'}}">{{_ "help_how_to_search"}}</a>
