@@ -2,9 +2,11 @@
     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-lg-offset-0 col-lg-3 help-menu">
         <h2>{{_ "help_topics_h1"}}</h2>
 
-        <a href="{{pathFor 'napoveda'}}"><h3>{{_ "help_intro"}}</h3></a>
+        <a href="{{pathFor 'napoveda'}}" class="{{isActiveRoute 'napoveda'}}"><h3>{{_ "help_intro"}}</h3></a>
 
-        <a href="{{pathFor 'pocitace-v-mzk'}}"><h3>{{_ "help_computers"}}</h3></a>
+        <a href="{{pathFor 'pocitace-v-mzk'}}" class="{{isActiveRoute 'pocitace-v-mzk'}}">
+            <h3>{{_ "help_computers"}}</h3>
+        </a>
         <ul class="nav nav-pills nav-stacked">
             <li class="{{isActiveRoute 'ukladani-dat'}}">
                 <a href="{{pathFor 'ukladani-dat'}}">{{_ "help_saving_data"}}</a>
@@ -23,7 +25,9 @@
             </li>
         </ul>
 
-        <a href="{{pathFor 'digitalni-knihovna-napoveda'}}"><h3>{{_ "home_dl"}}</h3></a>
+        <a href="{{pathFor 'digitalni-knihovna-napoveda'}}" class="{{isActiveRoute 'digitalni-knihovna-napoveda'}}">
+            <h3>{{_ "home_dl"}}</h3>
+        </a>
         <ul class="nav nav-pills nav-stacked">
             <li class="{{isActiveRoute 'o-digitalni-knihovne'}}">
                 <a href="{{pathFor 'o-digitalni-knihovne'}}">{{_ "help_about_dl"}}</a>
