@@ -1,0 +1,16 @@
+{
+  "dl_free_volumes": "Free volumes",
+  "dl_cannot_browse": "Cannot browse protected volumes",
+  "dl_can_print": "Print",
+  "dl_can_download": "Can be downloaded",
+  "dl_button_enter": "ENTER",
+
+  "dl_all_volumes": "All volumes",
+  "dl_can_access": "Access to protected volumes",
+  "dl_cannot_download": "Cannot copy and download",
+  "dl_open_browser": "*opens different browser",
+  "dl_intro_1": "Digitální knihovna obsahuje monografie, periodika, rukopisy, zvukové nahrávky, mapy a staré tisky.",
+  "dl_intro_1": "Digital library contains monographs, periodicals, manuscripts, sound recordings, maps and old prints",
+  "dl_intro_2": "More about digital library",
+  "dl_intro_3": "Digital library operates in the following modes:"
+}

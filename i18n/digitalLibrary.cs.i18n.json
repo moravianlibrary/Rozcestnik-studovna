@@ -8,5 +8,8 @@
   "dl_all_volumes": "Všechna díla",
   "dl_can_access": "Přístup k chráněným dílům",
   "dl_cannot_download": "Nelze stahovat a kopírovat",
-  "dl_open_browser": "*otevře jiný prohlížeč"
+  "dl_open_browser": "*otevře jiný prohlížeč",
+  "dl_intro_1": "Digitální knihovna obsahuje monografie, periodika, rukopisy, zvukové nahrávky, mapy a staré tisky.",
+  "dl_intro_2": "Více o digitální knihovně",
+  "dl_intro_3": "Digitální knihovna funguje v následujících režimech:"
 }
