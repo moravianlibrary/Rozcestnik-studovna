@@ -1,5 +1,5 @@
 {{#template name='digitalniKnihovnaNapoveda.cs'}}
-# Digitální knihovna
+# Digitální knihovna MZK
 
 Digitální knihovna MZK nabízí digitální dokumenty prostřednictvím systému Kramerius a obsahuje jak volná,
 tak i autorsky chráněná díla různého žánru.
