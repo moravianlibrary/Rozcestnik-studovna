@@ -5,11 +5,13 @@ Dokumenty v digitální knihovně lze hledat různými způsoby.
 ##Jednoduché vyhledávání
 
 Hlavní vyhledávací řádek v horní části obrazovky.
+
 ![](/images/help/jakHledat/jednoducheVyhledavani.png)
 
 ## Pokročilé vyhledávání
 
 Je umístěno vedle jednoduchého vyhledávání, upřesňuje dotaz dle názvu, autora, roku vydání atp.
+
 ![](/images/help/jakHledat/pokrocile.png)
 
 ## Časová osa

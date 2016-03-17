@@ -169,3 +169,15 @@ Router.route('jak-tisknout', {
         }
     }
 });
+
+Router.route('tablety', {
+    template: 'helpPageTemplate',
+    yieldRegions: {'tablety.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'tablety.en': {to: 'pageContent'}}
+            }
+        }
+    }
+});
