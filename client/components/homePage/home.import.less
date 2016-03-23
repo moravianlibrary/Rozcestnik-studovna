@@ -111,7 +111,10 @@
   left: 21px;
 }
 
-#mapy-tile {
+#mzk-tile, #katalog-tile, #napoveda-tile, #db-tile {
+  &:hover {
+    color: @mzk-text-blue;
+  }
 }
 
 #dl-image {
@@ -154,12 +157,20 @@
   background-image: url("images/web-archiv.png");
 }
 
+#web-archiv-tile:hover {
+  color: @mzk-text-webarchiv;
+}
+
 #web-archiv-tile:hover #web-archiv-image {
   background-image: url("images/web-archiv-hover.png");
 }
 
 #akce-image {
   background-image: url("images/akce.png");
+}
+
+#akce-tile:hover {
+  color: @mzk-text-akce;
 }
 
 #akce-tile:hover #akce-image {
@@ -176,6 +187,10 @@
 
 #print-image {
   background-image: url("images/print.png");
+}
+
+#print-tile:hover {
+  color: @mzk-text-safeq;
 }
 
 #print-tile:hover #print-image {
