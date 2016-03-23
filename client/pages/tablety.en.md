@@ -1,5 +1,5 @@
 {{#template name='tablety.en'}}
-# Tablets
+# Lending of tablets
 
 
 {{/template}}
