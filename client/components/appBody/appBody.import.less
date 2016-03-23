@@ -1,9 +1,14 @@
-body {
-  font-size: 17px;
+html, body {
+  background-color: @mzk-body-gray;
+  color: @mzk-text-gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: @mzk-green;
+}
+
+p {
+  font-size: 20px;
 }
 
 .btn-default {
@@ -12,4 +17,17 @@ h1, h2, h3, h4, h5, h6 {
   &:hover, &:focus {
     background-color: @mzk-text-blue-lighter;
   }
+}
+
+a {
+  color: @mzk-text-blue;
+}
+
+a:hover, a:focus {
+  color: @mzk-text-active;
+  text-decoration: none;
+}
+
+.body-wrapper {
+  margin-top: 70px;
 }

@@ -25,5 +25,4 @@ Template.home.events({
         $("#print-circle").attr('fill', 'transparent');
         $("#print-text").attr('class', 'circle-text');
     }
-
 });
