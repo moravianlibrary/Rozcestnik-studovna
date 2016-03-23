@@ -2,7 +2,12 @@
     <div class="row">
         <div class="col-md-offset-1 col-md-2 col-xs-6 wrapper-dl">
             <div class="tile tile-big-hint">
-                {{> helpCircle 'digitalni-knihovna-napoveda'}}
+                <div class="circle-wrapper">
+                    <svg height="50" width="50">
+                        <circle class="circle" cx="25" cy="24" r="15"></circle>
+                        <text id="dl-circle-text" class="circle-text" x="20" y="30">?</text>
+                    </svg>
+                </div>
             </div>
             <a class="tile tile-big dl-tile" href="{{pathFor 'digitalni-knihovna'}}">
                 <div id="dl-image" class="tile-big-image center-block"></div>
@@ -51,11 +56,13 @@
     </div>
     <div class="row">
         <div id="print-hint" class="col-md-offset-1 col-md-2 col-xs-6">
-            <svg class="print-hint-svg" height="145" viewBox="-10 -10 145 145">
-                <path transform="rotate(147 50 40)" width="145"
-                      d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64"></path>
+            <svg class="print-hint-svg" height="145" viewBox="-10 -11 145 145">
+                <path id="print-path" fill="transparent" transform="rotate(147 50 40)" width="145"
+                      d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64">
+                </path>
+                <circle id="print-circle" class="circle" cx="36" cy="70" r="15"></circle>
+                <text id="print-text" class="circle-text" x="31" y="76">?</text>
             </svg>
-            {{> helpCircle 'tisk'}}
         </div>
     </div>
 </template>

@@ -31,7 +31,7 @@ a:hover, a:focus {
   border-radius: @tile-border-radius;
   margin-bottom: 40px;
   margin-right: 20px;
-  width: 175px;
+  width: 177px;
 }
 
 .tile:hover {
@@ -81,10 +81,10 @@ a:hover, a:focus {
   -ms-transform: rotate(@rotation);
   -webkit-transform: rotate(@rotation);
   transform: rotate(@rotation);
-}
 
-.tile-big-hint:hover {
-  background-color: inherit;
+  &:hover {
+    background-color: @mzk-dark-gray;
+  }
 }
 
 .dl-tile {
@@ -114,12 +114,9 @@ a:hover, a:focus {
 #print-hint {
   position: relative;
   top: -98px;
-  z-index: 0;
 }
 
 .print-hint-svg {
-  top: 35px;
-  left: 8px;
   fill: none;
   stroke: @mzk-text-gray;
   stroke-width: 2;
@@ -127,12 +124,11 @@ a:hover, a:focus {
 
 #print-hint .circle-wrapper {
   position: relative;
-  top: -96px;
+  top: 56px;
   left: 21px;
 }
 
-#print-tile, #mapy-tile {
-  z-index: 1;
+#mapy-tile {
 }
 
 #dl-image {

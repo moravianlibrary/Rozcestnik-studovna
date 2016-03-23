@@ -3,9 +3,9 @@
 }
 
 .circle {
+  fill: transparent;
   stroke-width: 2;
   stroke: @mzk-text-gray;
-  fill: @mzk-body-gray;
 }
 
 .circle-hover {
@@ -13,14 +13,14 @@
 }
 
 .circle-text {
-  font-weight: bold;
   fill: @mzk-text-gray;
+  stroke: none;
 }
 
 .circle-text-hover {
   fill: @mzk-green;
 }
 
-.circle, .circle-text {
+.circle, .circle-text, .tile-big-hint, #print-path {
   cursor: pointer;
 }
