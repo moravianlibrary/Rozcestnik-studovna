@@ -44,6 +44,15 @@
         </a>
     </div>
     <div class="row">
+
+        <svg class="print-hint-svg" height="145" viewBox="-10 -11 145 145">
+            <path id="print-path" fill="transparent" transform="rotate(147 50 40)" width="145"
+                  d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64">
+            </path>
+            <circle id="print-circle" class="circle" cx="36" cy="70" r="15"></circle>
+            <text id="print-text" class="circle-text" x="31" y="76">?</text>
+        </svg>
+
         <a id="print-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
            href="http://safeq.mzk.cz" target="_blank">
             <div id="print-image" class="tile-small-image center-block"></div>
@@ -54,16 +63,6 @@
             {{_ "home_stare_mapy"}}
         </a>
     </div>
-    <div class="row">
-        <div id="print-hint" class="col-md-offset-1 col-md-2 col-xs-6">
-            <svg class="print-hint-svg" height="145" viewBox="-10 -11 145 145">
-                <path id="print-path" fill="transparent" transform="rotate(147 50 40)" width="145"
-                      d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64">
-                </path>
-                <circle id="print-circle" class="circle" cx="36" cy="70" r="15"></circle>
-                <text id="print-text" class="circle-text" x="31" y="76">?</text>
-            </svg>
-        </div>
-    </div>
+
     {{> footer}}
 </template>
