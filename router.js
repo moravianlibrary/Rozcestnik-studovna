@@ -181,3 +181,15 @@ Router.route('tablety', {
         }
     }
 });
+
+Router.route('mobilni-aplikace-kramerius', {
+    template: 'helpPageTemplate',
+    yieldRegions: {'mobilniAplikaceKramerius.cs': {to: 'pageContent'}},
+    i18n: {
+        languages: {
+            en: {
+                yieldRegions: {'mobilniAplikaceKramerius.en': {to: 'pageContent'}}
+            }
+        }
+    }
+});
