@@ -2,5 +2,4 @@
 
 # Lending of tablets
 
-
 {{/template}}
