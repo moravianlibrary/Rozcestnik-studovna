@@ -1,4 +1,5 @@
 {{#template name='pocitaceVMzk.cs'}}
+
 # Počítače v MZK
 
 Na počítačích v knihovně můžete pracovat s dokumenty nebo se připojit na internet a využít přístup do 
@@ -12,4 +13,5 @@ Zde najdete, jak používat počítače na studovně …
 ### [Linux]({{pathFor 'linux'}})
 ### [Aplikace]({{pathFor 'aplikace'}})
 ### [Tisk]({{pathFor 'tisk'}})
+
 {{/template}}

@@ -1,4 +1,5 @@
 {{#template name='sluchatka.cs'}}
+
 # Sluchátka
 
 Sluchátka si můžete vypůjčit u pultu v druhém, čtvrtém nebo šestém patře.

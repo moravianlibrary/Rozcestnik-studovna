@@ -1,4 +1,5 @@
 {{#template name='jakHledat.cs'}}
+
 # Jak hledat v digitální knihovně
 Dokumenty v digitální knihovně lze hledat různými způsoby.
 

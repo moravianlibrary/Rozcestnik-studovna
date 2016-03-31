@@ -1,4 +1,5 @@
 {{#template name='aplikace.cs'}}
+
 # Aplikace
 
 Na počítači najdete:

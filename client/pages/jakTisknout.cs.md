@@ -1,4 +1,5 @@
 {{#template name='jakTisknout.cs'}}
+
 # Jak tisknout
 
 1. Označte příslušné strany v levém menu s výpisem stran. Vybrat lze jen stránky. Vybrat a vytisknout celý dokument není možné. 
@@ -19,10 +20,9 @@
 
 5. Vytvoří se PDF, které můžete zkontrolovat.
 
-    Samotný tisk vyvolejte v PDF dokumentu přes ikonku s obrázkem tiskárny v pravém horním rohu obrazovky.
-    
-    Proveďte nastavení tisku (velikost papíru - A4 nebo A3, dále DPI - kvalita tisku, oboustranný tisk atp.) a pošlete na tiskárnu.
-    
-    Postupujte jako při běžném tisku na studovnách MZK.
+6. Samotný tisk vyvolejte v PDF dokumentu přes ikonku s obrázkem tiskárny v pravém horním rohu obrazovky.
 
+7. Proveďte nastavení tisku (velikost papíru - A4 nebo A3, dále DPI - kvalita tisku, oboustranný tisk atp.) a pošlete na tiskárnu.
+   Dále postupujte jako při běžném tisku na studovnách MZK.
+   
 {{/template}}

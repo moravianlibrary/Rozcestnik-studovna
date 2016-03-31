@@ -1,4 +1,5 @@
 {{#template name='tisk.cs'}}
+
 # Tisk
 
 Z počítačů umístěných na studovnách lze tisknout ve formátech A4 a A3, černobíle i barevně. 
@@ -44,4 +45,5 @@ Na adrese <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> můžet
 <a href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník služeb a poplatků</a>
  
 [Návod jak tiskout]({{pathFor 'jak-tisknout'}})
+
 {{/template}}

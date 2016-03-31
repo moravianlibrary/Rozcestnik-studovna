@@ -1,4 +1,5 @@
 {{#template name='tablety.cs'}}
+
 # Půjčení tabletů
 
 Na studovně v 6. patře si můžete vypůjčit tablety s mobilní aplikací Kramerius, 

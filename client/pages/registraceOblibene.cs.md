@@ -1,4 +1,5 @@
 {{#template name='registraceOblibene.cs'}}
+
 # Registrace v digitální knihovně
 
 V Digitální knihovně MZK je možnost se registrovat a díky tomu si ukládat zajímavé dokumenty do Oblíbených. Na přístupnost titulů registrace nemá vliv.
