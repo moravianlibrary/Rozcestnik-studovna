@@ -22,14 +22,24 @@
 
     ![](/images/help/jakTisknout/velikostStrany.png)
 
-5. Uvntiř webového prohlížeče se vytvoří PDF. Takto si můžete zkontrolovat stránky, které chtete vytisknout.
+5. V prohlížeči se otevře PDF se stránkami, které jste vybrali pro tisk. Takto si můžete zkontrolovat stránky, které chtete vytisknout.
    Pokud je vše v pořádku, klikněte ikonku s obrázkem tiskárny vpravo nahoře.
 
     ![](/images/help/jakTisknout/pdfPreview.png)
 
-7. Nyní si můžete nastavit svůj tisk. Více o nastavní tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
+6. Nyní si můžete nastavit svůj tisk. Více o nastavení tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
    Pokud vám výchozí nastavení tisku vyhovuje, stiskněte tlačítko tisk.
    
    ![](/images/help/jakTisknout/tisknout.png)
+   
+7. Pro tisk vašeho dokumentu musíte přijít k jedné z těchto tiskáren:  
+
+     * v přízemí v půjčovně 
+     * ve 2. patře v zadní části studovny 
+     * ve 4. patře v zadní části studovny 
+     * ve 6. patře v zadní části studovny
+     
+   <br> 
+   Pro provedení vašeho tisku je nutné přiložit čtenářskou kartu k terminálu SafeQ (malá krabička s displejem umístěná pravém boku tiskárny).
    
 {{/template}}
