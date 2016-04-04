@@ -2,16 +2,17 @@
     <h1>{{_ "home_dl"}}</h1>
     <p>
         {{_ "dl_intro_1"}}
-
-        <a href="{{pathFor 'digitalni-knihovna-napoveda'}}">{{_ "dl_intro_2"}}</a>.
         <br>
-        {{_ "dl_intro_3"}}
+        <a href="{{pathFor 'digitalni-knihovna-napoveda'}}">{{_ "dl_intro_2"}}</a>
     </p>
 
     <br><br>
 
+    <div class="alert alert-info text-center" role="alert">{{_ "dl_intro_3"}}</div>
+
     <div class="col-md-6">
         <h2>{{_ "dl_free_volumes"}}</h2>
+        <p>{{_ "dl_free_volumes_about"}}</p>
         <ul class="dl-list">
             <li class="no">
                 {{_ "dl_cannot_browse"}}
@@ -23,10 +24,11 @@
                 {{_ "dl_can_download"}}
             </li>
         </ul>
-        <button id="free-volumes" class="btn btn-default btn-lg">{{_ "dl_button_enter"}}</button>
+        <button id="free-volumes" class="btn btn-default btn-lg">{{_ "dl_free_button_enter"}}</button>
     </div>
     <div class="col-md-6">
         <h2>{{_ "dl_all_volumes"}}</h2>
+        <p>{{_ "dl_all_volumes_about"}}</p>
         <ul class="dl-list">
             <li class="yes">
                 {{_ "dl_can_access"}}
@@ -38,7 +40,8 @@
                 {{_ "dl_cannot_download"}}
             </li>
         </ul>
-        <button class="btn btn-default btn-lg">{{_ "dl_button_enter"}}</button>
-        <p class="hint">{{_ "dl_open_browser"}}</p>
+        <button id="all-volumes" class="btn btn-default btn-lg">{{_ "dl_all_button_enter"}}</button>
+        <br><br>
+        <div class="alert alert-warning" role="alert" style="display: none">{{_ "dl_open_browser"}}</div>
     </div>
 </template>

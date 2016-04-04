@@ -1,14 +1,18 @@
 {
   "dl_free_volumes": "Autorsky volná díla",
+  "dl_free_volumes_about": "Jedná se o díla, na které se nevztahují autorská práva. Např. uplynulo alespoň sedmdesát let od smrti autora.",
+  "dl_free_button_enter": "Prohlížet volná díla",
   "dl_cannot_browse": "Nelze prohlížet chráněná díla",
   "dl_can_print": "Tisk",
   "dl_can_download": "Lze stahovat",
-  "dl_button_enter": "VSTOUPIT",
 
   "dl_all_volumes": "Všechna díla",
+  "dl_all_volumes_about": "Jedná o všechna nejnovější - autorsky chráněná díla. Tyto díla je možné prohlížet jen z počítačů v budově MZK.",
+  "dl_all_button_enter": "Prohlížet všechna díla",
   "dl_can_access": "Přístup k chráněným dílům",
   "dl_cannot_download": "Nelze stahovat a kopírovat",
-  "dl_open_browser": "otevře se jiný prohlížeč",
+  "dl_open_browser": "Otevírá se nový prohlížeč, počkejte prosím.",
+
   "dl_intro_1": "Digitální knihovna obsahuje monografie, periodika, rukopisy, zvukové nahrávky, mapy a staré tisky.",
   "dl_intro_2": "Více o digitální knihovně",
   "dl_intro_3": "Digitální knihovna funguje v následujících režimech:"
