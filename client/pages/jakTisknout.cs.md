@@ -35,9 +35,9 @@
 7. Pro tisk vašeho dokumentu musíte přijít k jedné z těchto tiskáren:  
 
      * v přízemí v půjčovně 
-     * ve 2. patře v zadní části studovny 
-     * ve 4. patře v zadní části studovny 
-     * ve 6. patře v zadní části studovny
+     * v 2. patře v zadní části studovny 
+     * v 4. patře v zadní části studovny 
+     * v 6. patře v zadní části studovny
      
    <br> 
    Pro provedení vašeho tisku je nutné přiložit vaši čtenářskou kartu k terminálu SafeQ (malá krabička s displejem umístěná pravém boku tiskárny).
