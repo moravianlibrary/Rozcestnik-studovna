@@ -40,6 +40,6 @@
      * ve 6. patře v zadní části studovny
      
    <br> 
-   Pro provedení vašeho tisku je nutné přiložit čtenářskou kartu k terminálu SafeQ (malá krabička s displejem umístěná pravém boku tiskárny).
+   Pro provedení vašeho tisku je nutné přiložit vaši čtenářskou kartu k terminálu SafeQ (malá krabička s displejem umístěná pravém boku tiskárny).
    
 {{/template}}
