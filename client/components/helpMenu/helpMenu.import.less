@@ -4,13 +4,7 @@
   border-radius: 10px;
   background-color: @mzk-dark-gray;
   max-width: 350px;
-
-  h3 {
-    color: @mzk-text-blue;
-  }
-  h2 {
-    color: @mzk-text-gray;
-  }
+  padding-bottom: 5px;
 }
 
 @media (max-width: @screen-lg-min) {
@@ -31,26 +25,43 @@
   background-color: @mzk-text-blue;
 }
 
+.help-menu-hover {
+  color: @mzk-text-gray;
+  background-color: lighten(@mzk-dark-gray, 5%);
+}
+
+.help-menu > .nav-pills > li > a {
+  padding-left: 30px;
+}
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   .help-menu-text;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-  .help-menu-text;
-  text-decoration: none;
+  .help-menu-hover;
 }
 
-.help-menu > a > h3 {
+.help-menu > p, .help-menu > a > p {
+  margin: 0;
+}
+
+.help-menu > p {
+  font-size: 30px;
+}
+
+.help-menu > a > p {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 8px 0;
   border-radius: 4px;
+  font-size: 24px;
 }
 
-.help-menu > a.active > h3 {
+.help-menu > a.active > p {
   .help-menu-text
 }
 
-.help-menu > a > h3:hover, .help-menu > a > h3:focus {
-  .help-menu-text;
+.help-menu > a > p:hover, .help-menu > a > p:focus {
+  .help-menu-hover;
 }
