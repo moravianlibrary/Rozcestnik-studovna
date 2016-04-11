@@ -1,8 +1,10 @@
 <template name="menuPageTemplate">
-    {{> backButton}}
+    <div id="content" class="container-fluid">
+        {{> backButton}}
 
-    <div class="col-sm-offset-1 col-sm-10 col-lg-offset-0 col-lg-9">
-        {{> yield 'pageContent'}}
+        <div id="menu-page-content" class="col-sm-offset-1 col-sm-10 col-lg-offset-1 col-lg-7">
+            {{> yield 'pageContent'}}
+        </div>
+
     </div>
-
 </template>

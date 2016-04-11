@@ -4,12 +4,22 @@ html, body {
   //font-family: DINPro-Regular;
 }
 
+/* Move down content because we have a fixed navbar that is 75px tall */
+body {
+  padding-top: @navbar-height;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: @mzk-green;
 }
 
 p {
   font-size: 20px;
+}
+
+.container-fluid {
+  padding-left: @container-fluid-padding;
+  padding-right: @container-fluid-padding;
 }
 
 .btn-default {
@@ -29,8 +39,8 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-.body-wrapper {
-  margin-top: 70px;
+#content {
+  padding-top: 40px;
 }
 
 @font-face {

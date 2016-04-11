@@ -1,68 +1,79 @@
 <template name="home">
-    <div class="row">
-        <div class="col-md-offset-1 col-md-2 col-xs-6 wrapper-dl">
-            <div class="tile tile-big-hint">
-                <div class="circle-wrapper">
-                    <svg height="50" width="50">
-                        <circle class="circle" cx="25" cy="24" r="15"></circle>
-                        <text id="dl-circle-text" class="circle-text" x="20" y="30">?</text>
-                    </svg>
+    <div id="tiles-wrap" class="container">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-2 col-xs-6 wrapper-dl">
+                <div class="tile tile-big-hint">
+                    <div class="circle-wrapper">
+                        <svg height="50" width="50">
+                            <circle class="circle" cx="25" cy="24" r="15"></circle>
+                            <text id="dl-circle-text" class="circle-text" x="20" y="30">?</text>
+                        </svg>
+                    </div>
                 </div>
+                <a class="tile tile-big dl-tile" href="{{pathFor 'digitalni-knihovna'}}">
+                    <div id="dl-image" class="tile-big-image center-block"></div>
+                    {{_ "home_dl"}}
+                </a>
             </div>
-            <a class="tile tile-big dl-tile" href="{{pathFor 'digitalni-knihovna'}}">
-                <div id="dl-image" class="tile-big-image center-block"></div>
-                {{_ "home_dl"}}
+            <a id="mzk-tile" class="col-md-2 col-xs-6 tile tile-big" href="http://www.mzk.cz/" target="_blank">
+                <div id="mzk-image" class="tile-big-image center-block"></div>
+                {{_ "home_web_mzk"}}
+            </a>
+            <a id="katalog-tile" class="col-md-2 col-xs-6 tile tile-big" href="https://vufind.mzk.cz/" target="_blank">
+                <div id="katalog-image" class="tile-big-image center-block"></div>
+                {{_ "home_katalog"}}
+            </a>
+            <a id="napoveda-tile"
+               class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big"
+               href="{{pathFor 'napoveda'}}">
+                <div id="napoveda-image" class="tile-big-image center-block"></div>
+                {{_ "home_help"}}
             </a>
         </div>
-        <a id="mzk-tile" class="col-md-2 col-xs-6 tile tile-big" href="http://www.mzk.cz/" target="_blank">
-            <div id="mzk-image" class="tile-big-image center-block"></div>
-            {{_ "home_web_mzk"}}
-        </a>
-        <a id="katalog-tile" class="col-md-2 col-xs-6 tile tile-big" href="https://vufind.mzk.cz/" target="_blank">
-            <div id="katalog-image" class="tile-big-image center-block"></div>
-            {{_ "home_katalog"}}
-        </a>
-        <a id="napoveda-tile" class="col-lg-offset-2 col-md-offset-0 col-md-2 col-xs-6 col-sm-offset-0 col-xs-offset-0 tile tile-big"
-           href="{{pathFor 'napoveda'}}">
-            <div id="napoveda-image" class="tile-big-image center-block"></div>
-            {{_ "home_help"}}
-        </a>
-    </div>
-    <div class="row">
-        <a id="web-archiv-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
-           href="http://www.webarchiv.cz/" target="_blank">
-            <div id="web-archiv-image" class="tile-small-image center-block"></div>
-            {{_ "home_webarchiv"}}
-        </a>
-        <a id="akce-tile" class="col-md-2 col-xs-6 tile tile-small" href="http://www.mzk.cz/akce" target="_blank">
-            <div id="akce-image" class="tile-small-image center-block"></div>
-            {{_ "home_akce_v_mzk"}}
-        </a>
-        <a id="db-tile" class="col-md-2 col-xs-6 tile tile-small" href="https://www.mzk.cz/katalogy-databaze/databaze" target="_blank">
-            <div id="db-image" class="tile-small-image center-block"></div>
-            {{_ "home_elektronicke_zdroje"}}
-        </a>
-    </div>
-    <div class="row">
+        <div class="row">
+            <a id="web-archiv-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
+               href="http://www.webarchiv.cz/" target="_blank">
+                <div id="web-archiv-image" class="tile-small-image center-block"></div>
+                {{_ "home_webarchiv"}}
+            </a>
+            <a id="akce-tile" class="col-md-2 col-xs-6 tile tile-small" href="http://www.mzk.cz/akce" target="_blank">
+                <div id="akce-image" class="tile-small-image center-block"></div>
+                {{_ "home_akce_v_mzk"}}
+            </a>
+            <a id="db-tile" class="col-md-2 col-xs-6 tile tile-small"
+               href="https://www.mzk.cz/katalogy-databaze/databaze" target="_blank">
+                <div id="db-image" class="tile-small-image center-block"></div>
+                {{_ "home_elektronicke_zdroje"}}
+            </a>
+        </div>
+        <div class="row">
 
-        <svg class="print-hint-svg" height="145" viewBox="-10 -11 145 145">
-            <path id="print-path" fill="transparent" transform="rotate(147 50 40)" width="145"
-                  d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64">
-            </path>
-            <circle id="print-circle" class="circle" cx="36" cy="70" r="15"></circle>
-            <text id="print-text" class="circle-text" x="31" y="76">?</text>
-        </svg>
+            <svg class="print-hint-svg" height="145" viewBox="-10 -11 145 145">
+                <path id="print-path" fill="transparent" transform="rotate(147 50 40)" width="145"
+                      d="M 0 0 L 90 0 C 95 0 100 5 100 10 L 100 64">
+                </path>
+                <circle id="print-circle" class="circle" cx="36" cy="70" r="15"></circle>
+                <text id="print-text" class="circle-text" x="31" y="76">?</text>
+            </svg>
 
-        <a id="print-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
-           href="http://safeq.mzk.cz" target="_blank">
-            <div id="print-image" class="tile-small-image center-block"></div>
-            {{_ "home_jak_tisknout"}}
-        </a>
-        <!--
+            <a id="print-tile" class="col-md-offset-1 col-md-2 col-xs-6 tile tile-small"
+               href="http://safeq.mzk.cz" target="_blank">
+                <div id="print-image" class="tile-small-image center-block"></div>
+                {{_ "home_jak_tisknout"}}
+            </a>
+            <!--
         <a id="mapy-tile" class="col-md-2 col-xs-6 tile tile-small" href="http://www.mzk.cz/o-knihovne/fondy/mapy" target="_blank">
             <div id="mapy-image" class="tile-small-image center-block"></div>
             {{_ "home_stare_mapy"}}
         </a>
         -->
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="navbar-text navbar-right">
+            <a href="https://www.facebook.com/mzk.cz" target="_blank" class="social-icon-gap social-button"><i class="fa fa-facebook-official fa-3x"></i></a>
+            <a href="https://twitter.com/moravskazemska" target="_blank" class="social-button"><i class="fa fa-twitter fa-3x"></i></a>
+        </p>
     </div>
 </template>

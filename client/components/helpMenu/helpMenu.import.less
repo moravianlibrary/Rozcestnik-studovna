@@ -1,8 +1,10 @@
 .help-menu {
+  position: relative;
+  left: @container-fluid-padding;
   border-radius: 10px;
   background-color: @mzk-dark-gray;
-  position: relative;
-  left: 20px;
+  max-width: 350px;
+
   h3 {
     color: @mzk-text-blue;
   }
@@ -20,9 +22,7 @@
 
 @media (min-width: @screen-lg-min) {
   .help-menu {
-    width: 280px;
-    position: relative;
-    left: 55px;
+    float: right !important;
   }
 }
 

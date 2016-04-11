@@ -1,25 +1,23 @@
 <template name="nav">
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class=container>
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-          <span class="navbar-brand">
-            <a href="{{pathFor 'home'}}"><span class="logo-v">v</span> knihovně.mzk.cz</a>
-          </span>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
-                    <ul class="nav navbar-nav">
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        {{> i18n_buttons}}
-                    </ul>
-                </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand">
+                    <a href="{{pathFor 'home'}}"><span class="logo-v">v</span> knihovně.mzk.cz</a>
+                </span>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    {{> i18n_buttons}}
+                </ul>
             </div>
         </div>
     </nav>
