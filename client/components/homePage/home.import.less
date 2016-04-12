@@ -1,3 +1,8 @@
+@tile-border-radius: 12px;
+@tile-image-size: 100px;
+@tiles-gap: 30px;
+@tile-big-width: 190px;
+
 #tiles-wrap {
  padding-top: 75px;
 }
@@ -7,7 +12,7 @@
   text-decoration: none;
   color: @mzk-text-gray;
   font-family: DINPro-Bold;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .tile {
@@ -16,9 +21,9 @@
   background-color: @mzk-body-gray;
   border: 2px solid @mzk-text-gray;
   border-radius: @tile-border-radius;
-  margin-bottom: 40px;
-  margin-right: 20px;
-  width: 177px;
+  margin-bottom: @tiles-gap;
+  margin-right: @tiles-gap;
+  width: @tile-big-width;
   padding: 0;
 }
 
@@ -29,16 +34,16 @@
 }
 
 .wrapper-dl {
-  width: 175px;
-  margin-right: 20px;
+  width: @tile-big-width;
+  margin-right: @tiles-gap;
 }
 
 .tile-big, .wrapper-dl {
-  height: 230px;
+  height: 260px;
 }
 
 .tile-small {
-  height: 130px;
+  height: 150px;
 }
 
 .tile-image-mixin(@size; @margin) {
@@ -48,6 +53,7 @@
   margin-bottom: @margin;
   background-size: @size;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile-big-image {
@@ -60,7 +66,7 @@
 
 .tile-big-hint {
   margin: 0;
-  height: 210px;
+  height: 225px;
   position: relative;
   left: -50px;
   top: 17px;
@@ -78,7 +84,7 @@
 .dl-tile {
   position: relative;
   left: -15px;
-  top: -209px;
+  top: -224px;
 }
 
 @media (min-width: @screen-md-min) and (max-width: @screen-lg-min) {
@@ -101,8 +107,8 @@
 
 .print-hint-svg {
   position: relative;
-  left: -185px;
-  top: 70px;
+  left: -210px;
+  top: 90px;
 
   fill: none;
   stroke: @mzk-text-gray;
