@@ -89,13 +89,19 @@
 
 @media (min-width: @screen-md-min) and (max-width: @screen-lg-min) {
   .wrapper-dl {
-    margin-right: 30px;
+    margin-right: @tiles-gap;
   }
 }
 
 @media (min-width: @screen-xs-min) and (max-width: @screen-md-min) {
   .wrapper-dl {
     width: 175px;
+  }
+}
+
+@media (max-width: @screen-xs-min) {
+  .tile, .wrapper-dl {
+    margin-right: 5px;
   }
 }
 
