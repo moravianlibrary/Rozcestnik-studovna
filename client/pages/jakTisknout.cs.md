@@ -2,7 +2,7 @@
 
 # Jak tisknout
 <div class="alert alert-info text-center" role="alert">
-    Předtím než začnete tisknout z digitální knihovny. Přečtěte si prosím stránku 
+    Před tím, než začnete tisknout z digitální knihovny. Přečtěte si, prosím, stránku 
     <a href="{{pathFor 'tisk'}}" class="alert-link">tisk</a>.
 </div>
 
