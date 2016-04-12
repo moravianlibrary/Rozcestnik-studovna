@@ -8,6 +8,7 @@ Dokumenty v digitální knihovně lze hledat různými způsoby.
 Hlavní vyhledávací řádek v horní části obrazovky.
 
 ![](/images/help/jakHledat/jednoducheVyhledavani.png)
+![](public/images/help/jakHledat/jednoducheVyhledavani.png)
 
 ### Pokročilé vyhledávání
 
