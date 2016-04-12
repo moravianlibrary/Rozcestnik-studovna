@@ -6,29 +6,12 @@
         <a href="{{pathFor 'digitalni-knihovna-napoveda'}}">{{_ "dl_intro_2"}}</a>
     </p>
 
-    <br><br>
+    <br>
 
     <div class="alert alert-info text-center" role="alert">{{_ "dl_intro_3"}}</div>
 
     <div class="col-md-6">
-        <h2>{{_ "dl_free_volumes"}}</h2>
-        <p>{{_ "dl_free_volumes_about"}}</p>
-        <ul class="dl-list">
-            <li class="no">
-                {{_ "dl_cannot_browse"}}
-            </li>
-            <li class="yes">
-                {{_ "dl_can_print"}}
-            </li>
-            <li class="yes">
-                {{_ "dl_can_download"}}
-            </li>
-        </ul>
-        <button id="free-volumes" class="btn btn-default btn-lg">{{_ "dl_free_button_enter"}}</button>
-    </div>
-    <div class="col-md-6">
         <h2>{{_ "dl_all_volumes"}}</h2>
-        <p>{{_ "dl_all_volumes_about"}}</p>
         <ul class="dl-list">
             <li class="yes">
                 {{_ "dl_can_access"}}
@@ -40,8 +23,28 @@
                 {{_ "dl_cannot_download"}}
             </li>
         </ul>
+        <p>{{_ "dl_all_volumes_about"}}</p>
+        <br>
         <button id="all-volumes" class="btn btn-default btn-lg">{{_ "dl_all_button_enter"}}</button>
         <br><br>
         <div class="alert alert-warning" role="alert" style="display: none">{{_ "dl_open_browser"}}</div>
+    </div>
+
+    <div class="col-md-6">
+        <h2>{{_ "dl_free_volumes"}}</h2>
+        <ul class="dl-list">
+            <li class="no">
+                {{_ "dl_cannot_browse"}}
+            </li>
+            <li class="yes">
+                {{_ "dl_can_print"}}
+            </li>
+            <li class="yes">
+                {{_ "dl_can_download"}}
+            </li>
+        </ul>
+        <p>{{_ "dl_free_volumes_about"}}</p>
+        <br>
+        <button id="free-volumes" class="btn btn-default btn-lg">{{_ "dl_free_button_enter"}}</button>
     </div>
 </template>
