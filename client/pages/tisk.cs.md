@@ -4,7 +4,9 @@
 
 Z počítačů umístěných na studovnách lze tisknout ve formátech A4 a A3, černobíle i barevně. 
 K tisku potřebujete čtenářskou průkazku s vloženým kreditem. 
-Kredit si můžete dobít pomocí oranžového automatu v přízemí nebo u pultu Registrace a výpůjčky. 
+Kredit si můžete dobít pomocí oranžového automatu v přízemí nebo u pultu Registrace a výpůjčky.
+
+<!--![](/images/help/tisk/automat.jpg)-->
 
 Úlohy k tisku se z většiny aplikací zasílají typicky volbou menu Soubor/Tisk (File/Print), případně klávesovou zkratkou Ctrl+P. 
 Před odesláním doporučujeme - pokud to aplikace umožňuje - zkontrolovat výsledek volbou Náhled tisku (Print preview). 
