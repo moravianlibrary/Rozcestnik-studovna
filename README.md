@@ -38,12 +38,14 @@ Změny v textech se projeví jen zde v repozitáři na Githubu. Změny se neproj
 
 Změněné texty z tohoto repozitáře je potom nutné nahrát na web [vknihovne.mzk.cz](vknihovne.mzk.cz)  
     
-
-
-
-
+# Spuštění aplikace na lokálním PC  
+    $ git clone https://github.com/moravianlibrary/Rozcestnik-studovna.git
+    $ cd Rozcestnik-studovna
+    $ meteor
+    
+Po zadání posledního příkazu se aplikace se spustní na adrese [http://localhost:3000/](http://localhost:3000/)
 
 # Docker 
-$ docker build -t moravianlibrary/rozcestnik .
-$ docker push moravianlibrary/rozcestnik
+    $ docker build -t moravianlibrary/rozcestnik .
+    $ docker push moravianlibrary/rozcestnik
 
