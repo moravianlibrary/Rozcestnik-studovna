@@ -3,17 +3,12 @@
 # Jak hledat v digitální knihovně
 Dokumenty v digitální knihovně lze hledat různými způsoby.
 
-###Jednoduché vyhledávání
+###Jednoduché a pokročilé vyhledávání
 
-Hlavní vyhledávací řádek v horní části obrazovky.
+V <a href="http://kramerius.mzk.cz/" target="_blank">digitální knihovně</a> se hlavní vyhledávací řádek nachází v horní části obrazovky. 
+Tlačítkem Pokročilé vyhledávání se upřesňuje dotaz dle názvu, autora, roku vydání atp.
 
-![](/images/help/jakHledat/jednoducheVyhledavani.png)
-
-### Pokročilé vyhledávání
-
-Je umístěno vedle jednoduchého vyhledávání, upřesňuje dotaz dle názvu, autora, roku vydání atp.
-
-![](/images/help/jakHledat/pokrocile.png)
+![](/images/help/jakHledat/jednoducheHledani.png)
 
 ### Časová osa
 Hledání dle roku vydání se nachazí na hlavní straně vlevo.
@@ -38,7 +33,8 @@ Při zadání dotazu můžete upřesňovat výsledky vyhledávání pomocí filt
 ![](/images/help/jakHledat/filtry.png)
 
 ### Odkaz v katalogu MZK
-Ke konkrétnímu dokumentu se můžete dostat také z katalogu prostřednictvím odkazu s označením “Digitalizovaný dokument”
+Ke konkrétnímu dokumentu se můžete dostat také z <a href="https://vufind.mzk.cz/" target="_blank">katalogu</a>
+prostřednictvím odkazu s označením “Digitalizovaný dokument (klikněte pro zobrazení)”
 
 ![](/images/help/jakHledat/katalog.png)
 
