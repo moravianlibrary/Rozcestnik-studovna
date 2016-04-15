@@ -1,50 +1,48 @@
 <template name="digitalniKnihovna">
-    <h1>{{_ "home_dl"}}</h1>
+    <h1>{{_ "dl_h1"}}</h1>
+
     <p>
         {{_ "dl_intro_1"}}
-        <br>
         <a href="{{pathFor 'digitalni-knihovna-napoveda'}}">{{_ "dl_intro_2"}}</a>
     </p>
 
-    <br>
+    <div id="all-volumes" class="col-lg-7">
+        <div id="dashed-line">
+            <div id="all-volumes-button">
+                <p>{{_ "dl_all_volumes_h2"}}</p>
+                <p>{{_ "dl_all_volumes_p"}}</p>
+            </div>
+            <ul class="dl-list">
+                <li class="yes">
+                    <h4>{{_ "dl_can_access"}}</h4>
+                    <p>{{_ "dl_can_access_p"}}</p>
+                </li>
+                <li class="yes">
+                    <h4>{{_ "dl_can_print"}}</h4>
+                </li>
+                <li class="no">
+                    <h4>{{_ "dl_cannot_download"}}</h4>
+                    <p>{{_ "dl_cannot_download_p"}}</p>
+                </li>
+            </ul>
+        </div>
 
-    <div class="alert alert-info text-center" role="alert">{{_ "dl_intro_3"}}</div>
-
-    <div class="col-md-6">
-        <h2>{{_ "dl_all_volumes"}}</h2>
-        <ul class="dl-list">
-            <li class="yes">
-                {{_ "dl_can_access"}}
-            </li>
-            <li class="yes">
-                {{_ "dl_can_print"}}
-            </li>
-            <li class="no">
-                {{_ "dl_cannot_download"}}
-            </li>
-        </ul>
-        <p>{{_ "dl_all_volumes_about"}}</p>
         <br>
-        <button id="all-volumes" class="btn btn-default btn-lg">{{_ "dl_all_button_enter"}}</button>
-        <img id="safe-browser" src="/images/safeBrowser.png" alt="ikona chraneneho prohlizece">
-        <br><br>
         <div class="alert alert-warning" role="alert" style="display: none">{{_ "dl_open_browser"}}</div>
     </div>
 
-    <div class="col-md-6">
-        <h2>{{_ "dl_free_volumes"}}</h2>
+    <div id="free-volumes" class="col-lg-5">
+        <h4>{{_ "dl_free_volumes_h2"}}</h4>
+
         <ul class="dl-list">
+            <li class="yes">
+                <h4>{{_ "dl_can_download"}}</h4>
+            </li>
             <li class="no">
-                {{_ "dl_cannot_browse"}}
-            </li>
-            <li class="yes">
-                {{_ "dl_can_print"}}
-            </li>
-            <li class="yes">
-                {{_ "dl_can_download"}}
+                <h4>{{_ "dl_cannot_browse"}}</h4>
+                <p>{{_ "dl_cannot_browse_p"}}</p>
             </li>
         </ul>
-        <p>{{_ "dl_free_volumes_about"}}</p>
         <br>
         <button id="free-volumes" class="btn btn-default btn-lg">{{_ "dl_free_button_enter"}}</button>
     </div>

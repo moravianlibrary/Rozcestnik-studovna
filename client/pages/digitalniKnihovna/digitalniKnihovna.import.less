@@ -1,27 +1,96 @@
 ul.dl-list {
   padding-top: 20px;
-}
-
-ul.dl-list li.yes {
-  background: url('images/checkMark.png') no-repeat left top;
-}
-
-ul.dl-list li.no {
-  background: url('images/redCross.png') no-repeat left top;
-}
-
-ul.dl-list li {
-  padding: 0 0 25px 40px;
-  list-style: none;
-  position: relative;
-  right: 40px;
+  li {
+    padding: 0 0 25px 40px;
+    list-style: none;
+    position: relative;
+    right: 40px;
+    p {
+      font-size: 16px;
+    }
+  }
+  .yes {
+    background: url('images/circleGreen.png') no-repeat left top;
+  }
+  .no {
+    background: url('images/circleGray.png') no-repeat left top;
+    h4 {
+      color: @mzk-text-gray;
+      margin-bottom: 2px;
+    }
+  }
 }
 
 p.hint {
   padding-top: 10px;
 }
 
-#safe-browser {
-  width: 45px;
-  margin-left: 15px;
+#dashed-line {
+  @media (min-width: @screen-lg) {
+    border-right: 1px dashed;
+  }
+}
+
+#all-volumes {
+  ul.dl-list {
+    li {
+      background-size: 20px;
+      h4 {
+        position: relative;
+        top: -5px;
+      }
+    }
+  }
+}
+
+#free-volumes {
+  > h4 {
+    color: @mzk-text-gray;
+  }
+  ul.dl-list {
+    li {
+      background-size: 15px;
+      h4 {
+        position: relative;
+        top: -4px;
+      }
+    }
+  }
+}
+
+#all-volumes-button {
+  background-image: url('images/safeBrowser.png');
+  background-repeat: no-repeat;
+  background-color: @mzk-green;
+  background-size: contain;
+  border-radius: 10px;
+  border: 5px solid @mzk-green;
+  color: @mzk-dark-gray;
+  @icon-size: 70px;
+  height: @icon-size;
+  padding-left: @icon-size;
+  cursor: pointer;
+  max-width: 500px;
+  p {
+    font-size: 15px;
+  }
+
+  @media (min-width: @screen-sm) {
+    p {
+      font-size: 20px;
+    }
+
+    @icon-size: 75px;
+    height: @icon-size;
+    padding-left: @icon-size;
+    border-width: 6px;
+  }
+  @media (min-width: @screen-md) {
+    @icon-size: 80px;
+    height: @icon-size;
+    padding-left: @icon-size;
+  }
+  @media (min-width: @screen-lg) {
+
+  }
 }
