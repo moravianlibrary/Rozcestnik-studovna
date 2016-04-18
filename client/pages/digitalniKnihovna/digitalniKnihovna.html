@@ -12,13 +12,17 @@
                 <p>{{_ "dl_all_volumes_h2"}}</p>
                 <p>{{_ "dl_all_volumes_p"}}</p>
             </div>
+
+            <div class="alert alert-warning" role="alert" style="display: none">{{_ "dl_open_browser"}}</div>
+
             <ul class="dl-list">
                 <li class="yes">
                     <h4>{{_ "dl_can_access"}}</h4>
                     <p>{{_ "dl_can_access_p"}}</p>
                 </li>
-                <li class="yes">
+                <li class="yes inline">
                     <h4>{{_ "dl_can_print"}}</h4>
+                    <a>{{_ "dl_can_print_p"}}</a>
                 </li>
                 <li class="no">
                     <h4>{{_ "dl_cannot_download"}}</h4>
@@ -26,9 +30,6 @@
                 </li>
             </ul>
         </div>
-
-        <br>
-        <div class="alert alert-warning" role="alert" style="display: none">{{_ "dl_open_browser"}}</div>
     </div>
 
     <div id="free-volumes" class="col-lg-5">
@@ -43,7 +44,6 @@
                 <p>{{_ "dl_cannot_browse_p"}}</p>
             </li>
         </ul>
-        <br>
-        <button id="free-volumes" class="btn btn-default btn-lg">{{_ "dl_free_button_enter"}}</button>
+        <a href="http://kramerius.mzk.cz/">{{_ "dl_free_enter"}}</a>
     </div>
 </template>

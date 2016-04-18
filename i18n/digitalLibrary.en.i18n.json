@@ -3,16 +3,19 @@
   "dl_intro_1": "Millions of digital pages. Monographies, periodicals, old prints, manuscripts, maps and audio recordings.",
   "dl_intro_2": "More about digital library",
 
-  "dl_free_volumes_h2": "FREE VOLUMES ACCESS",
-  "dl_free_button_enter": "Browse free volumes",
-  "dl_cannot_browse": "Cannot browse protected volumes",
-  "dl_can_print": "Print",
-  "dl_can_download": "Can be downloaded",
-
   "dl_all_volumes_h2": "FULL VERSION OF DIGITAL LIBRARY",
-  "dl_all_volumes_p": "in browser with copyright protection",
-  "dl_all_button_enter": "Browse all volumes",
-  "dl_can_access": "Access to protected volumes",
-  "dl_cannot_download": "Cannot copy and download",
-  "dl_open_browser": "New browser is being opened. Please wait."
+  "dl_all_volumes_p": "v prohlížeči autorsky chráněného obsahu",
+  "dl_open_browser": "Otevírá se nový prohlížeč, počkejte prosím...",
+  "dl_can_access": "Kompletní Digitální knihovna MZK",
+  "dl_can_access_p": "včetně novinek a autorsky chráněného obsahu",
+  "dl_can_print": "Print",
+  "dl_can_print_p": "Help",
+  "dl_cannot_download": "Omezené stahnování a kopírování",
+  "dl_cannot_download_p": "Z důvodu ochrany autorských práv je možné kopírovat přes schránku (CTRL-C a CTRL-V) jen ve směru do prohlížeče.",
+
+  "dl_free_volumes_h2": "PUBLIC ACCESS TO DIGITAL LIBRARY",
+  "dl_can_download": "Stahování, kopírování, tisk bez omezení",
+  "dl_cannot_browse": "Omezený obsah, většinou jen starší díla",
+  "dl_cannot_browse_p": "Autorský zákon dovoluje volné použití děl po uplynutí 70 let od smrti autora. ???",
+  "dl_free_enter": "OPEN"
 }

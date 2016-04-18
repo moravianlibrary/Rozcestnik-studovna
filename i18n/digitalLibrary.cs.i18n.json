@@ -3,20 +3,19 @@
   "dl_intro_1": "Milióny digitálních stran. Monografie, periodika, staré tisky, rukopisy, mapy a zvukové nahrávky.",
   "dl_intro_2": "Více o digitální knihovně",
 
-  "dl_free_volumes_h2": "VEŘEJNÝ PŘÍSTUP DO DIGITÁLNÍ KNIHOVNY",
-  "dl_cannot_browse": "Omezený obsah, většinou jen starší díla",
-  "dl_cannot_browse_p": "Autorský zákon dovoluje volné použití děl po uplynutí 70 let od smrti autora. ???",
-  "dl_can_download": "Stahování, kopírování, tisk bez omezení",
-
   "dl_all_volumes_h2": "PLNÁ VERZE DIGITÁLNÍ KNIHOVNY",
   "dl_all_volumes_p": "v prohlížeči autorsky chráněného obsahu",
+  "dl_open_browser": "Otevírá se nový prohlížeč, počkejte prosím...",
   "dl_can_access": "Kompletní Digitální knihovna MZK",
   "dl_can_access_p": "včetně novinek a autorsky chráněného obsahu",
+  "dl_can_print": "Tisk",
+  "dl_can_print_p": "Návod",
   "dl_cannot_download": "Omezené stahnování a kopírování",
   "dl_cannot_download_p": "Z důvodu ochrany autorských práv je možné kopírovat přes schránku (CTRL-C a CTRL-V) jen ve směru do prohlížeče.",
 
-
-
-  "dl_all_button_enter": "Prohlížet všechna díla",
-  "dl_open_browser": "Otevírá se nový prohlížeč, počkejte prosím."
+  "dl_free_volumes_h2": "VEŘEJNÝ PŘÍSTUP DO DIGITÁLNÍ KNIHOVNY",
+  "dl_can_download": "Stahování, kopírování, tisk bez omezení",
+  "dl_cannot_browse": "Omezený obsah, většinou jen starší díla",
+  "dl_cannot_browse_p": "Autorský zákon dovoluje volné použití děl po uplynutí 70 let od smrti autora. ???",
+  "dl_free_enter": "OTEVŘÍT"
 }

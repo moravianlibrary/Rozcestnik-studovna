@@ -1,10 +1,20 @@
+#all-volumes, #free-volumes {
+  margin-top: 50px;
+}
+
 ul.dl-list {
   padding-top: 20px;
   li {
-    padding: 0 0 25px 40px;
+    &:first-child {
+      margin-top: 15px;
+    }
+    padding: 0 0 15px 40px;
     list-style: none;
     position: relative;
     right: 40px;
+    h4 {
+      margin-bottom: 2px;
+    }
     p {
       font-size: 16px;
     }
@@ -16,7 +26,6 @@ ul.dl-list {
     background: url('images/circleGray.png') no-repeat left top;
     h4 {
       color: @mzk-text-gray;
-      margin-bottom: 2px;
     }
   }
 }
@@ -29,15 +38,33 @@ p.hint {
   @media (min-width: @screen-lg) {
     border-right: 1px dashed;
   }
+  @media (max-width: @screen-md) {
+    border-bottom: 1px dashed;
+  }
 }
 
 #all-volumes {
+  .alert {
+    margin-top: 20px;
+  }
   ul.dl-list {
     li {
       background-size: 20px;
       h4 {
         position: relative;
-        top: -5px;
+        top: -4px;
+      }
+    }
+    li.inline {
+      h4, a {
+        position: relative;
+        top: -15px;
+      }
+      h4 {
+        display: inline-block;
+      }
+      a {
+        padding-left: 10px;
       }
     }
   }
@@ -52,9 +79,12 @@ p.hint {
       background-size: 15px;
       h4 {
         position: relative;
-        top: -4px;
+        top: -6px;
       }
     }
+  }
+  a {
+    padding-left: 40px;
   }
 }
 
