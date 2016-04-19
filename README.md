@@ -5,7 +5,7 @@ Domovská stránka a nápověda pro počítače na studovnách v MZK [vknihovne.
 Stránky jsou napsané ve formátu Markdown. Zde najdete co je to [Markdown](https://cs.wikipedia.org/wiki/Markdown) a [jak jej psát](https://daringfireball.net/projects/markdown/).
 Github používá také formát Markdown, stránky se dají tedy upravovat přímo v editoru Markdown na Githubu.
 
-Stránky nápovědy se nachází ve složce `client/pages/` 
+Stránky nápovědy se nachází ve složce `private/` 
 
 ![pages](https://github.com/moravianlibrary/Rozcestnik-studovna/blob/master/public/images/readme/pages.png)
 
@@ -19,15 +19,11 @@ Editor se skládá ze dvou panelů. V levém panelu můžeme upravovat text Mark
 
 ![editor](https://github.com/moravianlibrary/Rozcestnik-studovna/blob/master/public/images/readme/editor.png)
 
-Samotný text, který lze měnit se nachází mezi prvním a posledním řádkem. První a poslední řádek je zde pro správnou funkci webových stránek (vknihovne.mzk.cz).
+Markdown vypadá takto:
 
-    {{#template name='jakTisknout.en'}} <- neměnit prosím tento řádek
-    
     # Zde si napíšu libovolný nadpis
     Takto se píše text ve formátu Markdown
      
-    {{/template}} <- neměnit prosím tento řádek
-    
 ## Uložení změn    
     
 Změny se ukládají ve formuláři dole pod editorem. Je nutné vyplnit název změny. Změny se uloží tlačítem `Commit`
