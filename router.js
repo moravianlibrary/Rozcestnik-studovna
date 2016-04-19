@@ -28,11 +28,11 @@ Router.route('digitalni-knihovna', {
 /* NAPOVEDA */
 Router.route('napoveda', {
     template: 'helpPageTemplate',
-    yieldRegions: {'uvod.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'uvod.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'uvod.en': {to: 'pageContent'}}
+                data: {markdownFile: 'uvod.en.md'}
             }
         }
     }
@@ -40,11 +40,11 @@ Router.route('napoveda', {
 
 Router.route('pocitace-v-mzk', {
     template: 'helpPageTemplate',
-    yieldRegions: {'pocitaceVMzk.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'pocitaceVMzk.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'pocitaceVMzk.en': {to: 'pageContent'}}
+                data: {markdownFile: 'pocitaceVMzk.en.md'}
             }
         }
     }
@@ -52,11 +52,11 @@ Router.route('pocitace-v-mzk', {
 
 Router.route('linux', {
     template: 'helpPageTemplate',
-    yieldRegions: {'linux.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'linux.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'linux.en': {to: 'pageContent'}}
+                data: {markdownFile: 'linux.en.md'}
             }
         }
     }
@@ -64,11 +64,11 @@ Router.route('linux', {
 
 Router.route('aplikace', {
     template: 'helpPageTemplate',
-    yieldRegions: {'aplikace.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'aplikace.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'aplikace.en': {to: 'pageContent'}}
+                data: {markdownFile: 'aplikace.en.md'}
             }
         }
     }
@@ -76,11 +76,11 @@ Router.route('aplikace', {
 
 Router.route('sluchatka', {
     template: 'helpPageTemplate',
-    yieldRegions: {'sluchatka.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'sluchatka.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'sluchatka.en': {to: 'pageContent'}}
+                data: {markdownFile: 'sluchatka.en.md'}
             }
         }
     }
@@ -88,11 +88,11 @@ Router.route('sluchatka', {
 
 Router.route('ukladani-dat', {
     template: 'helpPageTemplate',
-    yieldRegions: {'ukladaniDat.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'ukladaniDat.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'ukladaniDat.en': {to: 'pageContent'}}
+                data: {markdownFile: 'ukladaniDat.en.md'}
             }
         }
     }
@@ -101,10 +101,11 @@ Router.route('ukladani-dat', {
 Router.route('tisk', {
     template: 'helpPageTemplate',
     yieldRegions: {'tisk.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'tisk.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'tisk.en': {to: 'pageContent'}}
+                data: {markdownFile: 'tisk.en.md'}
             }
         }
     }});
@@ -112,11 +113,11 @@ Router.route('tisk', {
 
 Router.route('digitalni-knihovna-napoveda', {
     template: 'helpPageTemplate',
-    yieldRegions: {'digitalniKnihovnaNapoveda.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'digitalniKnihovnaNapoveda.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'digitalniKnihovnaNapoveda.en': {to: 'pageContent'}}
+                data: {markdownFile: 'digitalniKnihovnaNapoveda.en.md'}
             }
         }
     }
@@ -124,11 +125,11 @@ Router.route('digitalni-knihovna-napoveda', {
 
 Router.route('o-digitalni-knihovne', {
     template: 'helpPageTemplate',
-    yieldRegions: {'oDigitalniKnihovne.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'oDigitalniKnihovne.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'oDigitalniKnihovne.en': {to: 'pageContent'}}
+                data: {markdownFile: 'oDigitalniKnihovne.en.md'}
             }
         }
     }
@@ -136,11 +137,11 @@ Router.route('o-digitalni-knihovne', {
 
 Router.route('registrace-a-oblibene', {
     template: 'helpPageTemplate',
-    yieldRegions: {'registraceOblibene.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'registraceOblibene.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'registraceOblibene.en': {to: 'pageContent'}}
+                data: {markdownFile: 'registraceOblibene.en.md'}
             }
         }
     }
@@ -148,11 +149,11 @@ Router.route('registrace-a-oblibene', {
 
 Router.route('jak-hledat', {
     template: 'helpPageTemplate',
-    yieldRegions: {'jakHledat.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'jakHledat.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'jakHledat.en': {to: 'pageContent'}}
+                data: {markdownFile: 'jakHledat.en.md'}
             }
         }
     }
@@ -161,10 +162,11 @@ Router.route('jak-hledat', {
 Router.route('jak-tisknout', {
     template: 'helpPageTemplate',
     yieldRegions: {'jakTisknout.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'jakTisknout.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'jakTisknout.en': {to: 'pageContent'}}
+                data: {markdownFile: 'jakTisknout.en.md'}
             }
         }
     }
@@ -172,11 +174,11 @@ Router.route('jak-tisknout', {
 
 Router.route('tablety', {
     template: 'helpPageTemplate',
-    yieldRegions: {'tablety.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'tablety.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'tablety.en': {to: 'pageContent'}}
+                data: {markdownFile: 'tablety.en.md'}
             }
         }
     }
@@ -184,11 +186,11 @@ Router.route('tablety', {
 
 Router.route('mobilni-aplikace-kramerius', {
     template: 'helpPageTemplate',
-    yieldRegions: {'mobilniAplikaceKramerius.cs': {to: 'pageContent'}},
+    data: {markdownFile: 'mobilniAplikaceKramerius.cs.md'},
     i18n: {
         languages: {
             en: {
-                yieldRegions: {'mobilniAplikaceKramerius.en': {to: 'pageContent'}}
+                data: {markdownFile: 'mobilniAplikaceKramerius.en.md'}
             }
         }
     }

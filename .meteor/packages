@@ -24,8 +24,8 @@ zimme:active-route
 less
 huttonr:bootstrap3
 fortawesome:fontawesome
-simple:markdown-templating
 markdown
 martino:iron-router-i18n
 standard-minifier-css
 standard-minifier-js
+simple:reactive-method

@@ -3,7 +3,9 @@
         {{> backButton}}
 
         <div id="help-page" class="col-sm-offset-1 col-sm-10 col-lg-offset-0 col-lg-7">
-            {{> yield 'pageContent'}}
+            {{#markdown}}
+                {{getMarkdown markdownFile}}
+            {{/markdown}}
         </div>
 
         {{> helpMenu}}
