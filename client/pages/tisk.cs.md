@@ -8,7 +8,7 @@ Kredit si můžete dobít pomocí oranžového automatu v přízemí nebo u pult
 
 <!--![](/images/help/tisk/automat.jpg)-->
 
-Úlohy k tisku se z většiny aplikací zasílají typicky volbou menu Soubor/Tisk (File/Print), případně klávesovou zkratkou Ctrl+P. 
+Úlohy k tisku se z většiny aplikací zasílají typicky volbou menu Soubor -> Tisk (File -> Print), případně klávesovou zkratkou Ctrl+P. 
 Před odesláním doporučujeme - pokud to aplikace umožňuje - zkontrolovat výsledek volbou Náhled tisku (Print preview). 
 V následujícím dialogovém okně si můžete vybrat, zda chcete tisknout černobíle (MZK_cernobila), nebo barevně (MZK_barevna). 
 Dále je zde možné nastavit klíčové parametry tisku jako rozsah stránek, počet kopií, počet stránek na list a další. 
