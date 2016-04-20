@@ -1,6 +1,6 @@
 # Registrace v digitální knihovně
 
-V Digitální knihovně MZK je možnost se registrovat a díky tomu si ukládat zajímavé dokumenty do Oblíbených. Registrovat se můžete na hlavní straně [kramerius.mzk.cz] (kramerius.mzk.cz) v záložce Registrace. Pozor, registrace nemá vliv na přístupnost neveřejných dokumentů mimo budovu knihovny.
+V Digitální knihovně MZK je možnost se registrovat a díky tomu si ukládat zajímavé dokumenty do Oblíbených. Registrovat se můžete na hlavní straně [http://kramerius.mzk.cz] (kramerius.mzk.cz) v záložce Registrace. Pozor, registrace nemá vliv na přístupnost neveřejných dokumentů mimo budovu knihovny.
 
 ## Oblíbené
 Jak si přidat dokument do Oblíbených?
