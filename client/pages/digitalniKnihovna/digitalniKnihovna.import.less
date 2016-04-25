@@ -96,31 +96,32 @@ p.hint {
   border-radius: 10px;
   border: 5px solid @mzk-green;
   color: @mzk-dark-gray;
-  @icon-size: 70px;
+  @icon-size: 90px;
   height: @icon-size;
   padding-left: @icon-size;
   cursor: pointer;
   max-width: 500px;
   p {
+    margin-bottom: 0;
     font-size: 15px;
   }
 
   @media (min-width: @screen-sm) {
+    @icon-size: 75px;
+    border-width: 6px;
+    height: @icon-size - 10;
+    padding-left: @icon-size - 10;
     p {
       font-size: 20px;
     }
-
-    @icon-size: 75px;
-    height: @icon-size;
-    padding-left: @icon-size;
-    border-width: 6px;
   }
   @media (min-width: @screen-md) {
-    @icon-size: 80px;
-    height: @icon-size;
-    padding-left: @icon-size;
+    
   }
   @media (min-width: @screen-lg) {
-
+    margin-right: 20px;
+    p {
+      font-size: 17px;
+    }
   }
 }
