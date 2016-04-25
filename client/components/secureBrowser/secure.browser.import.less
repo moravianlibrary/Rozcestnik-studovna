@@ -1,0 +1,119 @@
+@tile-vertical-gap: 60px;
+@tile-image-size: 120px;
+
+#secure-browser {
+
+  h1 {
+    color: @mzk-text-gray;
+  }
+
+  .navbar-inverse {
+    background-color: @mzk-dark-gray;
+  }
+
+  .navbar {
+    min-height: @navbar-height;
+  }
+
+  .navbar-fixed-top {
+    border: 0;
+  }
+
+  .navbar-inverse .navbar-brand {
+    display: none;
+    font-size: 16px;
+    color: @mzk-text-gray;
+    &:hover, &focus {
+      color: @mzk-text-gray;
+    }
+  }
+
+  @media (min-width: @screen-sm) {
+    .navbar-inverse .navbar-brand {
+      font-size: 20px;
+      display: block;
+    }
+  }
+
+  @media (min-width: @screen-md) {
+    .navbar-inverse .navbar-brand {
+      font-size: 30px;
+    }
+  }
+
+  @media (min-width: @screen-lg) {
+    .navbar-inverse .navbar-brand {
+      padding: 25px 15px;
+      font-size: 40px;
+    }
+  }
+
+  padding-top: @tile-vertical-gap;
+
+  #xs-h1 {
+    font-size: 35px;
+    margin: 6px 0 45px 0;
+  }
+  @media (min-width: @screen-sm) {
+    #xs-h1 {
+      display: none;
+    }
+  }
+
+  .tile {
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid @mzk-text-gray;
+    margin-bottom: @tile-vertical-gap;
+  }
+
+  .tile-image {
+    width: @tile-image-size;
+    height: @tile-image-size;
+  }
+
+  .tile-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .browser-image-mixin(@image-url) {
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: @tile-image-size;
+    background-image: url(@image-url);
+  }
+
+  #library-image {
+    .browser-image-mixin('images/secureBrowser/library.png');
+  }
+
+  #archive-image {
+    .browser-image-mixin('images/secureBrowser/webArchive.png');
+  }
+
+  .tile-hover(@image-selector, @image-url, @color) {
+    &:hover, &:focus {
+      h1 {
+        color: @color;
+      }
+      border-color: @color;
+      cursor: pointer;
+      #@{image-selector} {
+        background-image: url(@image-url);
+      }
+    }
+  }
+
+  #archive-tile {
+    .tile-hover(archive-image, 'images/secureBrowser/webArchiveHover.png', @mzk-text-webarchiv);
+  }
+
+  #library-tile {
+    .tile-hover(library-image, 'images/secureBrowser/libraryHover.png', @mzk-green);
+  }
+}
+

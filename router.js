@@ -24,6 +24,10 @@ Router.route('digitalni-knihovna', {
     yieldRegions: {digitalniKnihovna: {to: 'pageContent'}}
 });
 
+Router.route('chraneny-obsah', {
+    template: 'secureBrowser'
+});
+
 
 /* NAPOVEDA */
 Router.route('napoveda', {

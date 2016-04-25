@@ -4,222 +4,222 @@
 @tile-big-width: 190px;
 
 #tiles-wrap {
- padding-top: 75px;
-}
+  padding-top: 75px;
 
-.tile-text {
-  text-align: center;
-  text-decoration: none;
-  color: @mzk-text-gray;
-  font-family: DINPro-Bold;
-  font-size: 20px;
-}
+  .tile-text {
+    text-align: center;
+    text-decoration: none;
+    color: @mzk-text-gray;
+    font-family: DINPro-Bold;
+    font-size: 20px;
+  }
 
-.tile {
-  .tile-text;
-  display: block;
-  background-color: @mzk-body-gray;
-  border: 2px solid @mzk-text-gray;
-  border-radius: @tile-border-radius;
-  margin-bottom: @tiles-gap;
-  margin-right: @tiles-gap;
-  width: @tile-big-width;
-  padding: 0;
-}
+  .tile {
+    .tile-text;
+    display: block;
+    background-color: @mzk-body-gray;
+    border: 2px solid @mzk-text-gray;
+    border-radius: @tile-border-radius;
+    margin-bottom: @tiles-gap;
+    margin-right: @tiles-gap;
+    width: @tile-big-width;
+    padding: 0;
+  }
 
-.tile:hover {
-  background-color: @mzk-dark-gray;
-  color: @mzk-green;
-  text-decoration: none;
-}
+  .tile:hover {
+    background-color: @mzk-dark-gray;
+    color: @mzk-green;
+    text-decoration: none;
+  }
 
-.wrapper-dl {
-  width: @tile-big-width;
-  margin-right: @tiles-gap;
-}
+  .wrapper-dl {
+    width: @tile-big-width;
+    margin-right: @tiles-gap;
+  }
 
-.tile-big, .wrapper-dl {
-  height: 260px;
-}
+  .tile-big, .wrapper-dl {
+    height: 260px;
+  }
 
-.tile-small {
-  height: 150px;
-}
+  .tile-small {
+    height: 150px;
+  }
 
-.tile-image-mixin(@size; @margin) {
-  width: @size;
-  height: @size;
-  margin-top: @margin;
-  margin-bottom: @margin;
-  background-size: @size;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  .tile-image-mixin(@size; @margin) {
+    width: @size;
+    height: @size;
+    margin-top: @margin;
+    margin-bottom: @margin;
+    background-size: @size;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.tile-big-image {
-  .tile-image-mixin(@tile-image-size, 30px);
-}
+  .tile-big-image {
+    .tile-image-mixin(@tile-image-size, 30px);
+  }
 
-.tile-small-image {
-  .tile-image-mixin(50px, 15px);
-}
+  .tile-small-image {
+    .tile-image-mixin(50px, 15px);
+  }
 
-.tile-big-hint {
-  margin: 0;
-  height: 225px;
-  position: relative;
-  left: -50px;
-  top: 17px;
+  .tile-big-hint {
+    margin: 0;
+    height: 225px;
+    position: relative;
+    left: -50px;
+    top: 17px;
 
-  @rotation: -13deg;
-  -ms-transform: rotate(@rotation);
-  -webkit-transform: rotate(@rotation);
-  transform: rotate(@rotation);
+    @rotation: -13deg;
+    -ms-transform: rotate(@rotation);
+    -webkit-transform: rotate(@rotation);
+    transform: rotate(@rotation);
 
-  &:hover {
+    &:hover {
+      background-color: @mzk-dark-gray;
+    }
+  }
+
+  .dl-tile {
+    position: relative;
+    left: -15px;
+    top: -224px;
+  }
+
+  @media (min-width: @screen-xs-min) and (max-width: @screen-md-min) {
+    .wrapper-dl {
+      width: 175px;
+    }
+  }
+
+  @media (max-width: @screen-xs-min) {
+    .tile, .wrapper-dl {
+      margin-right: 5px;
+    }
+  }
+
+  @media (max-width: 860px) {
+    .tile-big-hint {
+      opacity: 0;
+    }
+  }
+
+  .print-hint-svg {
+    position: relative;
+    left: -210px;
+    top: 90px;
+
+    fill: none;
+    stroke: @mzk-text-gray;
+    stroke-width: 2;
+  }
+
+  #print-hint .circle-wrapper {
+    position: relative;
+    top: 56px;
+    left: 21px;
+  }
+
+  #mzk-tile, #katalog-tile, #napoveda-tile, #db-tile {
+    &:hover {
+      color: @mzk-text-blue;
+    }
+  }
+
+  #dl-image {
+    background-image: url("images/digiMzk.png");
+  }
+
+  .dl-tile:hover #dl-image {
+    background-image: url("images/digiMzkHover.png");
+  }
+
+  #mzk-image {
+    background-image: url("images/mzkLogo.png");
+  }
+
+  #mzk-tile {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #mzk-tile:hover #mzk-image {
+    background-image: url("images/mzkLogoHover.png");
+  }
+
+  #katalog-image {
+    background-image: url("images/katalog.png");
+  }
+
+  #katalog-tile:hover #katalog-image {
+    background-image: url("images/katalogHover.png");
+  }
+
+  #napoveda-tile {
     background-color: @mzk-dark-gray;
   }
-}
 
-.dl-tile {
-  position: relative;
-  left: -15px;
-  top: -224px;
-}
-
-@media (min-width: @screen-xs-min) and (max-width: @screen-md-min) {
-  .wrapper-dl {
-    width: 175px;
+  #napoveda-image {
+    background-image: url("images/napoveda.png");
   }
-}
 
-@media (max-width: @screen-xs-min) {
-  .tile, .wrapper-dl {
-    margin-right: 5px;
+  #napoveda-tile:hover #napoveda-image {
+    background-image: url("images/napovedaHover.png");
   }
-}
 
-@media (max-width: 860px) {
-  .tile-big-hint {
-    opacity: 0;
+  #web-archiv-image {
+    background-image: url("images/web-archiv.png");
   }
-}
 
-.print-hint-svg {
-  position: relative;
-  left: -210px;
-  top: 90px;
+  #web-archiv-tile:hover {
+    color: @mzk-text-webarchiv;
+  }
 
-  fill: none;
-  stroke: @mzk-text-gray;
-  stroke-width: 2;
-}
+  #web-archiv-tile:hover #web-archiv-image {
+    background-image: url("images/web-archiv-hover.png");
+  }
 
-#print-hint .circle-wrapper {
-  position: relative;
-  top: 56px;
-  left: 21px;
-}
+  #akce-image {
+    background-image: url("images/akce.png");
+  }
 
-#mzk-tile, #katalog-tile, #napoveda-tile, #db-tile {
-  &:hover {
+  #akce-tile:hover {
+    color: @mzk-text-akce;
+  }
+
+  #akce-tile:hover #akce-image {
+    background-image: url("images/akceHover.png");
+  }
+
+  #db-image {
+    background-image: url("images/db.png");
+  }
+
+  #db-tile:hover #db-image {
+    background-image: url("images/dbHover.png");
+  }
+
+  #print-image {
+    background-image: url("images/print.png");
+  }
+
+  #print-tile:hover {
+    color: @mzk-text-safeq;
+  }
+
+  #print-tile:hover #print-image {
+    background-image: url("images/printHover.png");
+  }
+
+  #mapy-image {
+    background-image: url("images/mapy.png");
+  }
+
+  #mapy-tile:hover {
     color: @mzk-text-blue;
   }
-}
 
-#dl-image {
-  background-image: url("images/digiMzk.png");
-}
-
-.dl-tile:hover #dl-image {
-  background-image: url("images/digiMzkHover.png");
-}
-
-#mzk-image {
-  background-image: url("images/mzkLogo.png");
-}
-
-#mzk-tile {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#mzk-tile:hover #mzk-image {
-  background-image: url("images/mzkLogoHover.png");
-}
-
-#katalog-image {
-  background-image: url("images/katalog.png");
-}
-
-#katalog-tile:hover #katalog-image {
-  background-image: url("images/katalogHover.png");
-}
-
-#napoveda-tile {
-  background-color: @mzk-dark-gray;
-}
-
-#napoveda-image {
-  background-image: url("images/napoveda.png");
-}
-
-#napoveda-tile:hover #napoveda-image {
-  background-image: url("images/napovedaHover.png");
-}
-
-#web-archiv-image {
-  background-image: url("images/web-archiv.png");
-}
-
-#web-archiv-tile:hover {
-  color: @mzk-text-webarchiv;
-}
-
-#web-archiv-tile:hover #web-archiv-image {
-  background-image: url("images/web-archiv-hover.png");
-}
-
-#akce-image {
-  background-image: url("images/akce.png");
-}
-
-#akce-tile:hover {
-  color: @mzk-text-akce;
-}
-
-#akce-tile:hover #akce-image {
-  background-image: url("images/akceHover.png");
-}
-
-#db-image {
-  background-image: url("images/db.png");
-}
-
-#db-tile:hover #db-image {
-  background-image: url("images/dbHover.png");
-}
-
-#print-image {
-  background-image: url("images/print.png");
-}
-
-#print-tile:hover {
-  color: @mzk-text-safeq;
-}
-
-#print-tile:hover #print-image {
-  background-image: url("images/printHover.png");
-}
-
-#mapy-image {
-  background-image: url("images/mapy.png");
-}
-
-#mapy-tile:hover {
-  color: @mzk-text-blue;
-}
-
-#mapy-tile:hover #mapy-image {
-  background-image: url("images/mapyHover.png");
+  #mapy-tile:hover #mapy-image {
+    background-image: url("images/mapyHover.png");
+  }
 }
