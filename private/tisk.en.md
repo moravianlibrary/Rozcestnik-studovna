@@ -19,21 +19,21 @@ At <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> you can see th
                 <td>1,50 Kč</td>
             </tr>
             <tr>
-                <td>černobílá jednostranná A3</td>
+                <td>black & white A3 single side</td>
                 <td>3 Kč</td>
             </tr>
             <tr>
-                <td>barevná jednostranná A4</td>
+                <td>color A4 single side</td>
                 <td>8 Kč</td>
             </tr>
             <tr>
-                <td>barevná jednostranná A3</td>
+                <td>color A3 single side</td>
                 <td>16 Kč</td>
             </tr> 
         </table>
     </div>
 </div>
 
-<a href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník služeb a poplatků</a>
+<a href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Complete price list of services and fees</a>
  
 [Návod jak tiskout]({{pathFor 'jak-tisknout'}})
