@@ -7,7 +7,7 @@ Zde najdete, jak používat počítače na studovně …
 
 <br>
 
-### [Ukládání dat]({{pathFor 'ukladani-dat'}})
-### [Linux]({{pathFor 'linux'}})
-### [Aplikace]({{pathFor 'aplikace'}})
-### [Tisk]({{pathFor 'tisk'}})
+### [Ukládání dat](/cs/ukladani-dat)
+### [Linux](/cs/linux)
+### [Aplikace](/cs/aplikace)
+### [Tisk](/cs/tisk)

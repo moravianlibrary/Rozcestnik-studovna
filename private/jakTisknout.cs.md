@@ -1,7 +1,7 @@
 # Jak tisknout
 <div class="alert alert-info text-center" role="alert">
     Před tím, než začnete tisknout z digitální knihovny. Přečtěte si, prosím, stránku 
-    <a href="{{pathFor 'tisk'}}" class="alert-link">tisk</a>.
+    <a href="/cs/tisk" class="alert-link">tisk</a>.
 </div>
 
 1. Označte příslušné strany v levém menu s výpisem stran. Vybrat lze jen stránky. Vybrat a vytisknout celý dokument není možné. 

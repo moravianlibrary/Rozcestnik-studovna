@@ -10,9 +10,9 @@ Můžete si je ale [vytisknout]({{pathFor 'jak-tisknout'}}) na tiskárnách MZK.
 
 <br>
    
-### [O digitální knihovně]({{pathFor 'o-digitalni-knihovne'}})
-### [Jak hledat]({{pathFor 'jak-hledat'}})
-### [Jak tisknout]({{pathFor 'jak-tisknout'}})
-### [Půjčení tabletů]({{pathFor 'tablety'}})
-### [Mobilní aplikace Kramerius]({{pathFor 'mobilni-aplikace-kramerius'}})
-### [Registrace a Oblíbené]({{pathFor 'registrace-a-oblibene'}})
+### [O digitální knihovně](/cs/o-digitalni-knihovne)
+### [Jak hledat](/cs/jak-hledat)
+### [Jak tisknout](/cs/jak-tisknout)
+### [Půjčení tabletů](/cs/tablety)
+### [Mobilní aplikace Kramerius](/cs/mobilni-aplikace-kramerius)
+### [Registrace a Oblíbené](/cs/registrace-a-oblibene)
