@@ -4,9 +4,9 @@ Digitální knihovna MZK nabízí digitální dokumenty prostřednictvím systé
 tak i autorsky chráněná díla různého žánru.
 
 Volná díla jsou přístupná odkudkoliv, autorsky chráněná pouze na počítačích MZK - 
-dostanete se k nim přes [speciální prohlížeč]({{pathFor 'digitalni-knihovna'}}),
+dostanete se k nim přes [speciální prohlížeč](/cs/digitalni-knihovna),
 kde dokumenty nelze stahovat ani kopírovat. 
-Můžete si je ale [vytisknout]({{pathFor 'jak-tisknout'}}) na tiskárnách MZK.
+Můžete si je ale [vytisknout](/cs/jak-tisknout) na tiskárnách MZK.
 
 <br>
    
