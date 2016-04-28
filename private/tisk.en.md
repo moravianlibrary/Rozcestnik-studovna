@@ -34,6 +34,6 @@ At <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> you can see th
     </div>
 </div>
 
-<a href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Complete price list of services and fees</a>
+<a href="http://www.mzk.cz/en/services/fees-and-fines" target="_blank">Complete price list of services and fees</a>
  
 [Návod jak tiskout](/en/jak-tisknout)
