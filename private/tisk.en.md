@@ -36,4 +36,4 @@ At <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> you can see th
 
 <a href="http://www.mzk.cz/en/services/fees-and-fines" target="_blank">Complete price list of services and fees</a>
  
-[Návod jak tiskout](/en/jak-tisknout)
+[How to print](/en/jak-tisknout)
