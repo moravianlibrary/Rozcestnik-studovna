@@ -1,4 +1,4 @@
-TAPi18n._afterUILanguageChange = function() {
+TAPi18n._afterUILanguageChange = function () {
     console.log("TAPi18n._afterUILanguageChange");
     I18NConf.setLanguage(TAPi18n.getLanguage());
 };
@@ -28,6 +28,31 @@ Router.route('chraneny-obsah', {
     template: 'secureBrowser'
 });
 
+
+/* DOWNLOAD .acho */
+function getAcho(langCode) {
+    return `host: kramerius.mzk.cz\nlang: ${langCode}`;
+}
+
+Router.route('/download-acho', {
+    where: 'server',
+    action: function () {
+        console.log(this.params);
+        this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
+        this.response.end(getAcho('cs'));
+    },
+    i18n: {
+        languages: {
+            en: {
+                action: function () {
+                    console.log(this.params);
+                    this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
+                    this.response.end(getAcho('en'));
+                }
+            }
+        }
+    }
+});
 
 /* NAPOVEDA */
 Router.route('napoveda', {
@@ -112,7 +137,8 @@ Router.route('tisk', {
                 data: {markdownFile: 'tisk.en.md'}
             }
         }
-    }});
+    }
+});
 
 
 Router.route('digitalni-knihovna-napoveda', {
