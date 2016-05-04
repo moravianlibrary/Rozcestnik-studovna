@@ -7,15 +7,16 @@
   "dl_all_volumes_p": "v prohlížeči autorsky chráněného obsahu",
   "dl_open_browser": "Otevírá se nový prohlížeč, počkejte prosím...",
   "dl_can_access": "Kompletní Digitální knihovna MZK",
-  "dl_can_access_p": "včetně novinek a autorsky chráněného obsahu",
+  "dl_can_access_p": "Včetně novinek a autorsky chráněného obsahu",
   "dl_can_print": "Tisk",
   "dl_can_print_p": "Návod",
   "dl_cannot_download": "Omezené stahnování a kopírování",
-  "dl_cannot_download_p": "Z důvodu ochrany autorských práv je možné kopírovat přes schránku (CTRL-C a CTRL-V) jen ve směru do prohlížeče.",
+  "dl_cannot_download_p": "Z důvodu ochrany autorských práv je možné kopírovat přes schránku (CTRL+C a CTRL+V) jen ve směru do prohlížeče.",
 
   "dl_free_volumes_h2": "VEŘEJNÝ PŘÍSTUP DO DIGITÁLNÍ KNIHOVNY",
-  "dl_can_download": "Stahování, kopírování, tisk bez omezení",
+  "dl_can_download": "Neomezené stahování, kopírování, tisk",
   "dl_cannot_browse": "Omezený obsah, většinou jen starší díla",
-  "dl_cannot_browse_p": "Autorský zákon dovoluje volné použití děl po uplynutí 70 let od smrti autora. ???",
+  "dl_cannot_browse_p": "Autorský zákon dovoluje volné šíření děl 70 let po smrti autora a 50 let od vydání.",
+  "dl_can_access_everywhere": "Přístupné odkudkoli",
   "dl_free_enter": "OTEVŘÍT"
 }

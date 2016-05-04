@@ -10,12 +10,13 @@
   "dl_can_access_p": "včetně novinek a autorsky chráněného obsahu",
   "dl_can_print": "Print",
   "dl_can_print_p": "Help",
-  "dl_cannot_download": "Omezené stahnování a kopírování",
+  "dl_cannot_download": "Omezené stahování a kopírování",
   "dl_cannot_download_p": "Z důvodu ochrany autorských práv je možné kopírovat přes schránku (CTRL-C a CTRL-V) jen ve směru do prohlížeče.",
 
   "dl_free_volumes_h2": "PUBLIC ACCESS TO DIGITAL LIBRARY",
   "dl_can_download": "Stahování, kopírování, tisk bez omezení",
   "dl_cannot_browse": "Omezený obsah, většinou jen starší díla",
   "dl_cannot_browse_p": "Autorský zákon dovoluje volné použití děl po uplynutí 70 let od smrti autora. ???",
+  "dl_can_access_everywhere": "Access from everywhere",
   "dl_free_enter": "OPEN"
 }
