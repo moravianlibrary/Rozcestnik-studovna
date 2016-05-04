@@ -1,129 +1,135 @@
-#all-volumes, #free-volumes {
-  margin-top: 50px;
-}
+#digital-library {
+  a.link {
+    font-size: 15px;
+  }
 
-ul.dl-list {
-  padding-top: 20px;
-  li {
-    &:first-child {
-      margin-top: 15px;
+  #all-volumes, #free-volumes {
+    margin-top: 50px;
+  }
+
+  ul.dl-list {
+    padding-top: 20px;
+    li {
+      &:first-child {
+        margin-top: 15px;
+      }
+      padding: 0 0 15px 40px;
+      list-style: none;
+      position: relative;
+      right: 40px;
+      h4 {
+        margin-bottom: 2px;
+      }
+      p {
+        font-size: 16px;
+      }
     }
-    padding: 0 0 15px 40px;
-    list-style: none;
-    position: relative;
-    right: 40px;
-    h4 {
-      margin-bottom: 2px;
+    .yes {
+      background: url('images/circleGreen.png') no-repeat left top;
     }
-    p {
-      font-size: 16px;
+    .no {
+      background: url('images/circleGray.png') no-repeat left top;
+      h4 {
+        color: @mzk-text-gray;
+      }
     }
   }
-  .yes {
-    background: url('images/circleGreen.png') no-repeat left top;
+
+  p.hint {
+    padding-top: 10px;
   }
-  .no {
-    background: url('images/circleGray.png') no-repeat left top;
-    h4 {
+
+  #dashed-line {
+    @media (min-width: @screen-lg) {
+      border-right: 1px dashed;
+    }
+    @media (max-width: @screen-md) {
+      border-bottom: 1px dashed;
+    }
+  }
+
+  #all-volumes {
+    .alert {
+      margin-top: 20px;
+    }
+    ul.dl-list {
+      li {
+        background-size: 20px;
+        h4 {
+          position: relative;
+          top: -4px;
+        }
+      }
+      li.inline {
+        h4, a {
+          position: relative;
+          top: -15px;
+        }
+        h4 {
+          display: inline-block;
+        }
+        a {
+          padding-left: 10px;
+        }
+      }
+    }
+
+    #all-volumes-button {
+      background-image: url('images/safeBrowser.png');
+      background-repeat: no-repeat;
+      background-color: @mzk-green;
+      background-size: contain;
+      border-radius: 10px;
+      border: 5px solid @mzk-green;
+      color: @mzk-dark-gray;
+      @icon-size: 90px;
+      height: @icon-size;
+      padding-left: @icon-size;
+      cursor: pointer;
+      p {
+        margin-bottom: 0;
+        font-size: 15px;
+      }
+
+      @media (min-width: @screen-sm) {
+        @icon-size: 75px;
+        border-width: 6px;
+        height: @icon-size - 10;
+        padding-left: @icon-size - 10;
+        p {
+          font-size: 20px;
+        }
+      }
+      @media (min-width: @screen-md) {
+
+      }
+      @media (min-width: @screen-lg) {
+        margin-right: 20px;
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+    #all-volumes-button, .alert {
+      max-width: 500px;
+    }
+  }
+
+  #free-volumes {
+    > h4 {
       color: @mzk-text-gray;
     }
-  }
-}
-
-p.hint {
-  padding-top: 10px;
-}
-
-#dashed-line {
-  @media (min-width: @screen-lg) {
-    border-right: 1px dashed;
-  }
-  @media (max-width: @screen-md) {
-    border-bottom: 1px dashed;
-  }
-}
-
-#all-volumes {
-  .alert {
-    margin-top: 20px;
-  }
-  ul.dl-list {
-    li {
-      background-size: 20px;
-      h4 {
-        position: relative;
-        top: -4px;
+    ul.dl-list {
+      li {
+        background-size: 15px;
+        h4 {
+          position: relative;
+          top: -6px;
+        }
       }
     }
-    li.inline {
-      h4, a {
-        position: relative;
-        top: -15px;
-      }
-      h4 {
-        display: inline-block;
-      }
-      a {
-        padding-left: 10px;
-      }
+    a {
+      padding-left: 40px;
     }
-  }
-
-  #all-volumes-button {
-    background-image: url('images/safeBrowser.png');
-    background-repeat: no-repeat;
-    background-color: @mzk-green;
-    background-size: contain;
-    border-radius: 10px;
-    border: 5px solid @mzk-green;
-    color: @mzk-dark-gray;
-    @icon-size: 90px;
-    height: @icon-size;
-    padding-left: @icon-size;
-    cursor: pointer;
-    p {
-      margin-bottom: 0;
-      font-size: 15px;
-    }
-
-    @media (min-width: @screen-sm) {
-      @icon-size: 75px;
-      border-width: 6px;
-      height: @icon-size - 10;
-      padding-left: @icon-size - 10;
-      p {
-        font-size: 20px;
-      }
-    }
-    @media (min-width: @screen-md) {
-
-    }
-    @media (min-width: @screen-lg) {
-      margin-right: 20px;
-      p {
-        font-size: 17px;
-      }
-    }
-  }
-  #all-volumes-button, .alert {
-    max-width: 500px;
-  }
-}
-
-#free-volumes {
-  > h4 {
-    color: @mzk-text-gray;
-  }
-  ul.dl-list {
-    li {
-      background-size: 15px;
-      h4 {
-        position: relative;
-        top: -6px;
-      }
-    }
-  }
-  a {
-    padding-left: 40px;
   }
 }

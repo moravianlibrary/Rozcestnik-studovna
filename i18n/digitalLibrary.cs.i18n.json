@@ -1,7 +1,7 @@
 {
   "dl_h1": "Vstup do digitální knihovny MZK",
-  "dl_intro_1": "Milióny digitálních stran. Monografie, periodika, staré tisky, rukopisy, mapy a zvukové nahrávky.",
-  "dl_intro_2": "Více o digitální knihovně",
+  "dl_intro_1": "Mnoho digitálních dokumentů - monografie, periodika, staré tisky, rukopisy, mapy, zvukové nahrávky a jiné.",
+  "dl_intro_2": "VÍCE O DIGITÁLNÍ KNIHOVNĚ",
 
   "dl_all_volumes_h2": "PLNÁ VERZE DIGITÁLNÍ KNIHOVNY",
   "dl_all_volumes_p": "v prohlížeči autorsky chráněného obsahu",
@@ -9,8 +9,8 @@
   "dl_can_access": "Kompletní Digitální knihovna MZK",
   "dl_can_access_p": "Včetně novinek a autorsky chráněného obsahu",
   "dl_can_print": "Tisk",
-  "dl_can_print_p": "Návod",
-  "dl_cannot_download": "Omezené stahnování a kopírování",
+  "dl_can_print_p": "NÁVOD",
+  "dl_cannot_download": "Omezené stahování a kopírování",
   "dl_cannot_download_p": "Z důvodu ochrany autorských práv je možné kopírovat přes schránku (CTRL+C a CTRL+V) jen ve směru do prohlížeče.",
 
   "dl_free_volumes_h2": "VEŘEJNÝ PŘÍSTUP DO DIGITÁLNÍ KNIHOVNY",
