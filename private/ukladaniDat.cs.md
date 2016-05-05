@@ -6,16 +6,20 @@
     <a href="http://www.uschovna.cz/" class="alert-link">online uložiště</a>.
 </div>
 
-Při přihlášením do počítače se vytvoří vaše Domovská složka, najdete ji na Ploše v levém horním rohu.
-Do této složky můžete ukládat vaše dokumenty, stahovat soubory z internetu apod.
+<p class="with-image">
+    <img class="on-left" src="/images/help/ukladaniDat/homeFolder.png">
+    Při přihlášením do počítače se vytvoří vaše **Domovská složka**, najdete ji na *Ploše* v levém horním rohu.
+    Do této složky můžete ukládat vaše dokumenty, stahovat soubory z internetu apod.
+</p>
 
-Ve Správci souborů uvidíte Domovskou složku s vygenerovaným číselným kódem, který je pro každého uživatele jedinečný.
-(Z důvodu velkého počtu našich čtenářů by bylo velmi obtížné pojmenovávat domovské složky na základě jména nebo příjmení uživatele.)
+<p class="with-image">
+    <img class="on-right" src="/images/help/ukladaniDat/fileManager.png">
+    Ve Správci souborů uvidíte Domovskou složku s vygenerovaným číselným kódem, který je pro každého uživatele jedinečný.
+    (Z důvodu velkého počtu našich čtenářů by bylo velmi obtížné pojmenovávat domovské složky na základě jména nebo příjmení uživatele.)
+</p>
 
-
-Domovská složka i obsah vaší Plochy jsou umístěny na serveru knihovny.
-V rámci jednoho dne tedy můžete přecházet mezi počítači ve studovnách, vaše soubory budou stále na místě.
-
-
-
-
+<p class="with-image">
+    <img class="on-left" src="/images/help/ukladaniDat/server.png">
+    Domovská složka i obsah vaší Plochy jsou umístěny na serveru knihovny.
+    V rámci **jednoho dne** tedy můžete přecházet mezi počítači ve studovnách, vaše soubory budou stále na místě.
+</p>
