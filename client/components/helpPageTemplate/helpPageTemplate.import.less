@@ -1,21 +1,33 @@
-@media (min-width: @screen-lg-min) {
-    #help-page {
-        @padding: 100px;
-        padding-left: @padding;
-        padding-right: @padding;
-    }
-}
+#help-page {
+  @media (min-width: @screen-lg) {
+    @padding: 100px;
+    padding-left: @padding;
+    padding-right: @padding;
+  }
 
-#help-page img {
+  p {
+    margin-bottom: 15px;
+  }
+
+  img {
     max-width: 100%;
     display: block;
     margin: 40px auto;
+  }
+
+  figure {
+    img {
+      margin-bottom: 12px;
+    }
+    figcaption {
+      text-align: center;
+    }
+  }
+
+  #google-play-badge {
+    img {
+      height: 65px;
+    }
+  }
 }
 
-#help-page p {
-    margin-bottom: 15px;
-}
-
-#google-play-badge img {
-    height: 65px;
-}
