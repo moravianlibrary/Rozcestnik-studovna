@@ -1,17 +1,13 @@
 # About digital library
-Digital library MZK offers digitized documents via Kramerius and contains works in the public domain as well as copyright works of many genres.
 
-Works in the public domain have unlimited access, copyright works are accessible only via the computers in the MZK through the given browser where the documents cannot be downloaded or copied. However, you can print them on the library printers.
+In the Digital library you can find monographs, periodicals, manuscripts, maps, recordings, archivalias, sheetmusic or graphics.
 
+The basic division of document:
 
-V digitální knihovně najdete monografie, periodika, rukopisy, mapy, zvukové nahrávky, archiválie, hudebniny či grafiku.
+* __public documents__ - these are works in the public domain. They are not subject to author’s or publisher’s rights. They are freely accessible
+* __private documents__ - these are copyright works. They are protected by author’s or publisher’s rights (the duration of a copyright spans the author's life plus 70 years and 50 years from publishing); you can read them via this [browser] (but you cannot download and print)
 
-Základní dělení dokumentů je na veřejné a neveřejné:
-
-* __veřejné dokumenty__ - volná díla, nevztahují se na ně autorská ani nakladatelská práva, jsou přístupné odkudkoliv
-* __neveřejné dokumenty__ - autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání); prohlížet a tisknout si je můžete v tomto [prohlížeči]() (pozor, nelze stahovat ani kopírovat)
-
-__Dotazy a připomínky:__ Pokud máte dotaz nebo nás chcete na něco upozornit, pište na kramerius@mzk.cz.
+__Questions and comments:__ if you have any questions or comment please let us know on kramerius@mzk.cz.
 
 About the Digital library
 Registration for the Digital library
