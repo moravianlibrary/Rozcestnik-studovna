@@ -20,8 +20,7 @@
 
     ![](/images/help/jakTisknout/step4.png)
 
-5. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. Click on printer icon in the top right corner.
-V prohlížeči se otevře PDF se stránkami, které jste vybrali pro tisk. Takto si můžete zkontrolovat stránky, které chtete vytisknout. Pokud je vše v pořádku, klikněte ikonku s obrázkem tiskárny vpravo nahoře.
+5. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. Click on printer icon in the top right corner. You will see a PDF document with pages prepared for print. Here you can check the pages you want to print. If everything is alright click on print in the top right corner.
 
     ![](/images/help/jakTisknout/step5.png)
 
