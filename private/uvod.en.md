@@ -9,8 +9,8 @@ In case of ambiguity please write to vknihovne@mzk.cz.
 
 <br>
 
-### [Saving data](/cs/ukladani-dat)
-### [Linux](/cs/linux)
-### [Applications](/cs/aplikace)
-### [Headphones](/cs/aplikace)
-### [Print](/cs/tisk)
+### [Saving data](/en/ukladani-dat)
+### [Linux](/en/linux)
+### [Applications](/en/aplikace)
+### [Headphones](/en/aplikace)
+### [Print](/en/tisk)
