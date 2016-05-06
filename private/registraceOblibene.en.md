@@ -1,7 +1,7 @@
-# Registration in Digital library / Registrace v digitální knihovně
-You can <a href="http://kramerius.mzk.cz" target="_blank">http://kramerius.mzk.cz</a> v záložce **register** for the Digital library and save documents into Favourites. 
+# Registration in the Digital library
+You can <a href="http://kramerius.mzk.cz" target="_blank">http://kramerius.mzk.cz</a>  **register** for the Digital library and save documents into Favourites. 
 
-Registration does not affect access to documents. / Pozor, registrace nemá vliv na přístupnost neveřejných dokumentů mimo budovu knihovny.
+Registration does not affect access to documents.
 
 ## Favourites
 How to select a document as Favourite?
@@ -18,7 +18,7 @@ How to select a document as Favourite?
 
     ![](/images/help/registraceOblibene/step3.png)
     
-4. Potvrďte přidání dokumentu tlačítkem OK.
+4. Press OK.
 
     ![](/images/help/registraceOblibene/step4.png)
 
