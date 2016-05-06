@@ -5,7 +5,7 @@ No mandatory activation or registration. There are practically no viruses for Li
 
 
 ### Flexibility and choices
-We chose intuitive environment and [applications](/cs/aplikace) that are needed for everyday work with the Internet and electronic documents. We installed a system that will be sustainable even on several dozen computers in the library.
+We chose intuitive environment and [applications](/en/aplikace) that are needed for everyday work with the Internet and electronic documents. We installed a system that will be sustainable even on several dozen computers in the library.
 
 ### Economic reasons
 Linux is an open source. Linux is free and runs on older and weaker computers.
