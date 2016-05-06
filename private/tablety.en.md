@@ -1,1 +1,16 @@
-# Lending of tablets
+# Tablet Lending
+
+In the Reading Room on the 6th floor, you can borrow a tablet with mobile application Kramerius where you will find all the works included in the Digital Library MZK!
+Borrow a tablet and go read a book on your favorite spot in the library.
+If you see the message "Failed to retrieve data," make sure you are connected to a wifi network Kramerius - open the Settings menu, select Wi-Fi network and then select network Kramerius.
+
+
+![](/images/help/pujceniTabletu/tablet.jpg)
+
+You can download mobile application Kramerius to your device and view works in the public domain from home (you will find there also digitized document from other 17 Czech libraries).
+
+Application for Android (available via Google Play):
+https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app
+
+Application for IOS (available via the App Store):
+https://itunes.apple.com/us/app/kramerius/id1065771974?mt=8
