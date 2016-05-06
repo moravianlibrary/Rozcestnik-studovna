@@ -1,13 +1,13 @@
 # Registration and Favourites in Digital library /Registrace v digitální knihovně
 
-You can register for the Digital library and save documents into Favourites. Registration does not affect access to documents.
-Registrovat se můžete na hlavní straně <a href="http://kramerius.mzk.cz" target="_blank">http://kramerius.mzk.cz</a> v záložce **Registration**.
+V Digitální knihovně MZK je možnost se registrovat a díky tomu si ukládat zajímavé dokumenty do Oblíbených.
+-Registrovat se můžete na hlavní straně <a href="http://kramerius.mzk.cz" target="_blank">http://kramerius.mzk.cz</a> v záložce **Registrace**.
 Pozor, registrace nemá vliv na přístupnost neveřejných dokumentů mimo budovu knihovny.
 
-## Favourites
-How to select a document as Favourite?
+## Oblíbené
+Jak si přidat dokument do Oblíbených?
 
-1. Otevřete si libovolnou sbírku. In the left menu with page numbers select the top-level document.
+1. Otevřete si libovolnou sbírku. V levém menu zatrhněte dokument na nejvyšší úrovni.
 
     ![](/images/help/registraceOblibene/step1.png)
  
@@ -15,7 +15,7 @@ How to select a document as Favourite?
 
     ![](/images/help/registraceOblibene/step2.png)
  
-3. Choose “add to Favourite”.
+3. Klikněte na přidat k oblíbeným.
 
     ![](/images/help/registraceOblibene/step3.png)
     
