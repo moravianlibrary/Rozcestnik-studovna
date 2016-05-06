@@ -8,3 +8,11 @@ zkontrolujte, zda jste připojení k wifi síti Kramerius – otevřete v zaří
 klepněte na Wi-Fi a následně na síť Kramerius.
 
 ![](/images/help/pujceniTabletu/tablet.jpg)
+
+Mobilní aplikaci Kramerius si můžete stáhnout také do svého zařízení a prohlížet si veřejně dostupná díla i doma (najdete tam dokonce i digitální dokumenty dalších 17 českých knihoven).
+
+Aplikace pro Android (dostupná přes Google Play):
+https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app 
+
+Aplikace pro iOS (dostupná přes App Store):
+https://itunes.apple.com/us/app/kramerius/id1065771974?mt=8
