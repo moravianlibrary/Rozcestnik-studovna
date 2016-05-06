@@ -1,28 +1,29 @@
 # How to search the Digital library
-Dokumenty v digitální knihovně lze hledat různými způsoby.
+Document in the Digital Library can be search through different ways.
 
-###Search and Advanced search - můj překlad (Jednoduché a pokročilé vyhledávání)
+###Search and Advanced search
+
+The main seach field in the Digital Library is in the upper part of the screen.
 
 V <a href="http://kramerius.mzk.cz/" target="_blank">digitální knihovně</a> se hlavní vyhledávací řádek nachází v horní části obrazovky.
 Placed next to the simple search filters query by the title, author, year...
-Tlačítkem Pokročilé vyhledávání se upřesňuje dotaz dle názvu, autora, roku vydání atp.
 
 ![](/images/help/jakHledat/jednoducheHledani.png)
 
 ### Time line
-Searching by year na hlavní straně vlevo.
+Search by year at the left part of the screen.
 
 ![](/images/help/jakHledat/casovaOsa.png)
 
-### Záložky na hlavní straně
-Záložky na hlavní straně řadí dokumenty do skupin:
+### Bookmarks on the main page
+Bookmarks on the main page are selected into:
 
-* Vybrané
-* Nejnovější
-* Navigation/Navigace (prohlížení dle typu dokumentu)
-* Tituly
-* Authors / Autoři (seřazeno abecedně)
-* The virtual collection / Virtuální sbírky
+* Custom
+* Newest
+* Navigation
+* Titles
+* Authors
+* Collections
 
 ![](/images/help/jakHledat/zalozky.png)
 
