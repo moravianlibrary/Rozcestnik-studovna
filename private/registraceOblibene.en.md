@@ -22,10 +22,10 @@ How to select a document as Favourite?
 
     ![](/images/help/registraceOblibene/step4.png)
 
-5. Pro zobrazní oblíbených položek nejprve přejděte na stránku domů.
+5. Select home for seeing your Favourites.
 
     ![](/images/help/registraceOblibene/step5.png)
     
-6. V menu kliněte na položku Oblíbené. 
+6. In the menu select Favourite. 
 
     ![](/images/help/registraceOblibene/step6.png)
