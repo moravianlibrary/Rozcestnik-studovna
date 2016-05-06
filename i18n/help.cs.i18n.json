@@ -1,16 +1,17 @@
 {
- "help_topics_h1": "Témata nápovědy",
- "help_intro": "Úvod",
- "help_computers": "Počítače v MZK",
+ "help_topics_h1": "HELP TOPICS",
+ "help_intro": "Introduction",
+ "help_computers": "MZK computers",
  "help_linux": "Linux",
- "help_apps": "Aplikace",
- "help_headphones": "Sluchátka",
+ "help_apps": "Applications",
+ "help_headphones": "Headphones",
  "help_saving_data": "Ukládání dat",
- "help_print": "Tisk",
- "help_about_dl": "O digitální knihovně",
- "help_how_to_search": "Jak hledat",
- "help_how_to_print": "Jak tisknout",
- "help_registration": "Registrace a oblíbené",
- "help_tablets": "Půjčení tabletů",
- "help_kramerius": "Mobilní aplikace Kramerius"
+ "help_print": "Print",
+ "help_about_dl": "Digital Library MZK",
+ About the Digital Library
+ "help_how_to_search": "How to search",
+ "help_how_to_print": "How to print",
+ "help_registration": "Registration and Favourites",
+ "help_tablets": "Tablet Lending",
+ "help_kramerius": "mobile application Kramerius"
 }
