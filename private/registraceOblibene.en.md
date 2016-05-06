@@ -6,15 +6,15 @@ Registration does not affect access to documents. / Pozor, registrace nemá vliv
 ## Favourites
 How to select a document as Favourite?
 
-1. In the left menu with page numbers select the top-level document 
+1. In the left menu with page numbers select the top-level document.
 
     ![](/images/help/registraceOblibene/step1.png)
  
-2. Klikněte na ozubené kolečko.
+2. Click on the gear icon.
 
     ![](/images/help/registraceOblibene/step2.png)
  
-3. Choose “add to Favourite”
+3. Click to Favourite.
 
     ![](/images/help/registraceOblibene/step3.png)
     
