@@ -5,9 +5,9 @@ You can work with documents or connect on the Internet and use <a href="https://
 Here you find instruction on how to use computers in the Study Rooms.
 <br>
 
-
 ### [Saving data](/cs/ukladani-dat)
 ### [Linux](/cs/linux)
 ### [Applications](/cs/aplikace)
+### [Headphones](/cs/aplikace)
 ### [Print](/cs/tisk)
-Headphones
+
