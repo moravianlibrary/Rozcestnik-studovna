@@ -1,5 +1,5 @@
 # Registration in the Digital library
-You can <a href="http://kramerius.mzk.cz" target="_blank">http://kramerius.mzk.cz</a> **register** for the Digital library and save documents into Favourites. 
+You can <a href="http://kramerius.mzk.cz/" target="_blank">digitální knihovně</a> > **register** for the Digital library and save documents into Favourites. 
 
 Registration does not affect access to documents.
 
