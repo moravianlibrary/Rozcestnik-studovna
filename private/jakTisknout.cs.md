@@ -25,8 +25,7 @@
 
     ![](/images/help/jakTisknout/step5.png)
 
-6. Preceed as with usual printing on MZK computers
-Původní: Nyní si můžete nastavit svůj tisk. Více o nastavení tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
+6. Nyní si můžete nastavit svůj tisk. Více o nastavení tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
    Pokud vám výchozí nastavení tisku vyhovuje, stiskněte tlačítko tisk.
    
    ![](/images/help/jakTisknout/tisknout.png)
