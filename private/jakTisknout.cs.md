@@ -1,6 +1,6 @@
 # Jak tisknout
 <div class="alert alert-info text-center" role="alert">
-    Před tím, než začnete tisknout z digitální knihovny. Přečtěte si, prosím, stránku 
+    Předtím, než začnete tisknout z digitální knihovny. Přečtěte si, prosím, stránku 
     <a href="/cs/tisk" class="alert-link">tisk</a>.
 </div>
 
