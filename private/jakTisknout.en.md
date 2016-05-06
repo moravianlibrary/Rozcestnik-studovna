@@ -20,24 +20,25 @@
 
     ![](/images/help/jakTisknout/step4.png)
 
-5. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. Click on printer icon in the top right corner. You will see a PDF document with pages prepared for print. Here you can check the pages you want to print. If everything is alright click on print in the top right corner.
+5. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. Click on printer icon in the top right corner. 
 
     ![](/images/help/jakTisknout/step5.png)
 
-6. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print.
-Nyní si můžete nastavit svůj tisk. Více o nastavení tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
-Pokud vám výchozí nastavení tisku vyhovuje, stiskněte tlačítko tisk.
-   
+6. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. You will see a PDF document with pages prepared for print. Here you can check the pages you want to print. More about how to set the [print]({{pathFor 'tisk'}}). 
+
+
+If you are satisfied with the setting press print.
+
    ![](/images/help/jakTisknout/tisknout.png)
    
-7. Pro tisk vašeho dokumentu musíte přijít k jedné z těchto tiskáren:  
+7. You can print at one of these printers:
 
-     * v přízemí v půjčovně 
-     * v 2. patře v zadní části studovny 
-     * v 4. patře v zadní části studovny 
-     * v 6. patře v zadní části studovny
+     * on the ground floor
+     * on the 2nd floor at the back
+     * on the 4th floor at the back
+     * on the 6th floor at the back
      
    <br> 
-   Pro provedení vašeho tisku je nutné přiložit vaši čtenářskou kartu k terminálu SafeQ.
+   You need you library card with credit. You then press your library card to the SafeQ terminal on the printer (small box with display on the right side of the printer). 
    Přiložte svoji kartu přesně do červeně vyznačeného místa.
   ![](/images/help/jakTisknout/terminal.jpg)
