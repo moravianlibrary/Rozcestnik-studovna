@@ -9,8 +9,11 @@ If you see the message "Failed to retrieve data," make sure you are connected to
 
 You can download mobile application Kramerius to your device and view works in the public domain from home (you will find there also digitized document from other 17 Czech libraries).
 
-Application for Android (available via Google Play):
-https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app
+<a href="https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app" target="_blank">
+Aplikace pro Android (dostupná přes Google Play)
+</a>
 
+<a href="https://itunes.apple.com/us/app/kramerius/id1065771974?mt=8" target="_blank">
 Application for IOS (available via the App Store):
-https://itunes.apple.com/us/app/kramerius/id1065771974?mt=8
+</a>
+
