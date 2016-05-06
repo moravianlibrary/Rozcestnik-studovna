@@ -1,7 +1,7 @@
 # How to print from the Digital Library
 <div class="alert alert-info text-center" role="alert">
     Please, read the instruction on how to print from the Digital Library before you start to 
-    <a href="/cs/tisk" class="alert-link">print</a>.
+    <a href="/en/tisk" class="alert-link">print</a>.
 </div>
 
 1. Choose requested pages in the left menu. Document as a whole cannot be chosen. 
