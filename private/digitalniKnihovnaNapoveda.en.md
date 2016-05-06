@@ -11,6 +11,6 @@ However, you can [print](/cs/jak-tisknout) them on the library printers.
 ### [About the Digital library](/cs/o-digitalni-knihovne)
 ### [How to search](/cs/jak-hledat)
 ### [How to print](/cs/jak-tisknout)
-### [Půjčení tabletů](/cs/tablety)
+### [ablet Lending](/cs/tablety)
 ### [Mobilní aplikace Kramerius](/cs/mobilni-aplikace-kramerius)
 ### [Registration for the Digital library](/cs/registrace-a-oblibene)
