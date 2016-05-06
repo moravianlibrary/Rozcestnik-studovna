@@ -1,7 +1,7 @@
 # How to print from the Digital Library
 <div class="alert alert-info text-center" role="alert">
-    Před tím, než začnete tisknout z digitální knihovny. Přečtěte si, prosím, stránku 
-    <a href="/cs/tisk" class="alert-link">tisk</a>.
+    Please, read the instruction on how to print from the Digital Library before you start to 
+    <a href="/cs/tisk" class="alert-link">print</a>.
 </div>
 
 1. Choose requested pages in the left menu. Document as a whole cannot be chosen. 
@@ -12,11 +12,11 @@
 
     ![](/images/help/jakTisknout/step2.png)
 
-3. Click on “Print”.   A PDF document is created.
+3. Click on “Print”. A PDF document is created.
 
     ![](/images/help/jakTisknout/step3.png)
 
-4. Choose page size A4 or A3 in the print settings. Svoji volbu potvrďte tlačítkem Ok.
+4. Choose page size A4 or A3 in the print settings. Then press OK.
 
     ![](/images/help/jakTisknout/step4.png)
 
