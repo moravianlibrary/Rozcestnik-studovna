@@ -37,7 +37,6 @@ function getAcho(langCode) {
 Router.route('/download-acho', {
     where: 'server',
     action: function () {
-        console.log(this.params);
         this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
         this.response.end(getAcho('cs'));
     },
@@ -45,12 +44,20 @@ Router.route('/download-acho', {
         languages: {
             en: {
                 action: function () {
-                    console.log(this.params);
                     this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
                     this.response.end(getAcho('en'));
                 }
             }
         }
+    }
+});
+
+Router.route('/kramerius-acho/:host/:lang/:uuid', {
+    where: 'server',
+    action: function () {
+        console.log(this.params);
+        this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
+        this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\nuuid: ${this.params.uuid}`);
     }
 });
 
