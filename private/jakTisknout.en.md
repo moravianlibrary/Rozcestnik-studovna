@@ -12,21 +12,22 @@
 
     ![](/images/help/jakTisknout/step2.png)
 
-3. Click on “Print” and choose page size A4 or A3 in the print settings. A PDF document is created.
+3. Click on “Print”.   A PDF document is created.
 
     ![](/images/help/jakTisknout/step3.png)
 
-4. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print.
+4. Choose page size A4 or A3 in the print settings. Svoji volbu potvrďte tlačítkem Ok.
 
     ![](/images/help/jakTisknout/step4.png)
 
-5. Click on printer icon in the top right corner.
+5. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. Click on printer icon in the top right corner.
+V prohlížeči se otevře PDF se stránkami, které jste vybrali pro tisk. Takto si můžete zkontrolovat stránky, které chtete vytisknout. Pokud je vše v pořádku, klikněte ikonku s obrázkem tiskárny vpravo nahoře.
 
     ![](/images/help/jakTisknout/step5.png)
 
 6. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print.
-Původní text: Nyní si můžete nastavit svůj tisk. Více o nastavení tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
-   Pokud vám výchozí nastavení tisku vyhovuje, stiskněte tlačítko tisk.
+Nyní si můžete nastavit svůj tisk. Více o nastavení tisku se dočtete v kapitole [tisk]({{pathFor 'tisk'}}). 
+Pokud vám výchozí nastavení tisku vyhovuje, stiskněte tlačítko tisk.
    
    ![](/images/help/jakTisknout/tisknout.png)
    
