@@ -5,7 +5,7 @@ Obsah nápovědy si můžete pročíst v menu na pravé straně.
 
 V případě nejasností pište na vknihovne@mzk.cz.
 
-br
+<br>
 
 ### [Ukládání dat](/cs/ukladani-dat)
 ### [Linux](/cs/linux)
