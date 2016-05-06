@@ -1,9 +1,7 @@
 # Applications
 
 ## Internet
-Pro prohlížení webových stránek můžete použít aplikace *IceWeasel* (odnož prohlížeče Firefox) nebo *Chromium*.
-Jako výchozí prohlížeč je nastaven *IceWeasel*, který se otevře i po poklepání na ikonu Webový prohlížeč na Ploše.
-K zobrazení neveřejných děl Digitální knihovny slouží *Prohlížeč autorsky chráněného obsahu*.
+For the Internet browsing you can use *IceWeasel* or *Chromium*. IceWeasel is set as your default browser. To view the copyright works in the Digital Library use browser *for copyright content*.
 
 <figure>
   <img src="/images/help/aplikace/menu-internet.png" alt="XFCE menu Internet">
@@ -22,20 +20,20 @@ K zobrazení neveřejných děl Digitální knihovny slouží *Prohlížeč auto
     </figure>
 </div>
 
-## Kancelářské programy
-Sada kancelářských nástrojů *LibreOffice* (obdoba MS Office) obsahuje mimo jiné tyto programy:
+## Set of Office tools
+Set of office tools *LibreOffice* (similar to MS Office programs) contain the following:
 
-* *Writer*, obdoba MS Word, zpracování textových dokumentů,
-* *Calc*, obdoba MS Excel, práce s tabulkami,
-* *Impress*, obdoba MS Powerpoint, nástroj na tvorbu prezentací.
+* *Writer*, similar to MS Word, for working with text documents,
+* *Calc*, similar to MS Excel, for working with Excel data,
+* *Impress*, similar to MS Powerpoint, for working with slideshows.
 
-Uložené pdf soubory zobrazí aplikace *Prohlížeč dokumentů*.
+PDF can be open in *Document Viewer*.
 
 <figure>
   <img src="/images/help/aplikace/menu-office.png" alt="Menu Kancelářské aplikace">
   <figcaption>Otevřené menu s kancelářskými aplikacemi.</figcaption>
 </figure>
 
-## Další aplikace
+## More applications
 K dispozici je multimediální přehrávač *VLC*, správce fotografií *Shotwell*,
 nástroj pro práci se zabalenými soubory (zip, rar) *Xarchiver* a několik dalších aplikací.
