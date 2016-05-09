@@ -35,5 +35,4 @@ PDF can be open in *Document Viewer*.
 </figure>
 
 ## More applications
-You can use VLC for multimedia, Shotwell for photographs, Xarchiver for compressed files (zip, rar) and few other apps.
-You can you *VLC* for multimedia,*Shotwell* for photographs, *Xarchiver* for compressed files (zip, rar) and few others.
+You can use *VLC* for multimedia,*Shotwell* for photographs, *Xarchiver* for compressed files (zip, rar) and few other apps.
