@@ -57,7 +57,7 @@ Router.route('/kramerius-acho/:host/:lang/:uuid', {
     action: function () {
         console.log(this.params);
         this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
-        this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\nuuid: ${this.params.uuid}`);
+        this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\npid: ${this.params.uuid}`);
     }
 });
 
