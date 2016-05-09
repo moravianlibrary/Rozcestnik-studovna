@@ -35,5 +35,5 @@ PDF can be open in *Document Viewer*.
 </figure>
 
 ## More applications
-K dispozici je multimediální přehrávač *VLC*, správce fotografií *Shotwell*,
-nástroj pro práci se zabalenými soubory (zip, rar) *Xarchiver* a několik dalších aplikací.
+You can use VLC for multimedia, Shotwell for photographs, Xarchiver for compressed files (zip, rar) and few other apps.
+You can you *VLC* for multimedia,*Shotwell* for photographs, *Xarchiver* for compressed files (zip, rar) and few others.
