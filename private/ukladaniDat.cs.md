@@ -8,7 +8,7 @@
 
 <p class="with-image">
     <img class="on-left" src="/images/help/ukladaniDat/homeFolder.png">
-    Při přihlášením do počítače se vytvoří vaše  [**Domovská složka**], najdete ji na *Ploše* v levém horním rohu.
+    Při přihlášením do počítače se vytvoří vaše  **Domovská složka**, najdete ji na *Ploše* v levém horním rohu.
     Do této složky můžete ukládat vaše dokumenty, stahovat soubory z internetu apod.
 </p>
 
