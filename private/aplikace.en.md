@@ -31,7 +31,7 @@ PDF can be open in *Document Viewer*.
 
 <figure>
   <img src="/images/help/aplikace/menu-office.png" alt="Menu Kancelářské aplikace">
-  <figcaption>Otevřené menu s kancelářskými aplikacemi.</figcaption>
+  <figcaption> Open menu with Office Tools.</figcaption>
 </figure>
 
 ## More applications
