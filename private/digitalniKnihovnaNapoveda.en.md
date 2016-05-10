@@ -7,10 +7,5 @@ However, you can [print](/en/jak-tisknout) them on the library printers.
 
 
 <br>
-   
-### [About the Digital library](/en/o-digitalni-knihovne)
-### [How to search](/en/jak-hledat)
-### [How to print](/en/jak-tisknout)
-### [Tablet Lending](/en/tablety)
-### [Mobilní aplikace Kramerius](/en/mobilni-aplikace-kramerius)
-### [Registration for the Digital library](/en/registrace-a-oblibene)
+### [Počítače v MZK](/cs/pocitaceVMzk)
+### [Digitální knihovna MZK](/cs/digitalniKnihovnaNapoveda)
