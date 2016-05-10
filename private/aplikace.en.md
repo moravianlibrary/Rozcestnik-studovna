@@ -5,18 +5,18 @@ For the Internet browsing you can use *IceWeasel* or *Chromium*. IceWeasel is se
 
 <figure>
   <img src="/images/help/aplikace/menu-internet.png" alt="XFCE menu Internet">
-  <figcaption>Otevřené menu s webovými prohlížeči.</figcaption>
+  <figcaption>Open menu with the Internet browser.</figcaption>
 </figure>
 
 <div class="row">
     <figure class="col-md-5 col-md-offset-1">
       <img src="/images/help/aplikace/plocha-pacho.png" alt="Ikona prohlížeče chráněného obsahu">
-      <figcaption>I na ploše najdete prohlížeč autorsky chráněného obsahu</figcaption>
+      <figcaption> Browser for copyright content </figcaption>
     </figure>
     
     <figure class="col-md-5">
       <img src="/images/help/aplikace/plocha-browser.png" alt="Ikona webového prohlížeče">
-      <figcaption>Internet otevřete i z plochy</figcaption>
+      <figcaption>You can also open the Internet from desktop </figcaption>
     </figure>
 </div>
 
@@ -31,7 +31,7 @@ PDF can be open in *Document Viewer*.
 
 <figure>
   <img src="/images/help/aplikace/menu-office.png" alt="Menu Kancelářské aplikace">
-  <figcaption>Otevřené menu s kancelářskými aplikacemi.</figcaption>
+  <figcaption> Open menu with Office Tools.</figcaption>
 </figure>
 
 ## More applications
