@@ -24,7 +24,7 @@
 
     ![](/images/help/jakTisknout/step5.png)
 
-6. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. You will see a PDF document with pages prepared for print. Here you can check the pages you want to print. More about how to set the [print]({{pathFor 'tisk'}}). 
+6. Set the printer (page size - A4 or A3, DPI - print quality, duplex) and send to print. You will see a PDF document with pages prepared for print. Here you can check the pages you want to print. More about how to set the [print](/en/tisk). 
 
 
 If you are satisfied with the setting press print.

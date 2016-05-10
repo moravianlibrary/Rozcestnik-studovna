@@ -1,3 +1,15 @@
+var links = {
+    kramerius: {
+        cs: 'http://kramerius.mzk.cz/search/?language=cs',
+        en: 'http://kramerius.mzk.cz/search/?language=en'
+    },
+    webArchiv: {
+        cs: 'http://www.webarchiv.cz/cs',
+        en: 'http://www.webarchiv.cz/en'
+    }
+};
+
+
 TAPi18n._afterUILanguageChange = function () {
     console.log("TAPi18n._afterUILanguageChange");
     I18NConf.setLanguage(TAPi18n.getLanguage());
@@ -28,8 +40,26 @@ Router.route('chraneny-obsah', {
     template: 'secureBrowser'
 });
 
-/* ACHO FILES */
-Router.route('digital-library-acho', {
+/* KRAMERIUS */
+Router.route('kramerius-redirect', {
+    where: 'server',
+    action: function () {
+        this.response.writeHead(302, {'Location': links.kramerius.cs});
+        this.response.end();
+    },
+    i18n: {
+        languages: {
+            en: {
+                action: function () {
+                    this.response.writeHead(302, {'Location': links.kramerius.en});
+                    this.response.end();
+                }
+            }
+        }
+    }
+});
+
+Router.route('kramerius-acho', {
     where: 'server',
     action: function () {
         this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
@@ -41,6 +71,25 @@ Router.route('digital-library-acho', {
                 action: function () {
                     this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
                     this.response.end(`host: kramerius.mzk.cz\nlang: en`);
+                }
+            }
+        }
+    }
+});
+
+/* WEBARCHIV */
+Router.route('webarchiv-redirect', {
+    where: 'server',
+    action: function () {
+        this.response.writeHead(302, {'Location': links.webArchiv.cs});
+        this.response.end();
+    },
+    i18n: {
+        languages: {
+            en: {
+                action: function () {
+                    this.response.writeHead(302, {'Location': links.webArchiv.en});
+                    this.response.end();
                 }
             }
         }

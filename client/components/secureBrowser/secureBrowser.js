@@ -1,8 +1,9 @@
 Template.secureBrowser.events({
     "click #library-tile": () => {
-        Router.go('digital-library-acho');
+        window.open(Router.url('kramerius-redirect'), '_blank');
+        //Router.go('kramerius-redirect');
     },
     "click #archive-tile": () => {
-        Router.go('webarchiv-acho');
+        window.open(Router.url('kramerius-redirect'), '_blank');
     }
 });

@@ -3,7 +3,7 @@
 <div class="alert alert-info text-center" role="alert">
     Data uložená v počítači budou následující den smazána.
     Nezapomeňte si tedy před odhlášením vše potřebné uložit na vlastní USB, případně odeslat mailem nebo uložit do 
-    <a href="http://www.uschovna.cz/" class="alert-link">online uložiště</a>.
+    <a href="http://www.uschovna.cz/" target="_blank" class="alert-link">online uložiště</a>.
 </div>
 
 <p class="with-image">
