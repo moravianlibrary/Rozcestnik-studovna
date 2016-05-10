@@ -11,7 +11,7 @@ For the Internet browsing you can use *IceWeasel* or *Chromium*. IceWeasel is se
 <div class="row">
     <figure class="col-md-5 col-md-offset-1">
       <img src="/images/help/aplikace/plocha-pacho.png" alt="Ikona prohlížeče chráněného obsahu">
-      <figcaption>I na ploše najdete prohlížeč autorsky chráněného obsahu</figcaption>
+      <figcaption>bla bla</figcaption>
     </figure>
     
     <figure class="col-md-5">
