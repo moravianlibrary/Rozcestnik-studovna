@@ -18,5 +18,5 @@ Before the last check-out save everything you need on your own USB disk, email o
 
 <p class="with-image">
     <img class="on-left" src="/images/help/ukladaniDat/server.png">
-    Home file and the contents of your desktop are stored on the library server. Within </strong>one day</strong> you can switch between computers in the study and your files will be accessible from all computers.
+    Home file and the contents of your desktop are stored on the library server. Within <strong>one day</strong> you can switch between computers in the study and your files will be accessible from all computers.
 </p>
