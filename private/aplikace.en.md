@@ -5,7 +5,7 @@ For the Internet browsing you can use *IceWeasel* or *Chromium*. IceWeasel is se
 
 <figure>
   <img src="/images/help/aplikace/menu-internet.png" alt="XFCE menu Internet">
-  <figcaption>Otevřené menu s webovými prohlížeči.</figcaption>
+  <figcaption>Open menu with Internet browsers.</figcaption>
 </figure>
 
 <div class="row">
