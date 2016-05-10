@@ -8,15 +8,15 @@ Before the last check-out save everything you need on your own USB disk, email o
 
 <p class="with-image">
     <img class="on-left" src="/images/help/ukladaniDat/homeFolder.png">
-    When logging on to a computer your **home folder** will be created, you can find it on *the desktop+ in the upper left corner. In this folder you can store your documents or download files from the Internet.
+    When logging on to a computer your <strong>home file</strong> will be created, you can find it on *the desktop* in the upper left corner. In this file you can store your documents or download files from the Internet.
 </p>
 
 <p class="with-image">
     <img class="on-right" src="/images/help/ukladaniDat/fileManager.png">
-    In File Manager, you will see your Home folder with the generated numerical code that is unique for each user. (Due to the large number of our readers it would be very difficult to name the home file based on the name or surname of the user.)
+    In File Manager, you will see your Home file with the generated numerical code that is unique for each user. (Due to the large number of our readers it would be very difficult to name the home file based on the name or surname of the user.)
 </p>
 
 <p class="with-image">
     <img class="on-left" src="/images/help/ukladaniDat/server.png">
-    Home file and the contents of your desktop are stored on the library server. Within *one day* you can switch between computers in the study and your files will be accessible from all computers.
+    Home file and the contents of your desktop are stored on the library server. Within </strong>one day</strong> you can switch between computers in the study and your files will be accessible from all computers.
 </p>
