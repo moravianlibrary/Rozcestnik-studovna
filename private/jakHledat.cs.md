@@ -32,6 +32,6 @@ Při zadání dotazu můžete upřesňovat výsledky vyhledávání pomocí filt
 
 ### Odkaz v katalogu MZK
 Ke konkrétnímu dokumentu se můžete dostat také z <a href="https://vufind.mzk.cz/" target="_blank">katalogu</a>
-prostřednictvím odkazu s označením “Digitalizovaný dokument (klikněte pro zobrazení)”
+prostřednictvím odkazu s označením “Digitalizovaný dokument”
 
 ![](/images/help/jakHledat/katalog.png)
