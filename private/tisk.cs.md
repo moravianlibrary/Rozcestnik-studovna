@@ -44,4 +44,4 @@ Na adrese <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> můžet
 
 <a href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník služeb a poplatků</a>
  
-[Návod jak tiskout](/cs/jak-tisknout)
+[Návod, jak tiskout z DK MZK](/cs/jak-tisknout)
