@@ -7,6 +7,6 @@ Template.digitalniKnihovna.events({
             $(selector).hide();
         }, 5000);
 
-        Router.go('/download-acho');
+        Router.go('digital-library-acho');
     }
 });

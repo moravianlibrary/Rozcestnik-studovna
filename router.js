@@ -28,24 +28,37 @@ Router.route('chraneny-obsah', {
     template: 'secureBrowser'
 });
 
-
-/* DOWNLOAD .acho */
-function getAcho(langCode) {
-    return `host: kramerius.mzk.cz\nlang: ${langCode}`;
-}
-
-Router.route('/download-acho', {
+/* ACHO FILES */
+Router.route('digital-library-acho', {
     where: 'server',
     action: function () {
         this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
-        this.response.end(getAcho('cs'));
+        this.response.end(`host: kramerius.mzk.cz\nlang: cs`);
     },
     i18n: {
         languages: {
             en: {
                 action: function () {
                     this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
-                    this.response.end(getAcho('en'));
+                    this.response.end(`host: kramerius.mzk.cz\nlang: en`);
+                }
+            }
+        }
+    }
+});
+
+Router.route('webarchiv-acho', {
+    where: 'server',
+    action: function () {
+        this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=webarchiv.acho'});
+        this.response.end(`host: webarchiv.mzk.cz\nlang: cs`);
+    },
+    i18n: {
+        languages: {
+            en: {
+                action: function () {
+                    this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=webarchiv.acho'});
+                    this.response.end(`host: webarchiv.mzk.cz\nlang: en\n`);
                 }
             }
         }
@@ -55,7 +68,6 @@ Router.route('/download-acho', {
 Router.route('/kramerius-acho/:host/:lang/:uuid', {
     where: 'server',
     action: function () {
-        console.log(this.params);
         this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
         this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\npid: ${this.params.uuid}`);
     }
