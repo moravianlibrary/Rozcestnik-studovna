@@ -8,7 +8,7 @@
 
 <p class="with-image">
     <img class="on-left" src="/images/help/ukladaniDat/homeFolder.png">
-    Při přihlášením do počítače se vytvoří vaše  **Domovská složka**, najdete ji na *Ploše* v levém horním rohu.
+    Při přihlášením do počítače se vytvoří vaše  <strong>Domovská složka</strong>, najdete ji na <em>Ploše</em> v levém horním rohu.
     Do této složky můžete ukládat vaše dokumenty, stahovat soubory z internetu apod.
 </p>
 
@@ -21,5 +21,5 @@
 <p class="with-image">
     <img class="on-left" src="/images/help/ukladaniDat/server.png">
     Domovská složka i obsah vaší Plochy jsou umístěny na serveru knihovny.
-    V rámci **jednoho dne** tedy můžete přecházet mezi počítači ve studovnách, vaše soubory budou stále na místě.
+    V rámci <strong>jednoho dne</strong> tedy můžete přecházet mezi počítači ve studovnách, vaše soubory budou stále na místě.
 </p>
