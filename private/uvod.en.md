@@ -9,8 +9,5 @@ In case of ambiguity please write to vknihovne@mzk.cz.
 
 <br>
 
-### [Saving data](/en/ukladani-dat)
-### [Linux](/en/linux)
-### [Applications](/en/aplikace)
-### [Headphones](/en/aplikace)
-### [Print](/en/tisk)
+### [Computers in MZK](/en/pocitace-v-mzk)
+### [Digital library MZK](/en/digitalni-knihovna-napoveda)
