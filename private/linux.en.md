@@ -1,4 +1,4 @@
-# Why do we you Linux?
+# Why do we use Linux?
 
 ### Security and privacy
 No mandatory activation or registration. There are practically no viruses for Linux.
