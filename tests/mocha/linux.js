@@ -6,7 +6,7 @@ describe('Linux page', function () {
         }
     });
 
-    it('open and check Linux page @dev', function () {
+    it('open and check Linux page', function () {
         browser.goTo('/');
         browser.followLink('Nápověda');
         browser.followLink('Linux');

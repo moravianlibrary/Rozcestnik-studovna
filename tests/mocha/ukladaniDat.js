@@ -6,7 +6,7 @@ describe('ukladani dat', function () {
         }
     });
 
-    it('open and check ukladani dat @dev', function () {
+    it('open and check ukladani dat', function () {
         browser.goTo('/');
         browser.followLink('Nápověda');
         browser.followLink('Ukládání dat');

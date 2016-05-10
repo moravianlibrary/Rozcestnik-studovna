@@ -14,6 +14,7 @@ module.exports = {
         browser.addCommand("followLink", function (linkText) {
             browser.waitForVisible('a=' + linkText);
             browser.click('a=' + linkText);
+            return browser;
         });
 
         browser.addCommand("isNotVisible", function (selector) {
@@ -25,6 +26,25 @@ module.exports = {
             if (url.indexOf('localhost') > -1) {
                 return url.replace(/.*:\/\/.*:\d{4}/g, "");
             }
+        });
+
+        browser.addCommand("checkExternalLinkUrl", function (link, url) {
+            browser.followLink(link);
+            browser.switchTab(browser.windowHandles().value[1]);
+            browser.getUrl().should.equal(url);
+            browser.close();
+        });
+
+        browser.addCommand("checkLinkUrl", function (link, url) {
+            browser.followLink(link);
+            browser.getRelativeUrl().should.equal(url);
+            browser.back();
+        });
+
+        browser.addCommand("checkElementUrl", function (id, url) {
+            browser.click(id);
+            browser.getRelativeUrl().should.equal(url);
+            browser.back();
         });
     }
 };
