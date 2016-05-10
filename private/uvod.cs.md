@@ -6,6 +6,6 @@ Obsah nápovědy si můžete pročíst v menu na pravé straně.
 V případě nejasností pište na vknihovne@mzk.cz.
 <br>
 
-### [Počítače v MZK](/cs/pocitaceVMzk)
-### [Digitální knihovna MZK](/cs/digitalniKnihovnaNapoveda)
+### [Počítače v MZK](/cs/pocitace-v-mzk)
+### [Digitální knihovna MZK](/cs/digitalni-knihovna-napoveda)
 
