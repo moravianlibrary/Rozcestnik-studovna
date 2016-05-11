@@ -41,24 +41,6 @@ Router.route('chraneny-obsah', {
 });
 
 /* KRAMERIUS */
-Router.route('kramerius-redirect', {
-    where: 'server',
-    action: function () {
-        this.response.writeHead(302, {'Location': links.kramerius.cs});
-        this.response.end();
-    },
-    i18n: {
-        languages: {
-            en: {
-                action: function () {
-                    this.response.writeHead(302, {'Location': links.kramerius.en});
-                    this.response.end();
-                }
-            }
-        }
-    }
-});
-
 Router.route('kramerius-acho', {
     where: 'server',
     action: function () {
@@ -78,24 +60,6 @@ Router.route('kramerius-acho', {
 });
 
 /* WEBARCHIV */
-Router.route('webarchiv-redirect', {
-    where: 'server',
-    action: function () {
-        this.response.writeHead(302, {'Location': links.webArchiv.cs});
-        this.response.end();
-    },
-    i18n: {
-        languages: {
-            en: {
-                action: function () {
-                    this.response.writeHead(302, {'Location': links.webArchiv.en});
-                    this.response.end();
-                }
-            }
-        }
-    }
-});
-
 Router.route('webarchiv-acho', {
     where: 'server',
     action: function () {
