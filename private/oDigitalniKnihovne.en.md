@@ -9,7 +9,3 @@ The basic division of document:
 
 __Questions and comments:__ if you have any questions or comment please let us know on kramerius@mzk.cz.
 
-About the Digital library
-Registration for the Digital library
-How to search
-How to print
