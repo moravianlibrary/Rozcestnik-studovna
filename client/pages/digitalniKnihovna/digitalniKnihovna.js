@@ -7,6 +7,6 @@ Template.digitalniKnihovna.events({
             $(selector).hide();
         }, 5000);
 
-        Router.go('kramerius-acho');
+        window.open(Router.url('kramerius-acho'), '_blank');
     }
 });

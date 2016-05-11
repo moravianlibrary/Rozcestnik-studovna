@@ -1,4 +1,4 @@
-describe('sidebar', function () {
+describe('In help pages there is sidebar menu with links', function () {
 
     before(function () {
         if (!browser.hasOwnProperty('goTo')) {
@@ -6,7 +6,7 @@ describe('sidebar', function () {
         }
     });
 
-    it('check links in sidebar @dev', function () {
+    it('Check links in sidebar @dev', function () {
         var links = {
             intro: {
                 cs: {
@@ -37,29 +37,85 @@ describe('sidebar', function () {
                     link: 'Storing data',
                     url: '/en/storing-data'
                 }
+            },
+            linux: {
+                cs: {
+                    link: 'Linux',
+                    url: '/cs/linux'
+                }
+            },
+            apps: {
+                cs: {
+                    link: 'Aplikace',
+                    url: '/cs/aplikace'
+                }
+            },
+            headphones: {
+                cs: {
+                    link: 'Sluchátka',
+                    url: '/cs/sluchatka'
+                }
+            },
+            print: {
+                cs: {
+                    link: 'Tisk',
+                    url: '/cs/tisk'
+                }
+            },
+            digitalLibrary: {
+                cs: {
+                    link: 'Digitální knihovna MZK',
+                    url: '/cs/digitalni-knihovna-napoveda'
+                }
+            },
+            aboutDigitalLibrary: {
+                cs: {
+                    link: 'O digitální knihovně',
+                    url: '/cs/o-digitalni-knihovne'
+                }
+            },
+            search: {
+                cs: {
+                    link: 'Jak hledat',
+                    url: '/cs/jak-hledat'
+                }
+            },
+            hotToPrint: {
+                cs: {
+                    link: 'Jak tisknout',
+                    url: '/cs/jak-tisknout'
+                }
+            },
+            lendingTablets: {
+                cs: {
+                    link: 'Půjčení tabletů',
+                    url: '/cs/tablety'
+                }
+            },
+            mobileAppKramerius: {
+                cs: {
+                    link: 'Mobilní aplikace Kramerius',
+                    url: '/cs/mobilni-aplikace-kramerius'
+                }
+            },
+            registration: {
+                cs: {
+                    link: 'Registrace a oblíbené',
+                    url: '/cs/registrace-a-oblibene'
+                }
             }
         };
 
         function test(lang) {
             browser.goTo(links.intro[lang].url);
 
-            browser.checkLinkUrl(links.computers.cs.link, links.computers.cs.url);
-            browser.goTo(links.intro.en.url);
-
-            browser.checkLinkUrl(links.computers.en.link, links.computers.en.url);
-
-
-            //for (var page in links) {
-            //    if (links.hasOwnProperty(page)) {
-            //        console.log(links[page][lang].link);
-            //        console.log(links[page][lang].url);
-            //        browser.checkLinkUrl(links[page][lang].link, links[page][lang].url);
-            //    }
-            //}
+            for (var key in links) {
+                if (links.hasOwnProperty(key)) {
+                    browser.checkLinkUrl(links[key][lang].link, links[key][lang].url);
+                }
+            }
         }
-
         test('cs');
         //test('en');
-
     });
 });
