@@ -10,5 +10,5 @@ Zde najdete, jak používat počítače na studovně.
 ### [Ukládání dat](/cs/ukladani-dat)
 ### [Linux](/cs/linux)
 ### [Aplikace](/cs/aplikace)
-### [Sluchátka](/cs/aplikace)
+### [Sluchátka](/cs/sluchatka)
 ### [Tisk](/cs/tisk)

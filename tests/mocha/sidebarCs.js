@@ -10,10 +10,218 @@ describe('In help pages there is sidebar menu with links', function () {
     });
 
     it('Check links in sidebar @dev', function () {
+        this.timeout(120000);
+
         var helpQuestionSelector = '#dl-circle-text';
         var printQuestionSelector = '#print-text';
 
         var pagesWithLinks = {
+            dataSavingsHelpPage: {
+                url: {
+                    cs: '/cs/ukladani-dat',
+                    en: ''
+                },
+                links: {
+                    onlineStorage: {
+                        cs: {
+                            link: 'online uložiště',
+                            url: 'http://www.uschovna.cz/'
+                        }
+                    }
+                }
+            },
+            linuxPage: {
+                url: {
+                    cs: '/cs/linux',
+                    en: ''
+                },
+                links: {
+                    apps: {
+                        cs: {
+                            link: 'Aplikace',
+                            url: '/cs/aplikace'
+                        }
+                    },
+                    aboutLinux: {
+                        cs: {
+                            link: 'O Linuxu',
+                            url: 'https://cs.wikipedia.org/wiki/Linux'
+                        }
+                    },
+                    aboutOpenSource: {
+                        cs: {
+                            link: 'O otevřeném software',
+                            url: 'https://cs.wikipedia.org/wiki/Otev%C5%99en%C3%BD_software'
+                        }
+                    },
+                    aboutDebian: {
+                        cs: {
+                            link: 'O distribuci Debian',
+                            url: 'https://cs.wikipedia.org/wiki/Debian'
+                        }
+                    },
+                    aboutXfce: {
+                        cs: {
+                            link: 'O prostředí XFCE',
+                            url: 'https://cs.wikipedia.org/wiki/Xfce'
+                        }
+                    }
+                }
+            },
+            printPage: {
+                url: {
+                    cs: '/cs/tisk',
+                    en: ''
+                },
+                links: {
+                    safeQ: {
+                        cs: {
+                            link: 'safeq.mzk.cz',
+                            url: 'http://safeq.mzk.cz:8082/'
+                        }
+                    },
+                    fees: {
+                        cs: {
+                            link: 'Kompletní ceník služeb a poplatků',
+                            url: 'https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc'
+                        }
+                    },
+                    printTutorial: {
+                        cs: {
+                            link: 'Návod, jak tiskout z DK MZK',
+                            url: '/cs/jak-tisknout'
+                        }
+                    }
+                }
+            },
+            digitalLibraryPage: {
+                url: {
+                    cs: '/cs/digitalni-knihovna-napoveda',
+                    en: ''
+                },
+                links: {
+                    pacho: {
+                        cs: {
+                            link: 'Prohlížeč autorsky chráněného obsahu',
+                            url: '/cs/digitalni-knihovna'
+                        }
+                    },
+                    print: {
+                        cs: {
+                            link: 'vytisknout',
+                            url: '/cs/jak-tisknout'
+                        }
+                    },
+                    about: {
+                        cs: {
+                            link: 'O digitální knihovně',
+                            url: '/cs/o-digitalni-knihovne'
+                        }
+                    },
+                    search: {
+                        cs: {
+                            link: 'Jak hledat',
+                            url: '/cs/jak-hledat'
+                        }
+                    },
+                    howToPrint: {
+                        cs: {
+                            link: 'Jak tisknout',
+                            url: '/cs/jak-tisknout'
+                        }
+                    },
+                    mobileApp: {
+                        cs: {
+                            link: 'Mobilní aplikace Kramerius',
+                            url: '/cs/mobilni-aplikace-kramerius'
+                        }
+                    },
+                    registrationFavoriutes: {
+                        cs: {
+                            link: 'Registrace a Oblíbené',
+                            url: '/cs/registrace-a-oblibene'
+                        }
+                    }
+                }
+            },
+            aboutDlPage: {
+                url: {
+                    cs: '/cs/o-digitalni-knihovne',
+                    en: ''
+                },
+                links: {
+                    secureBrowser: {
+                        cs: {
+                            link: 'Prohlížeči autorsky chráněného obsahu',
+                            url: '/cs/digitalni-knihovna'
+                        }
+                    }
+                }
+            },
+            howToSearchPage: {
+                url: {
+                    cs: '/cs/jak-hledat',
+                    en: ''
+                },
+                links: {
+                    dl: {
+                        cs: {
+                            link: 'digitální knihovně',
+                            url: 'http://kramerius.mzk.cz/search/'
+                        }
+                    },
+                    catalogue: {
+                        cs: {
+                            link: 'katalogu',
+                            url: 'https://vufind.mzk.cz/'
+                        }
+                    }
+                }
+            },
+            computersHelpPage: {
+                url: {
+                    cs: '/cs/pocitace-v-mzk',
+                    en: ''
+                },
+                links: {
+                    databases: {
+                        cs: {
+                            link: 'předplacených databází',
+                            url: 'https://www.mzk.cz/katalogy-databaze/databaze'
+                        }
+                    },
+                    savingData: {
+                        cs: {
+                            link: 'Ukládání dat',
+                            url: '/cs/ukladani-dat'
+                        }
+                    },
+                    linux: {
+                        cs: {
+                            link: 'Linux',
+                            url: '/cs/linux'
+                        }
+                    },
+                    Aplikace: {
+                        cs: {
+                            link: 'Aplikace',
+                            url: '/cs/aplikace'
+                        }
+                    },
+                    sluchatka: {
+                        cs: {
+                            link: 'Sluchátka',
+                            url: '/cs/sluchatka'
+                        }
+                    },
+                    tisk: {
+                        cs: {
+                            link: 'Tisk',
+                            url: '/cs/tisk'
+                        }
+                    }
+                }
+            },
             digitalniKnihovnaPage: {
                 url: {
                     cs: '/cs/digitalni-knihovna',
@@ -116,6 +324,12 @@ describe('In help pages there is sidebar menu with links', function () {
                     en: ''
                 },
                 links: {
+                    computersInMzk: {
+                        cs: {
+                            link: 'Počítače v MZK',
+                            url: '/cs/pocitace-v-mzk'
+                        }
+                    },
                     intro: {
                         cs: {
                             link: 'Úvod',

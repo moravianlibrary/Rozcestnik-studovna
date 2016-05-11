@@ -42,7 +42,7 @@ module.exports = {
             } else {
                 // external link starts with http...
                 linkFunction(link);
-                browser.pause(1000);
+                browser.pause(2000);
                 browser.switchTab(browser.windowHandles().value[1]);
                 console.log('externalUrl: ' + browser.getUrl());
                 browser.getUrl().should.equal(url);
