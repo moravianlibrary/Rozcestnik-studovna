@@ -5,14 +5,13 @@
         <p>
             {{_ "dl_intro_1"}}
             <a class="link" href="{{pathFor 'digitalni-knihovna-napoveda'}}">{{_ "dl_intro_2"}}</a>
-        </p>
 
         <div id="all-volumes" class="col-lg-7">
             <div id="dashed-line">
-                <div id="all-volumes-button">
+                <a id="all-volumes-button" href="{{pathFor 'digital-library-acho'}}" target="_blank">
                     <p>{{_ "dl_all_volumes_h2"}}</p>
                     <p>{{_ "dl_all_volumes_p"}}</p>
-                </div>
+                </a>
 
                 <div class="alert alert-warning" role="alert" style="display: none">{{_ "dl_open_browser"}}</div>
 

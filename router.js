@@ -41,7 +41,7 @@ Router.route('chraneny-obsah', {
 });
 
 /* KRAMERIUS */
-Router.route('kramerius-acho', {
+Router.route('digital-library-acho', {
     where: 'server',
     action: function () {
         this.response.statusCode = 200;

@@ -6,7 +6,5 @@ Template.digitalniKnihovna.events({
         setTimeout(() => {
             $(selector).hide();
         }, 5000);
-
-        window.open(Router.url('kramerius-acho'), '_blank');
     }
 });
