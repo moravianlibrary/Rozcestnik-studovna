@@ -12,7 +12,7 @@ module.exports = {
         });
 
         browser.addCommand("followLink", function (linkText) {
-            browser.waitForVisible('a=' + linkText);
+            browser.waitForVisible('a=' + linkText, 1000);
             browser.click('a=' + linkText);
             return browser;
         });
@@ -28,17 +28,26 @@ module.exports = {
             }
         });
 
-        browser.addCommand("checkExternalLinkUrl", function (link, url) {
-            browser.followLink(link);
-            browser.switchTab(browser.windowHandles().value[1]);
-            browser.getUrl().should.equal(url);
-            browser.close();
-        });
-
         browser.addCommand("checkLinkUrl", function (link, url) {
-            browser.followLink(link);
-            browser.getRelativeUrl().should.equal(url);
-            browser.back();
+            console.log('link: ' + link);
+            var linkFunction = link.charAt(0) === '#' ? browser.click : browser.followLink;
+
+            if (url.charAt(0) === '/') {
+                // internal relative link
+                linkFunction(link);
+                browser.pause(1000);
+                console.log('internalUrl: ' + browser.getRelativeUrl());
+                browser.getRelativeUrl().should.equal(url);
+                browser.back();
+            } else {
+                // external link starts with http...
+                linkFunction(link);
+                browser.pause(1000);
+                browser.switchTab(browser.windowHandles().value[1]);
+                console.log('externalUrl: ' + browser.getUrl());
+                browser.getUrl().should.equal(url);
+                browser.close();
+            }
         });
 
         browser.addCommand("checkElementUrl", function (id, url) {
