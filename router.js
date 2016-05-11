@@ -44,14 +44,16 @@ Router.route('chraneny-obsah', {
 Router.route('kramerius-acho', {
     where: 'server',
     action: function () {
-        this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
+        this.response.statusCode = 200;
+        this.response.setHeader("Content-Type", "application/acho");
         this.response.end(`host: kramerius.mzk.cz\nlang: cs`);
     },
     i18n: {
         languages: {
             en: {
                 action: function () {
-                    this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
+                    this.response.statusCode = 200;
+                    this.response.setHeader("Content-Type", "application/acho");
                     this.response.end(`host: kramerius.mzk.cz\nlang: en`);
                 }
             }
@@ -63,14 +65,16 @@ Router.route('kramerius-acho', {
 Router.route('webarchiv-acho', {
     where: 'server',
     action: function () {
-        this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=webarchiv.acho'});
+        this.response.statusCode = 200;
+        this.response.setHeader("Content-Type", "application/acho");
         this.response.end(`host: webarchiv.mzk.cz\nlang: cs`);
     },
     i18n: {
         languages: {
             en: {
                 action: function () {
-                    this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=webarchiv.acho'});
+                    this.response.statusCode = 200;
+                    this.response.setHeader("Content-Type", "application/acho");
                     this.response.end(`host: webarchiv.mzk.cz\nlang: en\n`);
                 }
             }
@@ -81,7 +85,8 @@ Router.route('webarchiv-acho', {
 Router.route('/kramerius-acho/:host/:lang/:uuid', {
     where: 'server',
     action: function () {
-        this.response.writeHead(200, {'Content-Disposition': 'attachment; filename=krameriusMzk.acho'});
+        this.response.statusCode = 200;
+        this.response.setHeader("Content-Type", "application/acho");
         this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\npid: ${this.params.uuid}`);
     }
 });
