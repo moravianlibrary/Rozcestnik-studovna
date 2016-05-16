@@ -1,4 +1,6 @@
-var links = {
+const title = 'vknihovne.mzk.cz';
+
+const links = {
     kramerius: {
         cs: 'http://kramerius.mzk.cz/search/?language=cs',
         en: 'http://kramerius.mzk.cz/search/?language=en'
@@ -8,7 +10,6 @@ var links = {
         en: 'http://www.webarchiv.cz/en'
     }
 };
-
 
 TAPi18n._afterUILanguageChange = function () {
     console.log("TAPi18n._afterUILanguageChange");
@@ -28,237 +29,90 @@ Router.configure({
 });
 
 Router.route('home', {
-    path: '/'
+    path: '/',
+    onAfterAction: () => {
+        document.title = `${title}`;
+    }
 });
 
 Router.route('digitalni-knihovna', {
     template: 'menuPageTemplate',
-    yieldRegions: {digitalniKnihovna: {to: 'pageContent'}}
+    yieldRegions: {digitalniKnihovna: {to: 'pageContent'}},
+    onAfterAction: () => {
+        document.title = `Digitální knihovna - ${title}`;
+    },
+    i18n: {
+        languages: {
+            en: {
+                onAfterAction: () => {
+                    document.title = `Digital library - ${title}`;
+                }
+            }
+        }
+    }
 });
 
 Router.route('chraneny-obsah', {
-    template: 'secureBrowser'
-});
-
-/* KRAMERIUS */
-Router.route('digital-library-acho', {
-    where: 'server',
-    action: function () {
-        this.response.statusCode = 200;
-        this.response.setHeader("Content-Type", "application/acho");
-        this.response.end(`host: kramerius.mzk.cz\nlang: cs`);
+    template: 'secureBrowser',
+    onAfterAction: () => {
+        document.title = `Prohlížeč autorsky chráněného obsahu - ${title}`;
     },
     i18n: {
         languages: {
             en: {
-                action: function () {
-                    this.response.statusCode = 200;
-                    this.response.setHeader("Content-Type", "application/acho");
-                    this.response.end(`host: kramerius.mzk.cz\nlang: en`);
+                onAfterAction: () => {
+                    document.title = `Browser for copyright works - ${title}`;
                 }
             }
         }
-    }
-});
-
-/* WEBARCHIV */
-Router.route('webarchiv-acho', {
-    where: 'server',
-    action: function () {
-        this.response.statusCode = 200;
-        this.response.setHeader("Content-Type", "application/acho");
-        this.response.end(`host: webarchiv.mzk.cz\nlang: cs`);
-    },
-    i18n: {
-        languages: {
-            en: {
-                action: function () {
-                    this.response.statusCode = 200;
-                    this.response.setHeader("Content-Type", "application/acho");
-                    this.response.end(`host: webarchiv.mzk.cz\nlang: en\n`);
-                }
-            }
-        }
-    }
-});
-
-Router.route('/kramerius-acho/:host/:lang/:uuid', {
-    where: 'server',
-    action: function () {
-        this.response.statusCode = 200;
-        this.response.setHeader("Content-Type", "application/acho");
-        this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\npid: ${this.params.uuid}`);
     }
 });
 
 /* NAPOVEDA */
-Router.route('napoveda', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'uvod.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'uvod.en.md'}
+function helpPageRouteObject(markdownFileName, titleCs, titleEn) {
+    return {
+        template: 'helpPageTemplate',
+        data: {markdownFile: `${markdownFileName}.cs.md`},
+        onAfterAction: () => {
+            document.title = `${titleCs} - ${title}`;
+        },
+        i18n: {
+            languages: {
+                en: {
+                    data: {markdownFile: `${markdownFileName}.en.md`},
+                    onAfterAction: () => {
+                        document.title = `${titleEn} - ${title}`;
+                    }
+                }
             }
         }
-    }
-});
+    };
+}
 
-Router.route('pocitace-v-mzk', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'pocitaceVMzk.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'pocitaceVMzk.en.md'}
-            }
-        }
-    }
-});
+Router.route('napoveda', helpPageRouteObject('uvod', 'Úvod', 'Introduction'));
 
-Router.route('linux', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'linux.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'linux.en.md'}
-            }
-        }
-    }
-});
+Router.route('pocitace-v-mzk', helpPageRouteObject('pocitaceVMzk', 'Počítače v MZK', 'Computers in MZK'));
 
-Router.route('aplikace', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'aplikace.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'aplikace.en.md'}
-            }
-        }
-    }
-});
+Router.route('linux', helpPageRouteObject('linux', 'Linux', 'Linux'));
 
-Router.route('sluchatka', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'sluchatka.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'sluchatka.en.md'}
-            }
-        }
-    }
-});
+Router.route('aplikace', helpPageRouteObject('aplikace', 'Aplikace', 'Applications'));
 
-Router.route('ukladani-dat', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'ukladaniDat.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'ukladaniDat.en.md'}
-            }
-        }
-    }
-});
+Router.route('sluchatka', helpPageRouteObject('sluchatka', 'Sluchátka', 'Headphones'));
 
-Router.route('tisk', {
-    template: 'helpPageTemplate',
-    yieldRegions: {'tisk.cs': {to: 'pageContent'}},
-    data: {markdownFile: 'tisk.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'tisk.en.md'}
-            }
-        }
-    }
-});
+Router.route('ukladani-dat', helpPageRouteObject('ukladaniDat', 'Ukládání dat', 'Data storing'));
 
+Router.route('tisk', helpPageRouteObject('tisk', 'Tisk', 'Print'));
 
-Router.route('digitalni-knihovna-napoveda', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'digitalniKnihovnaNapoveda.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'digitalniKnihovnaNapoveda.en.md'}
-            }
-        }
-    }
-});
+Router.route('digitalni-knihovna-napoveda', helpPageRouteObject('digitalniKnihovnaNapoveda', 'Digitální knihovna MZK', 'Digital library MZK'));
 
-Router.route('o-digitalni-knihovne', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'oDigitalniKnihovne.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'oDigitalniKnihovne.en.md'}
-            }
-        }
-    }
-});
+Router.route('o-digitalni-knihovne', helpPageRouteObject('oDigitalniKnihovne', 'O digitální knihovně', 'About digital library'));
 
-Router.route('registrace-a-oblibene', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'registraceOblibene.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'registraceOblibene.en.md'}
-            }
-        }
-    }
-});
+Router.route('registrace-a-oblibene', helpPageRouteObject('registraceOblibene', 'Registrace a oblíbené', 'Registration and favorites'));
 
-Router.route('jak-hledat', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'jakHledat.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'jakHledat.en.md'}
-            }
-        }
-    }
-});
+Router.route('jak-hledat', helpPageRouteObject('jakHledat', 'Jak hledat', 'How to search'));
 
-Router.route('jak-tisknout', {
-    template: 'helpPageTemplate',
-    yieldRegions: {'jakTisknout.cs': {to: 'pageContent'}},
-    data: {markdownFile: 'jakTisknout.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'jakTisknout.en.md'}
-            }
-        }
-    }
-});
+Router.route('jak-tisknout', helpPageRouteObject('jakTisknout', 'Jak tisknout', 'How to print'));
 
-Router.route('tablety', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'tablety.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'tablety.en.md'}
-            }
-        }
-    }
-});
+Router.route('tablety', helpPageRouteObject('tablety', 'Půjčení tabletů', 'Tablet Lending'));
 
-Router.route('mobilni-aplikace-kramerius', {
-    template: 'helpPageTemplate',
-    data: {markdownFile: 'mobilniAplikaceKramerius.cs.md'},
-    i18n: {
-        languages: {
-            en: {
-                data: {markdownFile: 'mobilniAplikaceKramerius.en.md'}
-            }
-        }
-    }
-});
+Router.route('mobilni-aplikace-kramerius', helpPageRouteObject('mobilniAplikaceKramerius', 'Mobilní aplikace Kramerius', 'Kramerius mobile app'));
