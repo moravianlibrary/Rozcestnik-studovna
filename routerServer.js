@@ -25,7 +25,7 @@ Router.route('webarchiv-acho', {
     action: function () {
         this.response.statusCode = 200;
         this.response.setHeader("Content-Type", "application/acho");
-        this.response.end(`host: webarchiv.mzk.cz\nlang: cs`);
+        this.response.end(`host: webarchiv.cz\nlang: cs`);
     },
     i18n: {
         languages: {
@@ -33,7 +33,7 @@ Router.route('webarchiv-acho', {
                 action: function () {
                     this.response.statusCode = 200;
                     this.response.setHeader("Content-Type", "application/acho");
-                    this.response.end(`host: webarchiv.mzk.cz\nlang: en\n`);
+                    this.response.end(`host: webarchiv.cz\nlang: en\n`);
                 }
             }
         }
