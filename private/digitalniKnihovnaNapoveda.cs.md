@@ -4,7 +4,7 @@ Digitální knihovna MZK na adrese [kramerius.mzk.cz](http://www.kramerius.mzk.c
 
 Volná díla jsou přístupná odkudkoliv, autorsky chráněná pouze na počítačích MZK - dostanete se k nim přes [Prohlížeč autorsky chráněného obsahu](/cs/digitalni-knihovna), kde dokumenty nelze stahovat ani kopírovat. Můžete si je ale [vytisknout](/cs/jak-tisknout) na tiskárnách MZK.
 
-V brzké době budeme přecházet na nový vzhled Digitální knihovny MZK. Podívejte se na její [nový kabátek](http://www.digitalniknihovna.cz/mzk/).
+V blízké době budeme přecházet na [nový vzhled](http://www.digitalniknihovna.cz/mzk/) Digitální knihovny MZK. Už nyní ho můžete zkoušet a používat! 
 
 <br>
    
