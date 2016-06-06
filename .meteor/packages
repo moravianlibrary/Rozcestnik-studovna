@@ -29,3 +29,4 @@ martino:iron-router-i18n
 standard-minifier-css
 standard-minifier-js
 simple:reactive-method
+gorillastack:iron-router-gtm

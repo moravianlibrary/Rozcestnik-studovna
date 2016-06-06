@@ -45,3 +45,18 @@ Po zadání posledního příkazu se aplikace se spustní na adrese [http://loca
     $ docker build -t moravianlibrary/rozcestnik .
     $ docker push moravianlibrary/rozcestnik
 
+# Google tag manager
+ GTM používá balík [meteor-iron-router-gtm](https://github.com/GorillaStack/meteor-iron-router-gtm).
+ Id pro GTM se může předat pomocí souboru settings.json, nebo ekvivalentně jako systémová proměnná.
+ 
+### Produkce 
+ Id pro GTM se předává jako systémová proměnná v yaml souboru v open shiftu
+ 
+### Test
+Pro testovací build s GTM id 
+ 
+    $ meteor build ../vknihovne_build
+    $ cd vknihovne_build
+    $ ROOT_URL=http://127.0.0.1 PORT=8080 METEOR_SETTINGS='{"public": {"gtm": {"id": "GTM-MBZGH4"}}}' node main.js
+
+

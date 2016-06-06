@@ -25,7 +25,8 @@ I18NConf.configure({
 Router.configure({
     layoutTemplate: 'appBody',
     loadingTemplate: 'appLoading',
-    notFoundTemplate: 'appNotFound'
+    notFoundTemplate: 'appNotFound',
+    trackPageView: true
 });
 
 Router.route('home', {

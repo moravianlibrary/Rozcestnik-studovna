@@ -1,3 +1,5 @@
 .meteor/local
 .idea
 vknihovne.iml
+public/fonts/
+tests/node_modules/
