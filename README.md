@@ -32,7 +32,18 @@ Změny se ukládají ve formuláři dole pod editorem. Je nutné vyplnit název 
 
 Změny v textech se projeví jen zde v repozitáři na Githubu. Změny se neprojeví na webu [vknihovne.mzk.cz](vknihovne.mzk.cz)
 
-Změněné texty z tohoto repozitáře je potom nutné nahrát na web [vknihovne.mzk.cz](vknihovne.mzk.cz)  
+Změněné texty z tohoto repozitáře je potom nutné nahrát na web [vknihovne.mzk.cz](vknihovne.mzk.cz)
+  
+## Obrázky
+Obrázky si Meteor načítá ze složky `public/images`. V Markdown souborech jsou obrázky a jejich cesta takto:
+    
+    ![](/images/help/jakTisknout/terminal.png)
+    
+Všiměte si, že adresa začíná složkou `/images/...`. Meteor totiž bere složku `public/` jako document root `/`.
+S výše uvedenou cestou obrázky v aplikaci fungují, nefungují ale v Markdown editoru na Githubu.
+
+Aby byly obrázky zobrazeny i na Githubu, musí být obsah složky `public/images` nahrán i ve složce `images`.
+Toto je nešikovné a i když jsem tomu věnoval dostatek času, nepodařilo se mi to vyřešit lépe.
     
 # Spuštění aplikace na lokálním PC  
     $ git clone https://github.com/moravianlibrary/Rozcestnik-studovna.git
@@ -41,7 +52,15 @@ Změněné texty z tohoto repozitáře je potom nutné nahrát na web [vknihovne
     
 Po zadání posledního příkazu se aplikace se spustní na adrese [http://localhost:3000/](http://localhost:3000/)
 
-# Docker 
+# Docker
+Z Githubu je na [hub.docker.com](https://hub.docker.com/r/moravianlibrary/vknihovne/) nastavený webhook, který při změně provede build nového Docker image.
+
+Pak pro nasazení nové verze stačí na serveru s rozcestníkem pouze:
+
+    $ docker-compose pull
+
+Pro lokální vytvoření Docker image
+
     $ docker build -t moravianlibrary/rozcestnik .
     $ docker push moravianlibrary/rozcestnik
 
