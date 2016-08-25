@@ -41,4 +41,4 @@ If you are satisfied with the setting press print.
    <br> 
    You need you library card with credit. You then press your library card to the SafeQ terminal on the printer (small box with display on the right side of the printer - on the exact spot as visible in the picture. 
   
-  ![](/images/help/jakTisknout/terminal.jpg)
+  ![](/images/help/jakTisknout/terminal.png)

@@ -200,6 +200,12 @@
 
   #print-image {
     background-image: url("images/print.png");
+    @print-image-size: 60px;
+    height: @print-image-size;
+    width: @print-image-size;
+    background-size: @print-image-size;
+    position: relative;
+    top: 8px;
   }
 
   #print-tile:hover {

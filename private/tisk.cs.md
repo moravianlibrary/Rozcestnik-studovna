@@ -2,7 +2,7 @@
 
 Z počítačů umístěných na studovnách lze tisknout ve formátech A4 a A3, černobíle i barevně. 
 K tisku potřebujete čtenářskou průkazku s vloženým kreditem. 
-Kredit si můžete dobít pomocí oranžového automatu v přízemí nebo u pultu Registrace a výpůjčky.
+Kredit si můžete dobít pomocí automatu v přízemí nebo u pultu Registrace a výpůjčky.
 
 <!--![](/images/help/tisk/automat.jpg)-->
 
@@ -12,7 +12,7 @@ V následujícím dialogovém okně si můžete vybrat, zda chcete tisknout čer
 Dále je zde možné nastavit klíčové parametry tisku jako rozsah stránek, počet kopií, počet stránek na list a další. 
 
 Systém následně odešle úlohu na vybranou tiskárnu ve studovně, 
-u které se autorizujete přiložením karty k terminálu SafeQ (malá krabička s displejem umístěná pravém boku tiskárny).
+u které se autorizujete přiložením karty k terminálu MyQ.
 Tiskárny najdete v přízemí v půjčovně a v zadní části studoven ve druhém, čtvrtém a šestém patře.
 
 Na adrese <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> můžete sledovat stav svého konta a rušit úlohy odeslané do tisku.
