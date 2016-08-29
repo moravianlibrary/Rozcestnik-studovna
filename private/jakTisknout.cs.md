@@ -38,6 +38,6 @@
      * v 6. patře v zadní části studovny
      
    <br> 
-   Pro provedení vašeho tisku je nutné přiložit vaši čtenářskou kartu k terminálu SafeQ.
-   Přiložte svoji kartu přesně do červeně vyznačeného místa.
+   Pro provedení vašeho tisku je nutné přiložit vaši čtenářskou kartu k terminálu MyQ 
+   Přiložte svoji kartu k červené šipce nebo dle fotografie níže. 
   ![](/images/help/jakTisknout/terminal.png)
