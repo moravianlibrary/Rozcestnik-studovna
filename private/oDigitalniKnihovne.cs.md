@@ -9,4 +9,4 @@ Základní dělení dokumentů je na veřejné a neveřejné:
 
 **Dotazy a připomínky**: Pokud máte dotaz nebo nás chcete na něco upozornit, pište na [kramerius@mzk.cz](kramerius@mzk.cz).
 
-**INFO**: Vyzkoušejte [nový vzhled](http://www.digitalniknihovna.cz/mzk/) naší Digitální knihovny MZK, na který budeme přecházet!
+**INFO**: Vyzkoušejte <a class="external" href="http://www.digitalniknihovna.cz/mzk/" target="_blank">nový vzhled</a> naší Digitální knihovny MZK, na který budeme přecházet!

@@ -15,7 +15,7 @@ Systém následně odešle úlohu na vybranou tiskárnu ve studovně,
 u které se autorizujete přiložením karty k terminálu MyQ.
 Tiskárny najdete v přízemí v půjčovně a v zadní části studoven ve druhém, čtvrtém a šestém patře.
 
-Na adrese <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> můžete sledovat stav svého konta a rušit úlohy odeslané do tisku.
+Na adrese <a class="external" href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> můžete sledovat stav svého konta a rušit úlohy odeslané do tisku.
 
 ## Ceník tisku
 
@@ -42,6 +42,6 @@ Na adrese <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> můžet
     </div>
 </div>
 
-<a href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník služeb a poplatků</a>
+<a class="external" href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník služeb a poplatků</a>
  
 [Návod, jak tiskout z DK MZK](/cs/jak-tisknout)

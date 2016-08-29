@@ -65,3 +65,23 @@ p {
   src: url("/fonts/DINPro-Black.otf");
 }
 */
+
+.external-icon-mixin(@padding-right) {
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  background-image: url('/images/help/external-link-icon.png');
+  padding-right: @padding-right;
+
+  &:hover {
+    background-image: url('/images/help/external-link-icon-hover.png');
+  }
+}
+
+a.external {
+  .external-icon-mixin(20px);
+}
+
+h4 > a.external {
+  .external-icon-mixin(25px);
+}

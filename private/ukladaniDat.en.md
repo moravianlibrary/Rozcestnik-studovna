@@ -3,7 +3,7 @@
 <div class="alert alert-info text-center" role="alert">
     Data stored on the computer will be erased the next day.
 Before the last check-out save everything you need on your own USB disk, email or 
-    <a href="http://www.uschovna.cz/" target="_blank" class="alert-link">online repository</a>.
+    <a class="external" href="http://www.uschovna.cz/" target="_blank" class="alert-link">online repository</a>.
 </div>
 
 <p class="with-image">

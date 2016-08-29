@@ -11,12 +11,12 @@ klepněte na Wi-Fi a následně na síť Kramerius.
 
 Mobilní aplikaci Kramerius si můžete stáhnout také do svého zařízení a prohlížet si veřejně dostupná díla i doma (najdete tam dokonce i digitální dokumenty dalších 17 českých knihoven).
 
-<a href="https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app" target="_blank">
+<a class="external" href="https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app" target="_blank">
 Aplikace pro Android (dostupná přes Google Play)
 </a>
  
 
 
-<a href="https://itunes.apple.com/us/app/kramerius/id1065771974?mt=8" target="_blank">
+<a class="external" href="https://itunes.apple.com/us/app/kramerius/id1065771974?mt=8" target="_blank">
 Aplikace pro iOS (dostupná přes App Store)
 </a>

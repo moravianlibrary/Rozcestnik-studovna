@@ -7,7 +7,7 @@ From the computers in the Study Rooms you can print A4 or A3 paper, in colour or
 When you want to print in most applicatnions you select File -> Print or Ctrl+P. Before sending to print we recommend – if the application permits – check the result by selecting Print Preview. In the next window you may choose whether to print in Black & White (MZKcernobila) or color (MZKbarevna). It is also possible to set parameters such as range of pages, number of copies, number of pages per sheet and other.
 The system then sends the printing job to the selected printer in the study. You then press your library card to the SafeQ terminal on the printer (small box with display on the right side of the printer). The printers are located on the ground floor and in the Study Rooms on the 2nd, 4th and 6th floor.
 
-At <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> you can see the status of your account and cancel print jobs you sent.
+At <a class="external" href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> you can see the status of your account and cancel print jobs you sent.
 
 ## Cost of print
 
@@ -34,6 +34,6 @@ At <a href="http://safeq.mzk.cz" target="_blank">safeq.mzk.cz</a> you can see th
     </div>
 </div>
 
-<a href="http://www.mzk.cz/en/services/fees-and-fines" target="_blank">Complete price list of services and fees</a>
+<a class="external" href="http://www.mzk.cz/en/services/fees-and-fines" target="_blank">Complete price list of services and fees</a>
  
 [How to print](/en/jak-tisknout)
