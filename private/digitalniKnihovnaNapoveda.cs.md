@@ -4,7 +4,7 @@ Digitální knihovna MZK na adrese <a class="external" href="http://www.krameriu
 
 Volná díla jsou přístupná odkudkoliv, autorsky chráněná pouze na počítačích MZK - dostanete se k nim přes [Prohlížeč autorsky chráněného obsahu](/cs/digitalni-knihovna), kde dokumenty nelze stahovat ani kopírovat. Můžete si je ale [vytisknout](/cs/jak-tisknout) na tiskárnách MZK.
 
-V blízké době budeme přecházet na <a class="external" href="http://www.digitalniknihovna.cz/mzk/" target="_blank">nový vzhled</a> Digitální knihovny MZK. Už nyní ho můžete zkoušet a používat! 
+Na začátku října přejdeme na <a class="external" href="http://www.digitalniknihovna.cz/mzk/" target="_blank">nový vzhled</a> Digitální knihovny MZK. Už nyní ho můžete zkoušet a používat! 
 
 <br>
    
