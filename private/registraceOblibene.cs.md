@@ -1,32 +1,20 @@
 # Registrace v digitální knihovně
 
-V Digitální knihovně MZK je možnost se registrovat a díky tomu si ukládat zajímavé dokumenty do Oblíbených.
-Registrovat se můžete na hlavní straně <a class="external" href="http://kramerius.mzk.cz" target="_blank">http://kramerius.mzk.cz</a> v záložce **Registrace**.
+V Digitální knihovně MZK je možnost se registrovat a díky tomu si ukládat zajímavé dokumenty do Oblíbených, vytvářet si poznámky k dokumentům a další.
+Registrovat se můžete na hlavní straně <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">digitalniknihovna.mzk.cz</a>.
 Pozor, registrace nemá vliv na přístupnost neveřejných dokumentů mimo budovu knihovny. K těm se dostanete pouze v knihovně.
 
 ## Oblíbené
 Jak si přidat dokument do Oblíbených?
 
-1. Otevřete si libovolnou sbírku. V levém menu zatrhněte dokument na nejvyšší úrovni.
+1. Otevřete si libovolný dokument. V pravém horním rohu v podrobnostech o dokumentu naleznete hvězdičku vedle názvu díla. 
 
-    ![](/images/help/registraceOblibene/step1.png)
+    ![](/images/help/jakHledat/hledaniDokument.png)
  
-2. Klikněte na ozubené kolečko.
+2. Klikněte na hvězdičku. Po přidání dokumentu do Oblíbených bude hvězdička zvýrazněna.
 
-    ![](/images/help/registraceOblibene/step2.png)
+    ![](/images/help/registraceOblibene/oblibene.png)
  
-3. Klikněte na přidat k oblíbeným.
 
-    ![](/images/help/registraceOblibene/step3.png)
-    
-4. Potvrďte přidání dokumentu tlačítkem OK.
+O dalších výhodách registrace vás budeme brzy informovat. 
 
-    ![](/images/help/registraceOblibene/step4.png)
-
-5. Pro zobrazní oblíbených položek nejprve přejděte na stránku domů.
-
-    ![](/images/help/registraceOblibene/step5.png)
-    
-6. V menu kliněte na položku Oblíbené. 
-
-    ![](/images/help/registraceOblibene/step6.png)
