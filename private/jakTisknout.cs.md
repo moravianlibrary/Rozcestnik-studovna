@@ -1,27 +1,17 @@
 # Jak tisknout
 <div class="alert alert-info text-center" role="alert">
-    Předtím, než začnete tisknout z digitální knihovny. Přečtěte si, prosím, stránku 
-    <a href="/cs/tisk" class="alert-link">tisk</a>.
+    Než začnete tisknout z digitální knihovny, přečtěte si, prosím, stránku 
+    <a href="/cs/tisk" class="alert-link">Tisk</a>.
 </div>
 
-1. Označte příslušné strany v levém menu s výpisem stran. Vybrat lze jen stránky. Vybrat a vytisknout celý dokument není možné. 
+1. Pokud máte otevřený konkrétní dokument, klikněte na nabídku "PDF" v pravém dolním rohu obrazovky. 
 
-    ![](/images/help/jakTisknout/step1.png)
+2. Zobrazí se okno Generování PDF. Vyberte daný rozsah stran pomocí posuvníku a klikněte na možnost Generovat. 
 
-2. Klikněte na ozubené kolečko.
+    ![](/images/help/jakTisknout/tiskPDF.png)
 
-    ![](/images/help/jakTisknout/step2.png)
-
-3. Klikněte na možnost “Tisk…”
-
-    ![](/images/help/jakTisknout/step3.png)
-
-4. V nastavení tisku zvolte formát A4 nebo A3. Svoji volbu potvrďte tlačítkem Ok.
-
-    ![](/images/help/jakTisknout/step4.png)
-
-5. V prohlížeči se otevře PDF se stránkami, které jste vybrali pro tisk. Takto si můžete zkontrolovat stránky, které chtete vytisknout.
-   Pokud je vše v pořádku, klikněte ikonku s obrázkem tiskárny vpravo nahoře.
+3. V prohlížeči se otevře PDF se stránkami, které jste vybrali ke generování. Takto si můžete zkontrolovat stránky, které chtete vytisknout.
+   Pokud je vše v pořádku, klikněte na ikonku s obrázkem tiskárny vpravo nahoře.
 
     ![](/images/help/jakTisknout/step5.png)
 
