@@ -9,3 +9,14 @@ Základní dělení dokumentů je na veřejné a neveřejné:
 
 **Dotazy a připomínky**: Pokud máte dotaz nebo nás chcete na něco upozornit, pište na [digitalniknihovna@mzk.cz](digitalniknihovna@mzk.cz).
 
+### Nové webové rozhraní
+<a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">Nové webové rozhraní</a> Digitální knihovny MZK přináší jednodušší a srozumitelnější způsob práce s digitálními dokumenty. 
+
+Hlavní vyhledávací řádek se nachází v horní části obrazovky. Pod ním jsou doporučené tituly k prohlédnutí a veřejně dostupné novinky v Digitální knihovně MZK. Obě nabídky je možné si rozkliknout. Po levé straně se nachází menu s možnostmi Domů, Sbírky, Informace, Hledat a Procházet. 
+
+![](/images/help/jakHledat/prohlizeniKnihy.png)
+
+### Prohlížení dokumentu
+Při výběru konkrétního dokumentu se zobrazí strana s dokumentem, který je poté možné celý prohlédnout. Po levé straně se nachází vypis stránek a po pravé straně podrobnosti o dokumentu. Nad zobrazenou stránkou lze najetím myši vyvolat také skryté menu obsahující další možnosti práce se stránkou či dokumentem. V pravém dolním rohu pod podrobnostmi o dokumentu se nachází nabídka pro zobrazení textového přepisu stránky (TXT), stažení obrázku ve formátu JPG a vygenerování PDF.  
+
+![](/images/help/jakHledat/prohlizeniKnihy.png)
