@@ -17,6 +17,6 @@ Hlavní vyhledávací řádek se nachází v horní části obrazovky. Pod ním 
 ![](/images/help/jakHledat/prohlizeniKnihy.png)
 
 ### Prohlížení dokumentu
-Při výběru konkrétního dokumentu se zobrazí strana s dokumentem, který je poté možné celý prohlédnout. Po levé straně se nachází vypis stránek a po pravé straně podrobnosti o dokumentu. Nad zobrazenou stránkou lze najetím myši vyvolat také skryté menu obsahující další možnosti práce se stránkou či dokumentem. V pravém dolním rohu pod podrobnostmi o dokumentu se nachází nabídka pro zobrazení textového přepisu stránky (TXT), stažení obrázku ve formátu JPG a vygenerování PDF.  
+Při výběru konkrétního dokumentu se zobrazí strana s dokumentem, který je poté možné celý prohlédnout. Po levé straně se nachází vypis stránek a po pravé straně podrobnosti o dokumentu. Nad zobrazenou stránkou lze najetím myši vyvolat skryté menu obsahující další možnosti práce se stránkou či dokumentem. V pravém dolním rohu se nachází nabídka pro zobrazení textového přepisu stránky (TXT), stažení obrázku ve formátu JPG a vygenerování PDF.  
 
 ![](/images/help/jakHledat/prohlizeniKnihy.png)
