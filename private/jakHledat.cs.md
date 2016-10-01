@@ -19,12 +19,12 @@ Při zvolení možnosti Procházet můžete procházet obsah digitální knihovn
 ### Sbírky
 Tato možnost z menu poskytuje seznam tématických sbírek, které se nachází v Digitální knihovně MZK. Název sbírky se zobrazuje jako použitý filtr v levém sloupci.
 
-![](/images/help/jakHledat/sbírky.png)
+![](/images/help/jakHledat/sbirky.png)
 
 ### Hledání v dokumentu
 Prohledávat lze také plný text dokumentu. Pokud máte otevřený konkrétní dokument, v pravém horním rohu se nachází řádek s textem "Hledat v dokumentu". Při zadání hledaného výrazu je dokument omezen pouze na ty strany, které daný výraz obsahují. Zrušit toto hledání lze pomocí křížku vedle zadaného výrazu.
 
-![](/images/help/jakHledat/hledaníDokument.png)
+![](/images/help/jakHledat/hledaniDokument.png)
 
 ### Odkaz v katalogu MZK
 Ke konkrétnímu dokumentu se můžete dostat také z <a class="external" href="https://vufind.mzk.cz/" target="_blank">katalogu</a>
