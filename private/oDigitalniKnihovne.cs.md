@@ -14,7 +14,7 @@ Základní dělení dokumentů je na veřejné a neveřejné:
 
 Hlavní vyhledávací řádek se nachází v horní části obrazovky. Pod ním jsou doporučené tituly k prohlédnutí a veřejně dostupné novinky v Digitální knihovně MZK. Obě nabídky je možné si rozkliknout. Po levé straně se nachází menu s možnostmi Domů, Sbírky, Informace, Hledat a Procházet. 
 
-![](/images/help/jakHledat/prohlizeniKnihy.png)
+![](/images/help/jakHledat/digitalniknihovna.png)
 
 ### Prohlížení dokumentu
 Při výběru konkrétního dokumentu se zobrazí strana s dokumentem. Po levé straně se nachází vypis stránek a po pravé straně podrobnosti o dokumentu. Nad zobrazenou stránkou lze najetím myši vyvolat skryté menu obsahující další možnosti práce se stránkou či dokumentem. V pravém dolním rohu se nachází nabídka pro zobrazení textového přepisu stránky (TXT), stažení obrázku ve formátu JPG a generování PDF.  
