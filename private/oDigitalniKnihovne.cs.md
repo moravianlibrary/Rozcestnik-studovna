@@ -52,7 +52,7 @@ Vytvořte si poznámku. Pokud jste přihlášení, poznámka na vás počká do 
 Můžete si vybrat, podle čeho chcete řadit výsledky. Podívejte se, co do Digitální knihovny MZK přibylo v poslední době.
 
 ### Jednodušší generování PDF
-![](/images/help/jakTisknouttiskPDF.png)
+![](/images/help/jakTisknout/tiskPDF.png)
 
 Najděte volbu "PDF" vlevo dole, vyberte rozsah stran a generujte.
 
