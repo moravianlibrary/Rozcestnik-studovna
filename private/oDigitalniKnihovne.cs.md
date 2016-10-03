@@ -34,7 +34,7 @@ Při výběru konkrétního dokumentu se zobrazí strana s dokumentem.
 Zde je alespoň několik novinek:
 
 ### Ovládací prvky
-Skryté menu, které se objevuje najetím myši, skýtá např. tyto možnosti:
+Menu, které se objevuje najetím myši, skýtá např. tyto možnosti:
 
 ![](/images/help/jakHledat/funkcniPrvky.png)
 
