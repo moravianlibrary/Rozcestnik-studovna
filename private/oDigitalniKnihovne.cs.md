@@ -22,6 +22,10 @@ Při výběru konkrétního dokumentu se zobrazí strana s dokumentem. Po levé 
 ![](/images/help/jakHledat/prohlizeniKnihy.png)
 
 ## Co nového přináší Digitální knihovna MZK
+
+Zde je alespoň několik novinek:
+
+### Ovládací prvky
 Skryté menu, které se objevuje najetím myši, skýtá např. tyto možnosti:
 
 ![](/images/help/jakHledat/funkcniPrvky.png)
@@ -42,5 +46,14 @@ Vyberte část textu na obrázku a pomocí ikonky vyvolejte přepis textu.
 ![](/images/help/jakHledat/poznamka.png)
 Vytvořte si poznámku. Pokud jste přihlášení, poznámka na vás počká do příště.
 
+### Řazení podle nejnovějšího
+![](/images/help/jakHledat/razeni.png)
+
+Můžete si vybrat, podle čeho chcete řadit výsledky. Podívejte se, co do Digitální knihovny MZK přibylo v poslední době.
+
+### Jednodušší generování PDF
+![](/images/help/jakTisknouttiskPDF.png)
+
+Najděte volbu "PDF" vlevo dole, vyberte rozsah stran a generujte.
 
 
