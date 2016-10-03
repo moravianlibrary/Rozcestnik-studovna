@@ -22,14 +22,25 @@ Při výběru konkrétního dokumentu se zobrazí strana s dokumentem. Po levé 
 ![](/images/help/jakHledat/prohlizeniKnihy.png)
 
 ## Co nového přináší Digitální knihovna MZK
-Skryté menu, které se objevuje najetím myši, skýtá tyto možnosti:
+Skryté menu, které se objevuje najetím myši, skýtá např. tyto možnosti:
 
 ![](/images/help/jakHledat/funkcniPrvky.png)
 
 #### Dvoustránkové zobrazení 
 ![](/images/help/jakHledat/dvoustrankoveZobrazeni.png)
-Pomocí této ikonky můžete zvolit dvoustránkové zobrazení.
+Pomocí této ikonky zvolte dvoustránkové zobrazení.
 
 #### Zapnout/vypnout fullscreen
 ![](/images/help/jakHledat/fullscreen.png)
+Prohlížejte si na celé obrazovce.
+
+#### Vybrat text
+![](/images/help/jakHledat/textovyPrepis.png)
+Vyberte část textu na obrázku a pomocí ikonky vyvolejte přepis textu.
+
+#### Přidat poznámku
+![](/images/help/jakHledat/poznamka.png)
+Vytvořte si poznámku. Pokud jste přihlášení, poznámka na vás počká do příště.
+
+
 
