@@ -49,7 +49,7 @@ Vytvořte si poznámku. Pokud jste přihlášení, poznámka na vás počká do 
 ### Řazení podle nejnovějšího
 ![](/images/help/jakHledat/razeni.png)
 
-Můžete si vybrat, podle čeho chcete řadit výsledky. Podívejte se, co do Digitální knihovny MZK přibylo v poslední době.
+Můžete si vybrat, podle čeho chcete řadit výsledky při vyhledávání. Podívejte se, co do Digitální knihovny MZK přibylo v poslední době.
 
 ### Jednodušší generování PDF
 ![](/images/help/jakTisknout/tiskPDF.png)
