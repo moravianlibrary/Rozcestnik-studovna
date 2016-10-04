@@ -4,7 +4,7 @@ Dokumenty v digitální knihovně lze hledat různými způsoby.
 ### Hlavní vyhledávácí řádek
 V <a class="external" href="http://kramerius.mzk.cz/" target="_blank">digitální knihovně</a> se nachází hlavní vyhledávací řádek v horní části obrazovky. Jde o jednoduché vyhledávání. Vedle něj je pokročilé vyhledávání, kde je možné upřesnit dotaz podle autora, názvu nebo roku vydání. 
 
-![](/images/help/jakHledat/jednoducheVyhledavani.png)
+![](/images/help/jakHledat/jednoducheHledavani.png)
 
 ### Záložky
 Pod vyhledáváním se nachází záložky:
