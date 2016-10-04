@@ -1,39 +1,28 @@
 # Jak hledat v digitální knihovně
-Dokumenty v digitální knihovně lze hledat různými způsoby. Buď můžete využít hlavní vyhledávací řádek v horní části obrazovky nebo menu s možnostmi Hledat, Procházet a Sbírky po levé straně.
+Dokumenty v digitální knihovně lze hledat různými způsoby. 
 
 ### Hlavní vyhledávácí řádek
-V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">digitální knihovně</a> se nachází hlavní vyhledávací řádek v horní části obrazovky. Jde o jednoduché vyhledávání, ve kterém zadáváte hledané výrazy za sebou. Vyhledávání obsahuje našeptávač, který nabízí tituly podle názvu.
+V <a class="external" href="http://kramerius.mzk.cz/" target="_blank">digitální knihovně</a> se nachází hlavní vyhledávací řádek v horní části obrazovky. Jde o jednoduché vyhledávání. Vedle něj je pokročilé vyhledávání, kde je možné upřesnit dotaz podle autora, názvu nebo roku vydání. 
 
-![](/images/help/jakHledat/vyhledavaciRadek.png)
+![](/images/help/jakHledat/jednoducheVyhledavani.png)
 
-### Hledat (Filtry)
-Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hledat v menu můžete upřesňovat výsledky pomocí filtrů v levém sloupci. Lze použít filtry:
-* Dostupnost
-* Typ dokumentu
-* Klíčové slovo
-* Autor
-* Jazyk
-* Sbírka
-* Rok vydání
+### Záložky
+Pod vyhledáváním se nachází záložky:
+* Vybrané - doporučené tituly k přečtení
+* Nejnovější - tituly, které jsou nově digitalizovány
+* Navigace - procházení podle typu dokumentu
+* Tituly - kategorické procházení podle názvu titulu
+* Autoři - kategorické procházení podle jména autora
+* Virtuální sbírky - tématické sbírky v Digitální knihovně MZK, při výběru konkrétní sbírky se zobrazí seznam dokumentů a celá digitální knihovna se omezí na danou sbírku. Omezení na sbírku zrušíte pomocí šipky v pravém horním rohu.
 
-Použité filtry vidíte nahoře a můžete je jednoduše zrušit pomocí křížku.
+### Časová osa
+Na hlavní stránce vlevo se nachází časová osa, kde jsou dokumenty vyhledány podle rozsahu let vydání.
 
-![](/images/help/jakHledat/filtry.png)
-
-### Procházet
-Při zvolení možnosti Procházet můžete procházet obsah digitální knihovny podle kategorií Typ dokumentu, Autor, Klíčové slovo a Jazyk. Lze také vybrat typ řazení a zobrazení výsledků.
-
-![](/images/help/jakHledat/prochazeniKategorie.png)
-
-### Sbírky
-Zde uvidíte tématické sbírky, které máme v Digitální knihovně MZK. Při výběru konkrétní sbírky se zobrazí seznam dokumentů. Název sbírky uvidíte jako použitý filtr v levém sloupci (viz Hledat (Filtry)).
-
-![](/images/help/jakHledat/sbirky.png)
+### Filtry
+Při zadání dotazu se objeví obrazovka s vyhledanými dokumenty. Vlevo se nachází sloupec s filtry, pomocí kterých je možné dotaz ještě více upřesnit. Použité filtry vidíte nahoře a můžete je jednoduše zrušit pomocí křížku.
 
 ### Hledání v dokumentu
-Prohledávat lze také plný text dokumentu. V pravém horním rohu se nachází řádek s textem "Hledat v dokumentu". Při zadání hledaného výrazu je dokument omezen pouze na ty strany, které daný výraz obsahují. Zrušit toto hledání lze pomocí křížku vedle zadaného výrazu.
-
-![](/images/help/jakHledat/hledatDokument2.png)
+Prohledávat lze také plný text dokumentu. Pokud máte otevřený konkrétní dokument, po levé straně se nachází výpis stran (stromová struktura) a nad ním je záložka s lupou. Tu vyberte a objeví se vyhledávací okno, do kterého zadáte hledaný výraz.
 
 ### Odkaz v katalogu MZK
 Ke konkrétnímu dokumentu se můžete dostat také z <a class="external" href="https://vufind.mzk.cz/" target="_blank">katalogu</a>
