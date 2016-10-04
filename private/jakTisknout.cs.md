@@ -4,9 +4,7 @@
     <a href="/cs/tisk" class="alert-link">Tisk</a>.
 </div>
 
-1. Označte příslušné strany v levém menu s výpisem stran. Dokument jako celek označit nelze.
-
-![](/images/help/jakTisknout/step1.png)
+1. Označte příslušné strany v levém menu s výpisem stran. Dokument jako celek označit nelze. ![](/images/help/jakTisknout/step1.png)
 
 2. Přes ozubené kolečko se přepněte do textového menu.
 
