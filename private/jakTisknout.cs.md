@@ -4,20 +4,24 @@
     <a href="/cs/tisk" class="alert-link">Tisk</a>.
 </div>
 
-1. Označte příslušné strany v levém menu s výpisem stran. Dokument jako celek označit nelze. ![](/images/help/jakTisknout/step1.png)
 
+
+1. Označte příslušné strany v levém menu s výpisem stran. Dokument jako celek označit nelze.
+
+    ![](/images/help/jakTisknout/step1.png)
+ 
 2. Přes ozubené kolečko se přepněte do textového menu.
 
-![](/images/help/jakTisknout/step2.png)
+    ![](/images/help/jakTisknout/step2.png)
 
 3. Klikněte na možnost “Tisk…”.
 
-![](/images/help/jakTisknout/step3.png)
+    ![](/images/help/jakTisknout/step3.png)
 
 4. V nastavení tisku pak zvolte formát A4 nebo A3. Vytvoří se PDF, které můžete zkontrolovat.
-
-![](/images/help/jakTisknout/step4.png)
-
+   
+    ![](/images/help/jakTisknout/step4.png)
+       
 5. Pokud je vše v pořádku, klikněte na ikonku s obrázkem tiskárny vpravo nahoře.
 
     ![](/images/help/jakTisknout/step5.png)
