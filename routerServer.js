@@ -4,7 +4,7 @@ Router.route('digital-library-acho', {
     action: function () {
         this.response.statusCode = 200;
         this.response.setHeader("Content-Type", "application/acho");
-        this.response.end(`host: kramerius.mzk.cz\nlang: cs`);
+        this.response.end(`host: digitalniknihovna.mzk.cz\nlang: cs`);
     },
     i18n: {
         languages: {
@@ -12,7 +12,7 @@ Router.route('digital-library-acho', {
                 action: function () {
                     this.response.statusCode = 200;
                     this.response.setHeader("Content-Type", "application/acho");
-                    this.response.end(`host: kramerius.mzk.cz\nlang: en`);
+                    this.response.end(`host: digitalniknihovna.mzk.cz\nlang: en`);
                 }
             }
         }
