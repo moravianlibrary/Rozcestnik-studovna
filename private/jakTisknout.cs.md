@@ -1,28 +1,19 @@
-# Jak tisknout
+# Jak tisknout na studovnách
 <div class="alert alert-info text-center" role="alert">
     Než začnete tisknout z digitální knihovny, přečtěte si, prosím, stránku 
     <a href="/cs/tisk" class="alert-link">Tisk</a>.
 </div>
 
+1. Pokud máte otevřený konkrétní dokument, klikněte na nabídku "Příprava k tisku" v pravém horním rohu obrazovky. 
+    ![](/images/help/jakTisknout/tlacitkoGenerovaniTisk.png)
+    ![](/images/help/jakTisknout/pripravaTisk.png)
 
+2. Zobrazí se okno Příprava k tisku. Vyberte daný rozsah stran pomocí posuvníku a klikněte na možnost Připravit k tisku. 
 
-1. Označte příslušné strany v levém menu s výpisem stran. Dokument jako celek označit nelze.
+    ![](/images/help/jakTisknout/tisk.png)
 
-    ![](/images/help/jakTisknout/step1.png)
- 
-2. Přes ozubené kolečko se přepněte do textového menu.
-
-    ![](/images/help/jakTisknout/step2.png)
-
-3. Klikněte na možnost “Tisk…”.
-
-    ![](/images/help/jakTisknout/step3.png)
-
-4. V nastavení tisku pak zvolte formát A4 nebo A3. Vytvoří se PDF, které můžete zkontrolovat.
-   
-    ![](/images/help/jakTisknout/step4.png)
-       
-5. Pokud je vše v pořádku, klikněte na ikonku s obrázkem tiskárny vpravo nahoře.
+3. V prohlížeči se otevře PDF se stránkami, které jste vybrali k tisku. Takto si můžete zkontrolovat stránky, které chtete vytisknout.
+   Pokud je vše v pořádku, klikněte na ikonku s obrázkem tiskárny vpravo nahoře.
 
     ![](/images/help/jakTisknout/step5.png)
 
