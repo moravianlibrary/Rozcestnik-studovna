@@ -58,5 +58,5 @@ Můžete si vybrat, podle čeho chcete řadit výsledky vyhledávání. Podívej
 ### Jednodušší generování PDF a tisk
 ![](/images/help/jakTisknout/tisk.png)
 
-Najděte volbu "Příprava k tisku" vpravo nahoře, vyberte rozsah stran a generujte PDF.
+Najděte volbu "Příprava k tisku" vpravo nahoře, vyberte rozsah stran a generujte PDF. To následně vytiskněte.
 
