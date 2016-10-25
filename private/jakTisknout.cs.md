@@ -1,6 +1,6 @@
-# Jak tisknout na studovnách
+# Jak tisknout z Digitální knihovny MZK
 <div class="alert alert-info text-center" role="alert">
-    Než začnete tisknout z digitální knihovny, přečtěte si, prosím, stránku 
+    Než začnete tisknout z Digitální knihovny MZK, přečtěte si, prosím, stránku 
     <a href="/cs/tisk" class="alert-link">Tisk</a>.
 </div>
 
