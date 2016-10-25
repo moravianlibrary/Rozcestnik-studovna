@@ -16,5 +16,5 @@ Jak si přidat dokument do Oblíbených?
     ![](/images/help/registraceOblibene/oblibene.png)
  
 
-O dalších výhodách registrace vás budeme brzy informovat. Pokud registrace zrovna nefunguje, mějte s námi, prosím, trpělivost. Opravujeme to.
+O dalších výhodách registrace vás budeme brzy informovat. Pokud registrace zrovna nefunguje, mějte s námi, prosím, trpělivost. Pracujeme na tom.
 
