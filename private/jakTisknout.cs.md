@@ -1,4 +1,4 @@
-# Jak tisknout z Digitální knihovny MZK
+# Jak tisknout z digitální knihovny
 <div class="alert alert-info text-center" role="alert">
     Než začnete tisknout z Digitální knihovny MZK, přečtěte si, prosím, stránku 
     <a href="/cs/tisk" class="alert-link">Tisk</a>.
