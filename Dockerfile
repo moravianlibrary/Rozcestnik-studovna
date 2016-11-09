@@ -1,1 +1,2 @@
-FROM meteorhacks/meteord:onbuild
+#FROM meteorhacks/meteord:onbuild
+FROM dsecik/meteord
