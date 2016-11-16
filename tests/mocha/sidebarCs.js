@@ -76,8 +76,8 @@ describe('In help pages there is sidebar menu with links', function () {
                 links: {
                     safeQ: {
                         cs: {
-                            link: 'safeq.mzk.cz',
-                            url: 'http://safeq.mzk.cz:8082/'
+                            link: 'myq.mzk.cz',
+                            url: 'http://myq.mzk.cz:8082/'
                         }
                     },
                     fees: {
@@ -313,7 +313,7 @@ describe('In help pages there is sidebar menu with links', function () {
                     safeQ: {
                         cs: {
                             link: 'Tiskové úlohy',
-                            url: 'http://safeq.mzk.cz:8082/'
+                            url: 'http://myq.mzk.cz:8082/'
                         }
                     }
                 }
