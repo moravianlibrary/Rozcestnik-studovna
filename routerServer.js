@@ -1,10 +1,10 @@
 /* KRAMERIUS */
-Router.route('digital-library-acho', {
+Router.route('/digital-library-acho/:host/:lang/:uuid', {
     where: 'server',
     action: function () {
         this.response.statusCode = 200;
         this.response.setHeader("Content-Type", "application/acho");
-        this.response.end(`host: digitalniknihovna.mzk.cz\nlang: cs`);
+        this.response.end(`host: ${this.params.host}\nlang: ${this.params.lang}\npid: ${this.params.uuid}`);
     },
     i18n: {
         languages: {
