@@ -11,8 +11,7 @@ Před odesláním doporučujeme - pokud to aplikace umožňuje - zkontrolovat v�
 V následujícím dialogovém okně si můžete vybrat, zda chcete tisknout černobíle (MZK_cernobila_MyQ), nebo barevně (MZK_barevna_MyQ). 
 Dále je zde možné nastavit klíčové parametry tisku jako rozsah stránek, počet kopií, počet stránek na list a další. 
 
-Systém následně odešle úlohu na vybranou tiskárnu ve studovně, 
-u které se autorizujete přiložením karty k terminálu MyQ.
+Systém následně odešle úlohu na libovolnou tiskárnu ve studovně, u které se autorizujete přiložením karty k terminálu MyQ.
 Tiskárny najdete v přízemí v půjčovně a v zadní části studoven ve druhém, čtvrtém a šestém patře.
 
 Na adrese <a class="external" href="http://myq.mzk.cz" target="_blank">myq.mzk.cz</a> můžete sledovat stav svého konta a rušit úlohy odeslané do tisku.
