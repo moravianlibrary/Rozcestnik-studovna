@@ -4,7 +4,7 @@
     <a href="/cs/tisk" class="alert-link">Tisk</a>.
 </div>
 
-1. Pokud máte otevřený konkrétní dokument, klikněte na nabídku "Příprava k tisku" v pravém horním rohu obrazovky. 
+1. Pokud máte otevřený test konkrétní dokument, klikněte na nabídku "Příprava k tisku" v pravém horním rohu obrazovky. 
     ![](/images/help/jakTisknout/tlacitkoGenerovaniTisk.png)
     ![](/images/help/jakTisknout/pripravaTisk.png)
 
