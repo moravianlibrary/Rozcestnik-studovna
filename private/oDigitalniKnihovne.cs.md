@@ -14,8 +14,7 @@ __*neveřejné dokumenty*__
 
 **Dotazy a připomínky**: Pokud máte dotaz nebo nás chcete na něco upozornit, pište na [digitalniknihovna@mzk.cz](digitalniknihovna@mzk.cz).
 
-## Nový vzhled
-<a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">Nový vzhled</a> Digitální knihovny MZK přináší jednodušší a srozumitelnější způsob práce s digitálními dokumenty. 
+Vzhled <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">Digitální knihovny MZK</a> přináší jednodušší a srozumitelnější způsob práce s digitálními dokumenty. 
 
 * Hlavní vyhledávací řádek se nachází v horní části obrazovky. 
 * Uprostřed jsou doporučené tituly k prohlédnutí a veřejně dostupné novinky v Digitální knihovně MZK.
