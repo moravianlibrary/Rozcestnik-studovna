@@ -5,10 +5,11 @@ V Digitální knihovně MZK najdete knihy, noviny, časopisy, rukopisy, staré t
 Základní dělení dokumentů je na veřejné a neveřejné:
 
 __*veřejné dokumenty*__ 
-
 <p>- volná díla, nevztahují se na ně autorská ani nakladatelská práva, jsou přístupné odkudkoliv</p>
 
-* __*neveřejné dokumenty*__ - autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání); prohlížet a tisknout si je můžete v [Prohlížeči autorsky chráněného obsahu](/cs/digitalni-knihovna) (pozor, nelze stahovat ani kopírovat)
+__*neveřejné dokumenty*__ 
+<p>- autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání)</p>
+<p>- prohlížet a tisknout si je můžete v [Prohlížeči autorsky chráněného obsahu](/cs/digitalni-knihovna) (pozor, nelze stahovat ani kopírovat)</p>
 
 **Dotazy a připomínky**: Pokud máte dotaz nebo nás chcete na něco upozornit, pište na [digitalniknihovna@mzk.cz](digitalniknihovna@mzk.cz).
 
