@@ -19,3 +19,5 @@ The design of the <a class="external" href="http://digitalniknihovna.mzk.cz/" ta
 * In the middle there are the recommended titles for review and publicly available news in the Digital Library MZK. 
 * On the left, there is a menu with options:  Home, Collections, About, Search and Browse.
 * At the top on right side, you can send us feedback or change language.
+
+![](/images/help/jakHledat/jakprohlizeten.png)
