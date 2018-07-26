@@ -2,7 +2,7 @@
 
 V Digitální knihovně MZK najdete knihy, noviny, časopisy, rukopisy, staré tisky, hudebniny, archiválie, mapy, grafiky a zvukové dokumenty.
 
-Základní dělení dokumentů je na veřejné a neveřejné:
+Základní dělení dokumentů je na:
 
 __*veřejné dokumenty*__ 
 * volná díla, nevztahují se na ně autorská ani nakladatelská práva, jsou přístupné odkudkoliv
