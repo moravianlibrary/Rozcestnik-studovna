@@ -21,3 +21,5 @@ The design of the <a class="external" href="http://digitalniknihovna.mzk.cz/" ta
 * At the top on right side, you can send us feedback or change language.
 
 ![](/images/help/jakHledat/jakprohlizeten.png)
+
+
