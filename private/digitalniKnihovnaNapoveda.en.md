@@ -9,8 +9,8 @@ However, you can [print](/en/jak-tisknout) them on the library printers.
 <br>
    
 ### [About digital library](http://vknihovne.mzk.cz/en/o-digitalni-knihovne)
-### [How to search](/en/jak-hledat)
-### [How to print](/en/jak-tisknout)
-### [Lending of tablets](/en/tablety)
-### [Kramerius mobile app](/en/mobilni-aplikace-kramerius)
-### [Registration and favorites](/en/registrace-a-oblibene)
+### [How to search](http://vknihovne.mzk.cz/en/jak-hledat)
+### [How to print](http://vknihovne.mzk.cz/en/jak-tisknout)
+### [Lending of tablets](http://vknihovne.mzk.cz/en/tablety)
+### [Kramerius mobile app](http://vknihovne.mzk.cz/en/mobilni-aplikace-kramerius)
+### [Registration and favorites](http://vknihovne.mzk.cz/en/registrace-a-oblibene)
