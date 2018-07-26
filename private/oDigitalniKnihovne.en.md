@@ -13,7 +13,7 @@ __private documents__
 __Questions and comments:__ if you have any questions or comments, please let us know on [digitalniknihovna@mzk.cz](digitalniknihovna@mzk.cz). 
 
 ## How to get started with Digital Library MZK?
-The design of the<a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">Digital Library MZK</a> brings a simpler and more comprehensible way of working with digital documents.
+The design of the <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">Digital Library MZK</a> brings a simpler and more comprehensible way of working with digital documents.
 
 * The main search bar is at the top of the screen.
 * In the middle there are the recommended titles for review and publicly available news in the Digital Library MZK. 
