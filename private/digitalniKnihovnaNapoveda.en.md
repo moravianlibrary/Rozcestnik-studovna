@@ -8,7 +8,7 @@ However, you can [print](/en/jak-tisknout) them on the library printers.
 
 <br>
    
-### [About digital library](/en/o-digitalni-knihovne)
+### [About digital library](http://vknihovne.mzk.cz/en/o-digitalni-knihovne)
 ### [How to search](/en/jak-hledat)
 ### [How to print](/en/jak-tisknout)
 ### [Lending of tablets](/en/tablety)
