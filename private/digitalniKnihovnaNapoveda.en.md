@@ -8,9 +8,9 @@ However, you can [print](/en/jak-tisknout) them on the library printers.
 
 <br>
    
-### [O digitální knihovně](/cs/o-digitalni-knihovne)
-### [Jak hledat](/cs/jak-hledat)
-### [Jak tisknout](/cs/jak-tisknout)
-### [Půjčení tabletů](/cs/tablety)
-### [Mobilní aplikace Kramerius](/cs/mobilni-aplikace-kramerius)
-### [Registrace a Oblíbené](/cs/registrace-a-oblibene)
+### [About digital library](/en/o-digitalni-knihovne)
+### [How to search](/en/jak-hledat)
+### [How to print](/en/jak-tisknout)
+### [Lending of tablets](/en/tablety)
+### [Kramerius mobile app](/en/mobilni-aplikace-kramerius)
+### [Registration and favorites](/en/registrace-a-oblibene)
