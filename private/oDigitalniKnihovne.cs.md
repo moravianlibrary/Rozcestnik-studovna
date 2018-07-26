@@ -1,10 +1,11 @@
 # O Digitální knihovně MZK
 
-V Digitální knihovně MZK najdete monografie, periodika, rukopisy, mapy, zvukové nahrávky, archiválie, hudebniny či grafiku.
+V Digitální knihovně MZK najdete knihy, noviny, časopisy, rukopisy, staré tisky, hudebniny, archiválie, mapy, grafiky a zvukové dokumenty.
 
 Základní dělení dokumentů je na veřejné a neveřejné:
 
-* __*veřejné dokumenty*__ - volná díla, nevztahují se na ně autorská ani nakladatelská práva, jsou přístupné odkudkoliv
+* __*veřejné dokumenty*__ 
+** volná díla, nevztahují se na ně autorská ani nakladatelská práva, jsou přístupné odkudkoliv
 * __*neveřejné dokumenty*__ - autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání); prohlížet a tisknout si je můžete v [Prohlížeči autorsky chráněného obsahu](/cs/digitalni-knihovna) (pozor, nelze stahovat ani kopírovat)
 
 **Dotazy a připomínky**: Pokud máte dotaz nebo nás chcete na něco upozornit, pište na [digitalniknihovna@mzk.cz](digitalniknihovna@mzk.cz).
