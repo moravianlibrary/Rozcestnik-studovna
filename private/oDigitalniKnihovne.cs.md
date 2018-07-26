@@ -8,7 +8,8 @@ __*veřejné dokumenty*__
 <p>- volná díla, nevztahují se na ně autorská ani nakladatelská práva, jsou přístupné odkudkoliv</p>
 
 __*neveřejné dokumenty*__ 
-<p>* autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání)</p>
+* autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání)
+
 <p>- prohlížet a tisknout si je můžete v [Prohlížeči autorsky chráněného obsahu](/cs/digitalni-knihovna) (pozor, nelze stahovat ani kopírovat)</p>
 
 
