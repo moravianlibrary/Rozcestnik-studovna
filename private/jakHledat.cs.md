@@ -44,11 +44,13 @@ Kliknutím na vyhledaný dokument ze seznamu se dostanete na zobrazení samotné
 * Nad zobrazenou stránkou lze najetím myši vyvolat menu obsahující další možnosti práce se stránkou či dokumentem (zvětšení, oddálení, otočení, dvoustránkové zobrazení, roztažení na celou obrazovku, textový přepis či vytvoření poznámky).
 * V pravém horním rohu se nachází nabídka pro zpětnou vazbu, stažení souboru a změnu jazyka.
 
+![](/public/images/help/jakHledat/jakprohlizetdokument_cs.png)
+
 ### Hledání v dokumentu
 
 Prohledávat lze také plný text dokumentu. V pravém horním rohu se nachází řádek s textem "Hledat v dokumentu" včetně našeptávače. Při zadání hledaného výrazu je dokument omezen pouze na ty strany, které daný výraz obsahují. Zrušit toto hledání lze pomocí křížku vedle zadaného výrazu.
 
-![](/images/help/jakHledat/hledatDokument2.png)
+![](/public/images/help/jakHledat/hledanivdokumentu_cs.png)
 
 ### Odkaz v katalogu MZK
 Ke konkrétnímu dokumentu se můžete dostat také z <a class="external" href="https://vufind.mzk.cz/" target="_blank">katalogu</a>
