@@ -21,27 +21,17 @@ You can see the used filters above in the left column and you can simply cancel 
 
 ![](/public/images/help/jakHledat/hledaniafiltrovani_en.png)
 
-### Time line
-Search by year at the left part of the screen.
+### Browsing
 
-![](/images/help/jakHledat/casovaOsa.png)
+When selection option Browse, you can browse the content of the digital library by the Document Type, Collection, Author, Keyword, and Language categories. You can also select the ordering type, accessibility and display results in the form of a grid or list.
 
-### Bookmarks on the main page
-Bookmarks on the main page are selected into:
+![](/public/images/help/jakHledat/prochazetmrizka_en.png)
 
-* Custom
-* Newest
-* Navigation
-* Titles
-* Authors
-* Collections
+![](/public/images/help/jakHledat/prochazetseznam_en.png)
 
-![](/images/help/jakHledat/zalozky.png)
+For easier searching in a digital library, it is possible to filter categories by the initial letter. For example, authors starting with the letter O.
 
-### Filters
-You can filter the search result using filters on the left
-
-![](/images/help/jakHledat/filtry.png)
+![](/public/images/help/jakHledat/prochazetautor_en.png)
 
 ### Link from the VuFind catalogue
 Documents are also available via *Digitalizovaný dokument* link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
