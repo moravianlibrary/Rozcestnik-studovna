@@ -39,7 +39,7 @@ Bookmarks on the main page are selected into:
 ![](/images/help/jakHledat/zalozky.png)
 
 ### Filters
-You can filter the search result using filters on the left.
+You can filter the search result using filters on the left
 
 ![](/images/help/jakHledat/filtry.png)
 
