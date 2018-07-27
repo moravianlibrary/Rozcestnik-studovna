@@ -42,8 +42,11 @@ Kliknutím na vyhledaný dokument ze seznamu se dostanete na zobrazení samotné
 * Po levé straně se nachází vypis stránek.
 * Po pravé straně vidíte podrobnosti o dokumentu a hledání v rámci dokumentu.
 * Nad zobrazenou stránkou lze najetím myši vyvolat menu obsahující další možnosti práce se stránkou či dokumentem (zvětšení, oddálení, otočení, dvoustránkové zobrazení, roztažení na celou obrazovku, textový přepis či vytvoření poznámky).
-* V pravém horním rohu se nachází nabídka pro zpětnou vazbu, sdílení, stažení souboru a změnu jazyka.
+* V pravém horním rohu se nachází nabídka pro zpětnou vazbu, stažení souboru a změnu jazyka.
 
+### Hledání v dokumentu
+
+Prohledávat lze také plný text dokumentu. V pravém horním rohu se nachází řádek s textem "Hledat v dokumentu" včetně našeptávače. Při zadání hledaného výrazu je dokument omezen pouze na ty strany, které daný výraz obsahují. Zrušit toto hledání lze pomocí křížku vedle zadaného výrazu.
 
 ![](/images/help/jakHledat/hledatDokument2.png)
 
