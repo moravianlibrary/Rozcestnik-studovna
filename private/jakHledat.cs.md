@@ -21,7 +21,7 @@ Použité filtry vidíte nahoře v levém sloupci a můžete je jednoduše zruš
 ![](/public/images/help/jakHledat/hledaniafiltrovani_cs.png)
 
 ### Procházet
-Při zvolení možnosti Procházet můžete procházet obsah digitální knihovny podle kategorií Typ dokumentu, Sbírka, Autor, Klíčové slovo a Jazyk. Lze také vybrat typ řazení a zobrazení výsledků ve formě mřížky nebo seznamu.  
+Při zvolení možnosti Procházet můžete procházet obsah digitální knihovny podle kategorií Typ dokumentu, Sbírka, Autor, Klíčové slovo a Jazyk. Lze také vybrat typ řazení, dostupnost a zobrazení výsledků ve formě mřížky nebo seznamu.  
 
 ![](/public/images/help/jakHledat/prochazetmrizka_cs.png)
 
