@@ -47,6 +47,10 @@ When clicking on the document from the list, you will see the document itself.
 
 ![](/public/images/help/jakHledat/jakprohlizetdokument_en.png)
 
+### Searching in a document
+
+You can also search the full text of the document. In the top right corner there is a line with the „Search in Document" text, including autocomplete. When typing a term, the document is limited to those pages that contain this expression. You can cancel it by using a cross next to the specified term.
+
 ![](/public/images/help/jakHledat/hledanivdokumentu_en.png)
 
 ### Link from the VuFind catalogue
