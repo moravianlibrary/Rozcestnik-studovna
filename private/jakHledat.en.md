@@ -45,6 +45,7 @@ When clicking on the document from the list, you will see the document itself.
 * When moving the mouse over the displayed page, the menu occurs. This menu offers other document handling options - zoom in, zoom out, rotate, double page, full screen, text, or taking notes. 
 * In the upper-right corner, there are options for feedback, printing and changing the language. 
 
+![](/public/images/help/jakHledat/jakprohlizetdokument_en.png)
 
 ![](/public/images/help/jakHledat/hledanivdokumentu_en.png)
 
