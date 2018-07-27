@@ -33,6 +33,13 @@ For easier searching in a digital library, it is possible to filter categories b
 
 ![](/public/images/help/jakHledat/prochazetautor_en.png)
 
+
+### Collections
+
+When selecting option Collections, a list of thematic collections we have in the Digital Library of MZK appears. When selecting a specific collection, a list of documents is displayed. You will see the name of the collection as a filter in the left column (see Searching and Filtering).
+
+![](/public/images/help/jakHledat/sbirky_en.png)
+
 ### Link from the VuFind catalogue
 Documents are also available via *Digitalizovaný dokument* link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
 
