@@ -4,7 +4,7 @@ Dokumenty lze v digitální knihovně hledat různými způsoby. Buď můžete v
 ### Hlavní vyhledávácí řádek
 V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">digitální knihovně</a> se hlavní vyhledávací řádek nachází v horní části obrazovky. Jde o jednoduché vyhledávání, ve kterém zadáváte hledané výrazy za sebou. Vyhledávání obsahuje našeptávač, který nabízí tituly podle názvu.
 
-![](public/images/help/jakHledat/vyhledavaciradekanaseptavac_cs.png)
+![](/public/images/help/jakHledat/vyhledavaciradekanaseptavac_cs.png)
 
 ### Hledání a filtrování
 Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hledat v menu můžete upřesňovat výsledky pomocí filtrů v levém sloupci. Lze použít filtry:
