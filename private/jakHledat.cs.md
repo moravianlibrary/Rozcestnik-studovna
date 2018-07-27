@@ -26,7 +26,7 @@ Při zvolení možnosti Procházet můžete procházet obsah digitální knihovn
 ![](/images/help/jakHledat/prochazeniKategorie.png)
 
 ### Sbírky
-Zde uvidíte tématické sbírky, které máme v Digitální knihovně MZK. Při výběru konkrétní sbírky se zobrazí seznam dokumentů. Název sbírky uvidíte jako použitý filtr v levém sloupci (viz Hledat Filtry).
+Po zvolení možnosti Sbírky uvidíte seznam tematických sbírek, které máme v Digitální knihovně MZK. Při výběru konkrétní sbírky se zobrazí seznam dokumentů. Název sbírky uvidíte jako použitý filtr v levém sloupci (viz Hledání a Filtrování).
 
 ![](/images/help/jakHledat/sbirky.png)
 
