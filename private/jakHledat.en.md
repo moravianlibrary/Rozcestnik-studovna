@@ -43,7 +43,7 @@ You can filter the search result using filters on the left.
 
 ![](/images/help/jakHledat/filtry.png)
 
-### Link from the vufind catalogue
+### Link from the VuFind catalogue
 Documents are also available via *Digitalized document* link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
 
 ![](/images/help/jakHledat/katalog.png)
