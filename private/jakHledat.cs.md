@@ -27,6 +27,10 @@ Při zvolení možnosti Procházet můžete procházet obsah digitální knihovn
 
 ![](/public/images/help/jakHledat/prochazetseznam_cs.png)
 
+Pro snazší hledání v digitální knihovně je možné jednotlivé kategorie vyfiltrovat podle počátečního písmena. Například autory začínající na písmeno O. 
+
+![](/public/images/help/jakHledat/prochazetautor_cs.png)
+
 ### Sbírky
 Po zvolení možnosti Sbírky uvidíte seznam tematických sbírek, které máme v Digitální knihovně MZK. Při výběru konkrétní sbírky se zobrazí seznam dokumentů. Název sbírky uvidíte jako použitý filtr v levém sloupci (viz Hledání a Filtrování).
 
