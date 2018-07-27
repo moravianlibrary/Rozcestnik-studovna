@@ -46,4 +46,4 @@ You can filter the search result using filters on the left
 ### Link from the VuFind catalogue
 Documents are also available via *Digitalizovaný dokument* link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
 
-![](/public/images/help/jakHledat/vufind_en.png) )
+![](/public/images/help/jakHledat/vufind_en.png)
