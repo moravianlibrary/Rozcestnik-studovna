@@ -46,6 +46,7 @@ When clicking on the document from the list, you will see the document itself.
 * In the upper-right corner, there are options for feedback, printing and changing the language. 
 
 
+![](/public/images/help/jakHledat/hledanivdokumentu_en.png)
 
 ### Link from the VuFind catalogue
 Documents are also available via *Digitalizovaný dokument* link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
