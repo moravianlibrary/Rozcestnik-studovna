@@ -5,10 +5,7 @@ Documents in the Digital Library can be search through different ways. You can u
 
 The main seach field in the <a class="external" href="http://kramerius.mzk.cz/" target="_blank">Digital library</a>is in the upper part of the screen. It's a simple search using autocomplete that offers titles by name.
 
-V  se hlavní vyhledávací řádek nachází v horní části obrazovky.
-Placed next to the simple search filters query by the title, author, year...
-
-![](/images/help/jakHledat/jednoducheHledani.png)
+![](/public/images/help/jakHledat/vyhledavaciradekanaseptavac_en.png)
 
 ### Time line
 Search by year at the left part of the screen.
