@@ -37,7 +37,7 @@ When selecting option Collections, a list of thematic collections we have in the
 
 ![](/public/images/help/jakHledat/sbirky_en.png)
 
-### How do examine a document?
+### How to examine a document?
 When clicking on the document from the list, you will see the document itself.
 
 * On the left side there is a list of pages.
