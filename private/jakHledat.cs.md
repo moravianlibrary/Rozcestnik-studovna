@@ -54,6 +54,6 @@ Prohledávat lze také plný text dokumentu. V pravém horním rohu se nachází
 
 ### Odkaz v katalogu MZK
 Ke konkrétnímu dokumentu se můžete dostat také z <a class="external" href="https://vufind.mzk.cz/" target="_blank">katalogu</a>
-prostřednictvím odkazu s označením “Digitalizovaný dokument”
+prostřednictvím odkazu s označením „Digitalizovaný dokument”
 
 ![](/images/help/jakHledat/katalog.png)
