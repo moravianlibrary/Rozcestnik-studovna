@@ -42,7 +42,7 @@ Kliknutím na vyhledaný dokument ze seznamu se dostanete na zobrazení samotné
 * Po levé straně se nachází vypis stránek.
 * Po pravé straně vidíte podrobnosti o dokumentu a hledání v rámci dokumentu.
 * Nad zobrazenou stránkou lze najetím myši vyvolat menu obsahující další možnosti práce se stránkou či dokumentem (zvětšení, oddálení, otočení, dvoustránkové zobrazení, roztažení na celou obrazovku, textový přepis či vytvoření poznámky).
-* V pravém horním rohu se nachází nabídka pro zpětnou vazbu, stažení souboru a změnu jazyka.
+* V pravém horním rohu se nachází nabídka pro zpětnou vazbu, tisk dokumentu a změnu jazyka.
 
 ![](/public/images/help/jakHledat/jakprohlizetdokument_cs.png)
 
