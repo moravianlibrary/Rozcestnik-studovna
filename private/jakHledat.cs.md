@@ -1,12 +1,12 @@
 # Jak hledat v digitální knihovně
-Dokumenty v Digitální knihovně MZK lze hledat různými způsoby. Buď můžete využít hlavní vyhledávací řádek v horní části obrazovky nebo menu s možnostmi Hledat, Procházet a Sbírky po levé straně.
+Dokumenty lze v digitální knihovně hledat různými způsoby. Buď můžete využít hlavní vyhledávací řádek v horní části nebo menu s možnostmi Hledat, Procházet a Sbírky po levé straně.
 
 ### Hlavní vyhledávácí řádek
-V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">digitální knihovně</a> se nachází hlavní vyhledávací řádek v horní části obrazovky. Jde o jednoduché vyhledávání, ve kterém zadáváte hledané výrazy za sebou. Vyhledávání obsahuje našeptávač, který nabízí tituly podle názvu.
+V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">digitální knihovně</a> se hlavní vyhledávací řádek nachází v horní části obrazovky. Jde o jednoduché vyhledávání, ve kterém zadáváte hledané výrazy za sebou. Vyhledávání obsahuje našeptávač, který nabízí tituly podle názvu.
 
 ![](/images/help/jakHledat/vyhledavaciRadek.png)
 
-### Hledat (Filtry)
+### Hledání a filtrování
 Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hledat v menu můžete upřesňovat výsledky pomocí filtrů v levém sloupci. Lze použít filtry:
   * Dostupnost
   * Typ dokumentu
@@ -16,7 +16,7 @@ Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hled
   * Sbírka
   * Rok vydání
 
-Použité filtry vidíte nahoře a můžete je jednoduše zrušit pomocí křížku.
+Použité filtry vidíte nahoře v levém sloupci a můžete je jednoduše zrušit pomocí křížku. Dokumenty lze také seřadit například podle relevance, abecedně, od nejstarších nebo od nejnovějších. 
 
 ![](/images/help/jakHledat/filtry.png)
 
