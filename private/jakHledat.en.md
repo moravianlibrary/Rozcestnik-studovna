@@ -54,6 +54,6 @@ You can also search the full text of the document. In the top right corner there
 ![](/public/images/help/jakHledat/hledanivdokumentu_en.png)
 
 ### Link from the VuFind catalogue
-Documents are also available via „Digitalizovaný dokument* link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
+Documents are also available via „Digitalizovaný dokument“ link from <a class="external" href="https://vufind.mzk.cz/?lng=en" target="_blank">the catalogue</a> entry.
 
 ![](/public/images/help/jakHledat/vufind2_en.png)
