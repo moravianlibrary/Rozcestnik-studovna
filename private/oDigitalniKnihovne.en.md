@@ -22,4 +22,6 @@ The design of the <a class="external" href="http://digitalniknihovna.mzk.cz/" ta
 
 ![](/images/help/jakHledat/jakprohlizeten.png)
 
+![](/public/images/help/jakHledat/jakprohlizeten.png)
+
 
