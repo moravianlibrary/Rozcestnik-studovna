@@ -5,7 +5,7 @@ In the Digital library MZK you can find monographs, periodicals, manuscripts, ma
 The basic division of documents is:
 
 __*public documents*__ 
-* these are works in the public domain. They are not subject to author’s or publisher’s rights. They are freely accessible
+* these are works in the public domain, they are not subject to author’s or publisher’s rights and they are freely accessible
 
 __*private documents*__ 
 * these are copyright works, which are protected by author’s or publisher’s rights (the duration of a copyright spans the author's life plus 70 years and 50 years from publishing)
