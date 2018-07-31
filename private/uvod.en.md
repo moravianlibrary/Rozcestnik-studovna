@@ -1,9 +1,8 @@
 # Introduction  
 
-# Help - introduction
+# Help - Introduction
 
-Here you may find instructions on working with computers in the library and guidance to the Digital Library MZK.
-You may read the table of content on the right side of this page.
+Here you will find instructions for working with computers in the library and instructions for the Digital Library MZK. You can read the content in the menu on the right side. 
 
 In case of ambiguity please write to vknihovne@mzk.cz.
 
