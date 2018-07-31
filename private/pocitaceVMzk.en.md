@@ -8,7 +8,7 @@ On computers in the library, you can:
 
 * work with documents
 * connect to the Internet 
-* access <a class="external" href="https://www.mzk.cz/en/catalogues-and-databases/databases" target="_blank">prepaid databases</a>
+* use access to <a class="external" href="https://www.mzk.cz/en/catalogues-and-databases/databases" target="_blank">prepaid databases</a>
 * use access to the Digital Library MZK. 
 
 Here you will find instructions on how to use computers in the study rooms.
