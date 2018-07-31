@@ -7,10 +7,11 @@
 1. If you have a specific document displayed, click on the download icon to the top right and then on “Prepare to print“.
 
    ![](/public/images/help/jakTisknout/tlacitkoGenerovaniTisk.png)
+   ![](/public/images/help/jakTisknout/preparetoprint1.png)
 
 2. The “Prepare to print“ window appears. Select range of pages you want to print using the slider and click on “Prepare to print“. The maximum number of pages you can print is 150.
 
-
+   ![](/public/images/help/jakTisknout/preparetoprint2.png)
 
 3. A new tab in your browser opens with PDF which contains the pages you selected to print. You can check the pages you want to print again. If everything is all right, click on the printer icon at the top right.
 
