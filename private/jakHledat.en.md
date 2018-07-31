@@ -21,7 +21,7 @@ You can see the used filters above in the left column and you can simply cancel 
 ![](/public/images/help/jakHledat/hledaniafiltrovani_en.png)
 
 ### Browsing
-When selection option Browse, you can browse the content of the digital library by the Document Type, Collection, Author, Keyword, and Language categories. You can also select the ordering type, accessibility and display results in the form of a grid or list.
+When selecting option Browse, you can browse the content of the digital library by the Document Type, Collection, Author, Keyword, and Language categories. You can also select the ordering type, accessibility and display results in the form of a grid or list.
 
 ![](/public/images/help/jakHledat/prochazetmrizka_en.png)
 
