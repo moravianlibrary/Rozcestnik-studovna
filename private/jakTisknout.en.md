@@ -10,13 +10,13 @@
 
 2. The “Prepare to print“ window appears. Select range of pages you want to print using the slider and click on “Prepare to print“. The maximum number of pages you can print is 150.
 
-    ![](/images/help/jakTisknout/step2.png)
 
-3. Click on “Print”. A PDF document is created.
 
-    ![](/images/help/jakTisknout/step3.png)
+3. A new tab in your browser opens with PDF which contains the pages you selected to print. You can check the pages you want to print again. If everything is all right, click on the printer icon at the top right.
 
-4. Choose page size A4 or A3 in the print settings. Then press OK.
+    
+
+4. Now, you can set your print. For more information about the print setting, read this [manual](/en/tisk).. If you are satisfied with the setting press print.
 
     ![](/images/help/jakTisknout/step4.png)
 
