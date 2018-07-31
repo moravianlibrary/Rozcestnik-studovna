@@ -7,7 +7,7 @@ The main search field in the <a class="external" href="http://kramerius.mzk.cz/"
 ![](/public/images/help/jakHledat/vyhledavaciradekanaseptavac_en.png)
 
 ### Searching and filtering
-When typing a query in the search field or selecting Search in the menu, you can specify the results using the filters in the left column. These filters can be used:
+When typing a query in the search field or selecting option Search in the menu, you can specify the results using the filters in the left column. These filters can be used:
    * Accessibility 
    * Document Type
    * Keyword
