@@ -1,4 +1,4 @@
-# About Digital library MZK
+# About Digital Library MZK
 
 In the Digital library MZK you can find monographs, periodicals, manuscripts, maps, recordings, archives, sheet music or graphics.
 
