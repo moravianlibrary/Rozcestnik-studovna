@@ -25,9 +25,9 @@
 5. You can print at one of these printers:
 
      * on the ground floor
-     * on the 2nd floor at the back
-     * on the 4th floor at the back
-     * on the 6th floor at the back
+     * on the 2nd floor at the back of the study room
+     * on the 4th floor at the back of the study room
+     * on the 6th floor at the back of the study room
      
    <br> 
    For printing, you have to attach your library card to the MyQ terminal. Attach your card to the red arrow or as shown below.
