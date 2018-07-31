@@ -1,6 +1,6 @@
 # Mobile application Kramerius
  
-You can download mobile application Kramerius to your device and view works in the public domain. You will find there also digitized document from other 17 Czech libraries.
+You can download mobile application Kramerius to your device and view works in the public domain. You will find there also digitized documents from other 24 Czech libraries.
  
 <div class="text-center">
 <span>
