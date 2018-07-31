@@ -4,11 +4,11 @@
     <a href="/en/tisk" class="alert-link">print</a>.
 </div>
 
-1. Choose requested pages in the left menu. Document as a whole cannot be chosen. 
+1. If you have a specific document displayed, click on the download icon to the top right and then on “Prepare to print“.
 
-    ![](/images/help/jakTisknout/step1.png)
+   ![](/public/images/help/jakTisknout/tlacitkoGenerovaniTisk.png)
 
-2. Click on the gear icon and switch to the text menu.
+2. The “Prepare to print“ window appears. Select range of pages you want to print using the slider and click on “Prepare to print“. The maximum number of pages you can print is 150.
 
     ![](/images/help/jakTisknout/step2.png)
 
