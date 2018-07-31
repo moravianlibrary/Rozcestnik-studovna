@@ -15,6 +15,7 @@
 3. A new tab in your browser opens with PDF which contains the pages you selected to print. You can check the pages you want to print again. If everything is all right, click on the printer icon at the top right.
 
     
+    ![](/images/help/jakTisknout/step5.png)
 
 4. Now, you can set your print. For more information about the print setting, read this [manual](/en/tisk). If you are satisfied with the setting press print.
 
