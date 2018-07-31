@@ -16,7 +16,7 @@
 
     
 
-4. Now, you can set your print. For more information about the print setting, read this [manual](/en/tisk).. If you are satisfied with the setting press print.
+4. Now, you can set your print. For more information about the print setting, read this [manual](/tisk.en.md). If you are satisfied with the setting press print.
 
     ![](/images/help/jakTisknout/step4.png)
 
