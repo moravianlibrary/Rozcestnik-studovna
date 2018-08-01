@@ -7,7 +7,7 @@ If you see the message "Failed to retrieve data," make sure you are connected to
 
 ![](/images/help/pujceniTabletu/tablet.jpg)
 
-You can download mobile application Kramerius to your device and view works in the public domain from home (you will find there also digitized document from other 17 Czech libraries).
+You can download mobile application Kramerius to your device and view works in the public domain from home (you will find there also digitized documents from other 25 Czech libraries).
 
 <a class="external" href="https://play.google.com/store/apps/details?id=cz.mzk.kramerius.app" target="_blank">
 Aplikace pro Android (dostupná přes Google Play)
