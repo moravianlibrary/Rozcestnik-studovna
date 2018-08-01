@@ -18,7 +18,7 @@
     
     ![](/images/help/jakTisknout/step5.png)
 
-4. Now, you can set your print. For more information about the print setting, read this [manual](/en/tisk). <a href="/en/tisk" class="alert-link">manual</a>. If you are satisfied with the setting press print.
+4. Now, you can set your print. For more information about the print setting, read this <a href="/en/tisk" class="alert-link">manual</a>. If you are satisfied with the setting press print.
 
 
    
