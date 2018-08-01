@@ -9,4 +9,4 @@ In case of ambiguity please write to vknihovne@mzk.cz.
 <br>
 
 ### [Computers in MZK](/en/pocitace-v-mzk)
-### [Digital library MZK](/en/digitalni-knihovna-napoveda)
+### [Digital Library MZK](/en/digitalni-knihovna-napoveda)
