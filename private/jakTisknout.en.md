@@ -1,4 +1,5 @@
 # How to print from the Digital Library
+
 <div class="alert alert-info text-center" role="alert">
     Please, read the instruction on how to print from the Digital Library before you start to 
     <a href="/en/tisk" class="alert-link">print</a>.
