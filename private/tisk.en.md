@@ -37,6 +37,6 @@ At <a class="external" href="http://myq.mzk.cz" target="_blank">myq.mzk.cz</a> y
     </div>
 </div>
 
-<a class="external" href="http://www.mzk.cz/en/services/fees-and-fines" target="_blank">Complete price list of services and fees</a>
+<a class="external" href="http://www.mzk.cz/en/services/fees-and-fines" target="_blank">Complete List of charged services and applied fees</a>
  
 [How to print](/en/jak-tisknout)
