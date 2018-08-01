@@ -1,4 +1,4 @@
-# How to search the Digital library
+# How to search the Digital Library
 Documents in the Digital Library can be searched through different ways. You can use the main search field in the upper part of the screen or the menu with options Search, Browse and Collections on the left.
 
 ### The main search field 
@@ -6,7 +6,7 @@ The main search field in the <a class="external" href="http://kramerius.mzk.cz/"
 
 ![](/public/images/help/jakHledat/vyhledavaciradekanaseptavac_en.png)
 
-### Searching and filtering
+### Search (Filters)
 When typing a query in the search field or selecting option Search in the menu, you can specify the results using the filters in the left column. These filters can be used:
    * Accessibility 
    * Document Type
@@ -20,20 +20,20 @@ You can see the used filters above in the left column and you can simply cancel 
 
 ![](/public/images/help/jakHledat/hledaniafiltrovani_en.png)
 
-### Browsing
-When selecting option Browse, you can browse the content of the digital library by the Document Type, Collection, Author, Keyword, and Language categories. You can also select the ordering type, accessibility and display results in the form of a grid or list.
+### Browse
+When selecting option Browse, you can browse the content of the Digital Library by the Document Type, Collection, Author, Keyword, and Language categories. You can also select the ordering type, accessibility and display results in the form of a grid or list.
 
 ![](/public/images/help/jakHledat/prochazetmrizka_en.png)
 
 ![](/public/images/help/jakHledat/prochazetseznam_en.png)
 
-For easier searching in a digital library, it is possible to filter categories by the initial letter. For example, authors starting with the letter O.
+For easier searching in a Digital Library, it is possible to filter categories by the initial letter. For example, authors starting with the letter O.
 
 ![](/public/images/help/jakHledat/prochazetautor_en.png)
 
 
 ### Collections
-When selecting option Collections, a list of thematic collections we have in the Digital Library MZK appears. When selecting a specific collection, a list of documents is displayed. You will see the name of the collection as a filter in the left column (see Searching and Filtering).
+When selecting option Collections, a list of thematic collections we have in the Digital Library MZK appears. When selecting a specific collection, a list of documents is displayed. You will see the name of the collection as a filter in the left column (see Search (Filters)).
 
 ![](/public/images/help/jakHledat/sbirky_en.png)
 
