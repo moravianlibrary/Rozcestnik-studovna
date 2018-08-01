@@ -43,6 +43,6 @@ Na adrese <a class="external" href="http://myq.mzk.cz" target="_blank">myq.mzk.c
     </div>
 </div>
 
-<a class="external" href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník služeb a poplatků</a>
+<a class="external" href="https://www.mzk.cz/cenik-placenych-sluzeb-poplatku-v-kc" target="_blank">Kompletní ceník placených služeb a poplatků</a>
  
 [Návod, jak tiskout z DK MZK](/cs/jak-tisknout)
