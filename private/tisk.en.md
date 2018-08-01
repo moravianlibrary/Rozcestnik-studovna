@@ -1,6 +1,6 @@
 # Print
 
-From the computers in the Study Rooms you can print paper size A4 or A3, in colour or black & white. You just need your library card with credit on it. To charge the card with credit use the self-service machine located on the ground floor next to the Information desk or go to the Circulation Desk.
+From the computers in the study rooms you can print paper size A4 or A3, in colour or black & white. You just need your library card with credit on it. To charge the card with credit use the self-service machine located on the ground floor next to the Information desk or go to the Circulation Desk.
 
 <!--![](/images/help/tisk/automat.jpg)-->
 
@@ -8,7 +8,7 @@ When you want to print in most applications you have to select File -> Print or 
 
 Then the system sends the printing task to the selected printer in the study room. After that you have to press your library card to the MyQ terminal on the printer (small box with display on the right side of the printer). 
 
-The printers are located on the ground floor and in the Study Rooms on the 2nd, 4th and 6th floor.
+The printers are located on the ground floor and in the study rooms on the 2nd, 4th and 6th floor.
 
 At <a class="external" href="http://myq.mzk.cz" target="_blank">myq.mzk.cz</a> you can see the status of your account and cancel print jobs you sent.
 
