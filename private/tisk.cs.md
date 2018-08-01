@@ -13,6 +13,7 @@ Dále je zde možné nastavit klíčové parametry tisku jako rozsah stránek, p
 
 Systém následně odešle úlohu na vybranou tiskárnu ve studovně, 
 u které se autorizujete přiložením karty k terminálu MyQ.
+
 Tiskárny najdete v přízemí v půjčovně a v zadní části studoven ve druhém, čtvrtém a šestém patře.
 
 Na adrese <a class="external" href="http://myq.mzk.cz" target="_blank">myq.mzk.cz</a> můžete sledovat stav svého konta a rušit úlohy odeslané do tisku.
