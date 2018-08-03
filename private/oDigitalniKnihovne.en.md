@@ -21,6 +21,6 @@ Design of the <a class="external" href="http://digitalniknihovna.mzk.cz/" target
 * On the left, there is a menu with options:  Home, Collections, About, Search and Browse.
 * At the top on right side, you can send us feedback or change language.
 
-![](/public/images/help/jakHledat/jakprohlizeten.png)
+![](/images/help/jakHledat/jakprohlizeten.png)
 
 
