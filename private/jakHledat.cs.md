@@ -12,6 +12,8 @@ V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">di
 
 ![](/public/images/help/jakHledat/vyhledavaciradekanaseptavac2_cs.png)
 
+![](/Rozcestnik-studovna/public/images/help/jakHledat/vyhledavaciradekanaseptavac_cs.png)
+
 
 ### Hledání a filtrování
 Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hledat v menu můžete upřesňovat výsledky pomocí filtrů v levém sloupci. Lze použít filtry:
