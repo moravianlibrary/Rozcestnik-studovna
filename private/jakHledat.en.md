@@ -8,13 +8,14 @@ The main search field in the <a class="external" href="http://kramerius.mzk.cz/"
 
 ### Search (Filters)
 When typing a query in the search field or selecting option Search in the menu, you can specify the results using the filters in the left column. These filters can be used:
-   * Accessibility 
-   * Document Type
-   * Keyword
-   * Author
-   * Language
-   * Collection
-   * Year of Publication
+
+- Accessibility 
+- Document Type
+- Keyword
+- Author
+- Language
+- Collection
+- Year of Publication
 
 You can see the used filters above in the left column and you can simply cancel them using the cross. Documents can also be sorted by relevance, alphabetically, from the oldest ones or the newest ones.
 
