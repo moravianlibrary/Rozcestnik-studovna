@@ -8,6 +8,7 @@ V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">di
 
 ### Hledání a filtrování
 Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hledat v menu můžete upřesňovat výsledky pomocí filtrů v levém sloupci. Lze použít filtry:
+
 - Dostupnost
 - Typ dokumentu
 - Klíčové slovo
