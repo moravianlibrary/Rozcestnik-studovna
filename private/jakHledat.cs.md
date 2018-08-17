@@ -8,13 +8,13 @@ V <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">di
 
 ### Hledání a filtrování
 Při zadání dotazu ve vyhledávacím řádku nebo při výběru možnosti Hledat v menu můžete upřesňovat výsledky pomocí filtrů v levém sloupci. Lze použít filtry:
-  - Dostupnost
-  - Typ dokumentu
-  - Klíčové slovo
-  - Autor
-  - Jazyk
-  - Sbírka
-  - Rok vydání
+- Dostupnost
+- Typ dokumentu
+- Klíčové slovo
+- Autor
+- Jazyk
+- Sbírka
+- Rok vydání
 
 Použité filtry vidíte nahoře v levém sloupci a můžete je jednoduše zrušit pomocí křížku. Dokumenty lze také seřadit například podle relevance, abecedně, od nejstarších nebo od nejnovějších. 
 
