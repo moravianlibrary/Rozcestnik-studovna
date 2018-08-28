@@ -11,7 +11,7 @@ __*veřejné dokumenty*__
 __*neveřejné dokumenty*__ 
 
 - autorsky chráněná díla, jsou chráněna autorskými či nakladatelskými právy (platí 70 let od úmrtí autora a 50 let od vydání)
-- prohlížet a tisknout si je můžete v [Prohlížeči autorsky chráněného obsahu](http://vknihovne.mzk.cz/cs/digitalni-knihovna) (pozor, nelze stahovat ani kopírovat)
+- prohlížet a tisknout si je můžete v prohlížeči [Digitální knihovna MZK](http://vknihovne.mzk.cz/cs/digitalni-knihovna) (pozor, nelze stahovat ani kopírovat)
 
 
 **Dotazy a připomínky**: Pokud máte dotaz nebo nás chcete na něco upozornit, pište na [digitalniknihovna@mzk.cz](digitalniknihovna@mzk.cz).
