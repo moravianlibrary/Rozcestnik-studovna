@@ -2,7 +2,7 @@
 
 <a class="external" href="http://digitalniknihovna.mzk.cz/" target="_blank">Digital Library MZK</a> offers digitized documents via system Kramerius and contains works in the public domain as well as copyright works of many genres.
 
-Works in the public domain have unlimited access, copyright works are accessible only via the computers in the MZK through [the browser with copyright content](http://vknihovne.mzk.cz/en/digitalni-knihovna) where the documents cannot be downloaded or copied.
+Works in the public domain have unlimited access, copyright works are accessible only via the computers in the MZK through the browser [Digitální knihovna MZK](http://vknihovne.mzk.cz/en/digitalni-knihovna) where the documents cannot be downloaded or copied.
 However, you can [print](http://vknihovne.mzk.cz/en/jak-tisknout) them on the library printers.
 
 
